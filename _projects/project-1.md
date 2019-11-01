@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Archeopark Mikulčice
-year: 2017
+year: 2017-01-27 23:00:00 +0000
 slug: project-1
 authors: Markéta a Petr Veličkovi
 location: město Stříbro
