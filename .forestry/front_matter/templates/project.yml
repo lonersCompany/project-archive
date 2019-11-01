@@ -20,9 +20,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: number
-  name: year
-  label: year
 - type: text
   name: slug
   label: slug
@@ -30,6 +27,16 @@ fields:
 - type: text
   name: authors
   label: authors
+  default: Markéta a Petr Veličkovi
+- name: year
+  type: datetime
+  label: year
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: location
   label: location
