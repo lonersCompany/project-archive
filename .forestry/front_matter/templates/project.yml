@@ -9,12 +9,17 @@ fields:
   config:
     required: true
   hidden: true
-- type: text
-  name: title
-  label: title
 - type: image_gallery
   name: images
   label: images
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+  description: project categories
+- type: text
+  name: title
+  label: title
 - type: number
   name: year
   label: year
