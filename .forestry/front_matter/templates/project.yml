@@ -5,15 +5,23 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: project
+  config:
+    required: true
+  hidden: true
 - type: text
   name: title
   label: title
+- type: image_gallery
+  name: images
+  label: images
 - type: number
   name: year
   label: year
 - type: text
   name: slug
   label: slug
+  hidden: true
 - type: text
   name: authors
   label: authors
@@ -33,14 +41,5 @@ fields:
   name: price
   label: price
 - type: text
-  name: photo
-  label: photo
-- type: text
   name: description
   label: description
-- type: file
-  name: thumb
-  label: thumb
-- type: image_gallery
-  name: images
-  label: images
