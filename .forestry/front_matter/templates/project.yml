@@ -1,0 +1,46 @@
+---
+label: project
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: number
+  name: year
+  label: year
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: authors
+  label: authors
+- type: text
+  name: location
+  label: location
+- type: text
+  name: investor
+  label: investor
+- type: text
+  name: visualization
+  label: visualization
+- type: text
+  name: size
+  label: size
+- type: text
+  name: price
+  label: price
+- type: text
+  name: photo
+  label: photo
+- type: text
+  name: description
+  label: description
+- type: file
+  name: thumb
+  label: thumb
+- type: image_gallery
+  name: images
+  label: images
