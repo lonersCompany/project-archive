@@ -21,9 +21,8 @@ fields:
   name: title
   label: title
 - type: text
-  name: slug
-  label: slug
-  hidden: true
+  name: description
+  label: description
 - type: text
   name: authors
   label: authors
@@ -53,7 +52,8 @@ fields:
   name: price
   label: price
 - type: text
-  name: description
-  label: description
+  name: slug
+  label: slug
+  hidden: true
 pages:
 - _projects/project-1.md
