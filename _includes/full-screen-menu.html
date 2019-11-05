@@ -1,8 +1,18 @@
-<header class="site-header main-nav f3 f2-ns" role="banner">
-  <button id="main-nav__button" class="fixed top-0 p-6 right-0 z-50">
-    <div class="w-8 my-1 h-1 bg-gray-700"></div>
-    <div class="w-8 my-1 h-1 bg-gray-700"></div>
-    <div class="w-8 my-1 h-1 bg-gray-700"></div>
+<header class="p-6" role="banner">
+  <button id="main-nav__button" class="fixed p-6 top-0 right-0 z-50">
+    <div class="w-8 my-1 h-1 bg-gray-600"></div>
+    <div class="w-8 my-1 h-1 bg-gray-600"></div>
+    <div class="w-8 my-1 h-1 bg-gray-600"></div>
   </button>
   {% include nav.html navigation=site.data.navigation %}
+
+  <div>
+    <a
+      class="text-xl text-semibold text-gray-600"
+      href="/"
+      alt="go to homepage"
+    >
+      {{ page.title }}</a
+    >
+  </div>
 </header>

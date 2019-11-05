@@ -84,3 +84,7 @@ button:focus {
 .max-w-xxs {
   max-width: 15rem;
 }
+
+.text-block p {
+  margin-bottom: 2rem;
+}

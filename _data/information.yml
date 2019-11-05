@@ -1,13 +1,15 @@
+members:
+  - name: Markéta Veličková
+    position: Autorizovaný krajinářský architekt
+    phone: +420 603 713 838
+    cv: "text for cv"
+
+  - name: Petr Velička
+    position: Autorizovaný krajinářský architekt
+    phone: +420 603 713 838
+    cv: "text for cv"
 email: mp@mparch.cz
 street: Vrchovecká 49/1
 city: Velké Meziříčí
-post-code: 594 01
+postcode: 594 01
 county: Česká republika
-marketa:
-  name: Markéta Veličková
-  role: Autorizovaný krajinářský architekt
-  phone: +420 603 713 838
-petr:
-  name: Petr Velička
-  role: Autorizovaný krajinářský architekt
-  phone: +420 731 477 608
