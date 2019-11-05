@@ -56,9 +56,10 @@ fields:
   label: slug
   hidden: true
 pages:
+- _projects/project-2.md
 - _projects/archeopark-mikulčice.md
+- _projects/název-projektu-12.md
 - _projects/název-projektu-13.md
 - _projects/název-projektu-11-1.md
-- _projects/název-projektu-12.md
 - _projects/název-projektu-11.md
 - _projects/project-1.md
