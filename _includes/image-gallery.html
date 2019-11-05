@@ -1,8 +1,9 @@
 <div class="swiper-container" mode="slide">
+  <div class="swiper-pagination"></div>
   <div class="swiper-wrapper">
     {%- for image in page.images -%}
     <div class="swiper-slide ">
-      <img class="w-full" src="{{ site.img_url }}{{ image }}" alt="" />
+      {%- include image.html -%}
     </div>
     {%- endfor -%}
   </div>

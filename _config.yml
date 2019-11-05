@@ -33,7 +33,8 @@ collections:
   projects:
     output: true
 
-img_url: /assets/images/
+img_url: "https://res.cloudinary.com/dhxmg9p4i/image/upload/"
+# img_url: /assets/images/
 
 # Build settings
 theme: minima

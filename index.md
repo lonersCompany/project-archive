@@ -5,10 +5,7 @@ permalink: /
 section: home
 ---
 
-### [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
+Ateliér krajinářské architektury založili
+v roce 2004 Markéta a Petr Veličkovi.
 
-### provides the basics to get a fast, static website deployed on Netlify.
-
-Features [Netlify CMS](https://www.netlifycms.org), responsive
-CSS Grid layout, sample
-pages and posts, and a continuous deployment workflow.
+Ateliér zajišťuje komplexní činnost krajinářské architektury, jež zahrnují proces od první skici, přes kompletní projektovou dokumentaci po autorský dozor na stavbě.

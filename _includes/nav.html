@@ -1,4 +1,4 @@
-<nav id="navmenu" class="fixed w-full min-h-full top-0 bg-gray-100 hidden">
+<nav id="navmenu" class="fixed w-full min-h-full top-0 bg-gray-100 z-10 hidden">
   {% assign navurl = page.url | remove: 'index.html' %}
   <ul class="man-nav__items max-w-md mx-auto my-20">
     {% for item in include.navigation %}

@@ -3,12 +3,8 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
-/* @import "swiper/swiper.scss"; */
 
-.swiper-container {
-  height: 80vh;
-  margin: 10vh 0;
-}
+@import "swiper/swiper.scss";
 
 .swiper-container[mode="scroll"] {
   height: auto;
@@ -38,4 +34,49 @@
 
 .swiper-prev {
   cursor: w-resize;
+}
+
+// .swiper-slide {
+//   opacity: 0.5;
+//   transition: opacity 1s;
+// }
+
+// .swiper-slide-active {
+//   opacity: 1;
+// }
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 4px;
+}
+
+.swiper-pagination {
+  text-align: center;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+table {
+  text-align: left;
+}
+
+th,
+td {
+  border: 2px white solid;
+}
+
+button:focus {
+  outline: none;
 }

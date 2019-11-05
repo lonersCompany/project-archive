@@ -2,15 +2,56 @@
 layout: default
 ---
 
-<section>
+<section class="p-5">
   {{ page.title }}
 </section>
-<section>
-  {%- include image-gallery.html -%}
+<section class="px-5">
+  <div class="max-w-3xl mx-auto">
+    {%- include image-gallery.html -%}
+  </div>
+</section>
+<section class="px-5 py-10">
+  <div class="max-w-md mx-auto">{{ content }}</div>
 </section>
 <section>
-  {{ content }}
+  <div class="max-w-md mx-auto">{%- include project-table.html -%}</div>
 </section>
 <section>
-  {%- include project-table.html -%}
+  <div class="text-center px-5 py-20">
+    <button
+      class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded inline-flex items-center"
+    >
+      <span>Projekty</span>
+      <svg
+        class="fill-current w-4 h-4 mr-2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+      >
+        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+      </svg>
+    </button>
+  </div>
+</section>
+<section>
+  <div class="max-w-md mx-auto">
+    <div class="px-5 text-gray-500 mb-2">
+      podobné projekty
+    </div>
+
+    <div class="px-5 bg-gray-300 mb-1">
+      <h2>Park 4 Dvory</h2>
+      <div class="tag text-gray-500">
+        parky
+      </div>
+    </div>
+    <div class="px-5 bg-gray-300 mb-1">
+      <h2>Archeopark Mikulčice</h2>
+      <div class="tag text-gray-500">
+        parky
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  {%- include footer.html -%}
 </section>

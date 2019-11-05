@@ -3,17 +3,18 @@ layout: default
 ---
 
 <main>
-  <section class="container max-w-md mx-auto my-20">
-    {{ content }}
+  <section>
+    <div class="max-w-md mx-auto my-20">{{ content }}</div>
   </section>
-  <section class="bg-gray-200">
-    <div class="container max-w-md mx-auto my-20">
+  <section class="bg-gray-500">
+    <div class="max-w-3xl mx-auto py-20">
       {%- include projects-gallery.html -%}
     </div>
   </section>
   <section>
-    <div class="container max-w-md mx-auto my-20">
-      {%- include map.html -%}
-    </div>
+    {%- include map.html -%}
+  </section>
+  <section>
+    {%- include footer.html -%}
   </section>
 </main>

@@ -1,7 +1,12 @@
-<div class="flex">
-  {%- for item in site.projects -%}
-  <!-- <a class="neco" href="{{ site.baseurl }}{{ project.url }}"> -->
-  {%- include project-card-md.html -%}
-  <!-- </a> -->
-  {%- endfor -%}
+<div class="swiper-container" data-swiper="cards">
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+    {%- for item in site.projects -%}
+    <div class="swiper-slide ">
+      {%- include project-card-md.html -%}
+    </div>
+    {%- endfor -%}
+  </div>
+  <div class="swiper-prev absolute inset-y-0 left-0 w-1/4 z-10"></div>
+  <div class="swiper-next absolute inset-y-0 right-0 w-1/4 z-10"></div>
 </div>
