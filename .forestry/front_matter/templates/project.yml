@@ -56,6 +56,7 @@ fields:
   label: slug
   hidden: true
 pages:
+- _projects/název-projektu-13.md
 - _projects/název-projektu-11-1.md
 - _projects/název-projektu-12.md
 - _projects/název-projektu-11.md
