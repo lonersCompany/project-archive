@@ -1,6 +1,7 @@
 ---
 layout: project
-categories: []
+categories:
+- Náměstí
 authors: Markéta a Petr Veličkovi
 images:
 - "/v1572958237/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7449_eltlxh.jpg"
