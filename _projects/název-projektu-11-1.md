@@ -17,6 +17,5 @@ visualization: ''
 size: ''
 price: ''
 slug: ''
-published: false
 
 ---
