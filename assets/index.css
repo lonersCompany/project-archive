@@ -88,3 +88,11 @@ button:focus {
 .text-block p {
   margin-bottom: 2rem;
 }
+
+.swiper-slide img {
+  max-height: 50vh;
+
+  @media (min-width: 720px) {
+    max-height: 70vh;
+  }
+}
