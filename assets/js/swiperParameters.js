@@ -29,11 +29,12 @@ export const cards = {
   spaceBetween: 10,
   // Responsive breakpoints
   breakpoints: {
+    // when window width is >= 850px
     650: {
       slidesPerView: 2,
       spaceBetween: 30
     },
-    // when window width is >= 640px
+    // when window width is >= 850px
     850: {
       slidesPerView: 3,
       spaceBetween: 30
