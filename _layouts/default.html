@@ -6,6 +6,9 @@
     <main class="mt-32">
       {{ content }}
     </main>
+    <section>
+      {%- include footer.html -%}
+    </section>
     <script src="{{ site.baseurl }}{{
         site.data.manifest['main.js']
       }}"></script>

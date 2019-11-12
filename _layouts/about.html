@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section>
+  <div class="max-w-md text-lg text-gray-700 mx-auto my-12 px-4 text-block">
+    {{ content }}
+  </div>
+</section>
+<section>
+  <div class="max-w-md mx-auto my-10 px-4">
+    {%- include label-hr.html content="Ocenění" -%} {%- for item in
+    site.data.information.awards -%}
+    <p>{{ item }}</p>
+    {%- endfor -%}
+  </div>
+</section>
+<section>
+  <div class="max-w-md mx-auto my-10 px-4">
+    {%- include label-hr.html content="spolupráce" -%} {% for colaboration in
+    site.data.information.colaborations %}
+    <ul class="mb-5">
+      <li>
+        {{ colaboration }}
+      </li>
+    </ul>
+
+    {% endfor %}
+  </div>
+</section>
