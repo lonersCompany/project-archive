@@ -33,13 +33,13 @@ fields:
 - name: latitude
   type: number
   label: Latitude
-  description: Latitude form map
   default: 0
   required: true
   config:
     min: 
     max: 
     step: 
+  description: Latitude form map -> www.latlong.net
 - name: longitude
   type: number
   label: Longitude
