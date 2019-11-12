@@ -10,7 +10,8 @@ visualization: Jan Cyrany Jitka Daňková
 size: 12 180 m2
 price: 45 240 000 Kč
 photo: Petr Velička
-description: I build this to show
+description: Koncept náměstí vychází ze struktury historického jádra města Stříbra,
+  které leží na ostrohu nad řekou Mží.
 thumb: "/v1572597759/archweb/03_VEL_A_MIKUL_ICE_FOTA_DSC_0328_atbze7.jpg"
 images:
 - "/v1572958257/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6847_vzi9u7.jpg"
