@@ -7,8 +7,8 @@ export const buildMap = () => {
     container: "map",
     style: "mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi",
     center: [15.565441, 49.984897],
-    zoom: 7,
-    minZoom: 3,
-    maxZoom: 18
+    zoom: 6
   });
+
+  map.scrollZoom.disable();
 };
