@@ -13,13 +13,9 @@ photo: Petr Velička
 description: I build this to show
 thumb: img-1.jpg
 images:
-- "/v1572958230/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7411_zrhaqh.jpg"
-- "/v1572958328/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7345_e1hzb8.jpg"
-- "/v1572958161/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7271_w65la3.jpg"
-- "/v1572958242/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7249_si2e8u.jpg"
-- "/v1572958326/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7242_skvk9n.jpg"
-- img-1.jpg
-- img-2.jpg
+- "/v1573575265/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_laviu%CC%88ky_zyqz82.jpg"
+- "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
+- "/v1573575277/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_radnice_se_st_ikama_dfetpo.jpg"
 categories:
 - Náměstí
 
