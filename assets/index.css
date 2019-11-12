@@ -1,3 +1,5 @@
+@import url("https://rsms.me/inter/inter.css");
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
@@ -5,6 +7,26 @@
 @import "tailwindcss/utilities";
 
 @import "swiper/swiper.scss";
+
+.menu-is-open {
+  //overflow: hidden;
+  main {
+    filter: blur(5px);
+  }
+}
+
+header {
+  //background-color: gray;
+  background: linear-gradient(
+    to bottom,
+    rgba(237, 242, 247, 1) 0%,
+    rgba(237, 242, 204, 0) 100%
+  );
+}
+
+nav {
+  background-color: rgba(200, 200, 200, 0.7);
+}
 
 .swiper-container[mode="scroll"] {
   height: auto;
@@ -83,6 +105,10 @@ button:focus {
 
 .max-w-xxs {
   max-width: 15rem;
+}
+
+.text-xxl {
+  font-size: 2rem;
 }
 
 .text-block p {

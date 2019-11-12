@@ -1,0 +1,20 @@
+<header class="fixed w-full flex p-6 top-0 z-50" role="banner">
+  <div>
+    <a
+      class="text-xl text-semibold text-gray-600"
+      href="{{ site.baseurl }}/"
+      alt="go to homepage"
+    >
+      {{ site.title }}</a
+    >
+  </div>
+  <div class="flex-grow"></div>
+  <div>
+    <button id="main-nav__button">
+      <div class="w-8 my-1 h-1 bg-gray-600"></div>
+      <div class="w-8 my-1 h-1 bg-gray-600"></div>
+      <div class="w-8 my-1 h-1 bg-gray-600"></div>
+    </button>
+  </div>
+</header>
+{% include nav.html navigation=site.data.navigation %}

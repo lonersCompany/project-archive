@@ -2,9 +2,24 @@
 layout: default
 ---
 
-<!-- <section class="p-5">
-  {{ page.title }}
-</section> -->
+<div class="max-w-3xl mx-auto">
+  {%- include label.html content="Filtrování" -%}
+</div>
+<section class="bg-gray-400 py-6 ">
+  <div class="max-w-3xl mx-auto">
+    <div class="">
+      {% include btn-lg.html content="Stavby" %} {% include btn-lg.html
+      content="Návrhy" %} {% include btn-lg.html content="Filmy" %} {% include
+      btn-lg.html content="Články" %} {% include btn-lg.html content="Výstavy"
+      %}
+    </div>
+    <div class="">
+      {% include btn-md.html content="Města" %} {% include btn-md.html
+      content="Vesnice" %} {% include btn-md.html content="Volná krajina" %} {%
+      include btn-md.html content="Výtvarné prvky" %}
+    </div>
+  </div>
+</section>
 <section>
   <div class="max-w-3xl mx-auto pt-12 pb-16">
     {%- include project-entries.html -%}

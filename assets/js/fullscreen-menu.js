@@ -12,8 +12,9 @@ export const buildToggleMenu = params => {
     menuBtn.addEventListener("click", e => {
       console.log("test");
       toggleLayer(
-        { elButton: menuBtn, class: "active" },
-        { elLayer: navEL, class: "hidden" }
+        { el: menuBtn, class: "active" },
+        { el: navEL, class: "hidden" },
+        { el: bodyEl, class: "menu-is-open" }
       );
     });
   }

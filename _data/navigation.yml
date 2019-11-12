@@ -1,7 +1,5 @@
 # specify main menu items here
 
-- text: M&P Architekti
-  url: /
 - text: Projekty
   url: /projekty
 - text: O nás

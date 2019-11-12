@@ -1,10 +1,13 @@
 <head>
-  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+  <!-- <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script> -->
   <link
     href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="{{ site.data.manifest['docs.css'] }}" />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}{{ site.data.manifest['docs.css'] }}"
+  />
   <title>
     {% if page.section == "home" %}{{ site.title }}{% else %}{{
       page.title | default: site.title

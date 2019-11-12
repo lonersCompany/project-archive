@@ -4,13 +4,13 @@ layout: default
 
 <section>
   <div class="max-w-md mx-auto my-10">
-    {%- include label.html label="E-mail" -%}
+    {%- include label-hr.html content="E-mail" -%}
     {{ site.data.information.email }}
   </div>
 </section>
 <section>
   <div class="max-w-md mx-auto my-10">
-    {%- include label.html label="Adresa" -%}
+    {%- include label-hr.html content="Adresa" -%}
     <ul>
       <li>{{ site.data.information.street }}</li>
       <li>{{ site.data.information.city }}</li>
@@ -20,7 +20,7 @@ layout: default
 </section>
 <section>
   <div class="max-w-md mx-auto my-10">
-    {%- include label.html label="Telefon" -%} {% for member in
+    {%- include label-hr.html content="Telefon" -%} {% for member in
     site.data.information.members %}
     <ul class="mb-5">
       <li>
