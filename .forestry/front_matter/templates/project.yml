@@ -13,6 +13,12 @@ fields:
   config:
     required: false
   label: year
+- type: text
+  name: size
+  label: size
+- type: text
+  name: price
+  label: price
 - name: categories
   type: tag_list
   default:
@@ -37,12 +43,6 @@ fields:
 - type: text
   name: visualization
   label: visualization
-- type: text
-  name: size
-  label: size
-- type: text
-  name: price
-  label: price
 - type: text
   name: slug
   label: slug
