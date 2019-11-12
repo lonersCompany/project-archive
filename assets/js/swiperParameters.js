@@ -26,7 +26,7 @@ export const cards = {
   },
   // Default parameters
   slidesPerView: 1,
-  spaceBetween: 10,
+  spaceBetween: 30,
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 850px
