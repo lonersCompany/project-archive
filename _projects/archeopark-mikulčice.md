@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Archeopark Mikulčice
-year: 2017-01-27T23:00:00.000+00:00
+title: Archeopark
+year: "2017"
 slug: project-1
 authors: Markéta a Petr Veličkovi
-location: město Stříbro
+location: Mikulčice
 investor: město Stříbro
 visualization: Jan Cyrany Jitka Daňková
 size: 12 180 m2
@@ -16,8 +16,6 @@ images:
 - "/v1572958257/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6847_vzi9u7.jpg"
 - "/v1572958296/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6619_myukiv.jpg"
 - "/v1572958258/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6511_zixche.jpg"
-- "/v1572958247/archweb/03_VEL_C_PARK_4DVORY_FOTA__6842_fadpee.jpg"
-- "/v1572958301/archweb/03_VEL_C_PARK_4DVORY_FOTA__6825_hvdjgr.jpg"
 categories:
 - realizace
 - parky
