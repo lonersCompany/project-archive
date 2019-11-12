@@ -30,6 +30,26 @@ fields:
 - type: image_gallery
   name: images
   label: images
+- name: latitude
+  type: number
+  label: Latitude
+  description: Latitude form map
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: longitude
+  type: number
+  label: Longitude
+  description: Longitude for map pin
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: description
   label: description
@@ -55,6 +75,6 @@ fields:
     required: true
   hidden: true
 pages:
-- _projects/archeopark-mikulčice.md
 - _projects/project-2.md
+- _projects/archeopark-mikulčice.md
 - _projects/název-projektu-11.md
