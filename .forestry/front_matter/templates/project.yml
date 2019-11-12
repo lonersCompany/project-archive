@@ -9,14 +9,10 @@ fields:
   name: title
   label: title
 - name: year
-  type: datetime
-  label: year
-  description: ''
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: year
 - name: categories
   type: tag_list
   default: []
