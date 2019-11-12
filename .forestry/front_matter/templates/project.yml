@@ -15,7 +15,10 @@ fields:
   label: year
 - name: categories
   type: tag_list
-  default: []
+  default:
+  - Parky
+  - Náměstí
+  - Zahrady
   label: categories
   description: project categories
 - type: image_gallery
