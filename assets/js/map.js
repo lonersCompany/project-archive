@@ -21,26 +21,18 @@ const createGeoJason = (el, index) => {
   return completedObject;
 };
 
-// geojson.forEach(marker => {
-//   // create a DOM element for the marker
-//   var el = document.createElement("div");
-//   el.innerHTML = `A`;
-//   el.className = "w-2 h-3 bg-gray-900";
+const addMapEvent = (obj, elements, map) => {
+  obj.element.addEventListener("click", () => {
+    elements.forEach(siteBox => siteBox.classList.remove("open"));
+    elements[obj.index].classList.add("open");
 
-//   var mapEntryObj = {
-//     element: el,
-//     index: marker.index + 1,
-
-//     flyTo: {
-//       coordinates: marker.geometry.coordinates,
-//       zoom: 16.6,
-//       speed: 1.5
-//     }
-//   };
-
-//   // add marker to map
-//   new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
-// });
+    map.flyTo({
+      center: obj.flyTo.coordinates,
+      zoom: obj.flyTo.zoom,
+      speed: obj.flyTo.speed
+    });
+  });
+};
 
 export const buildMap = () => {
   mapboxgl.accessToken =
@@ -52,7 +44,7 @@ export const buildMap = () => {
     zoom: 6
   });
 
-  map.scrollZoom.disable();
+  //map.scrollZoom.disable();
 
   const locationEls = Array.from(
     document.getElementsByClassName("map-location")
@@ -61,10 +53,21 @@ export const buildMap = () => {
   const geojson = locationEls.map(createGeoJason);
 
   geojson.forEach(marker => {
-    //addMapEvent(mapEntryObj);
-
     var el = document.createElement("div");
-    el.className = "h-4 w-4 bg-blue-600 rounded-full";
+    el.className = "h-4 w-4 bg-blue-600 rounded-full cursor-pointer";
+
+    var mapEntryObj = {
+      element: el,
+      index: marker.index + 1,
+
+      flyTo: {
+        coordinates: marker.geometry.coordinates,
+        zoom: 16.6,
+        speed: 1.5
+      }
+    };
+
+    addMapEvent(mapEntryObj, locationEls, map);
 
     // add marker to map
     new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
