@@ -22,6 +22,8 @@ images:
 - "/v1573575277/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_radnice_se_st_ikama_dfetpo.jpg"
 categories:
 - Náměstí
+latitude: 49.753792
+longitude: '13.000660'
 
 ---
 Návrh podporuje významné historické prvky morový sloup, radnici, připomíná části již zaniklé klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové vodní střiky osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
