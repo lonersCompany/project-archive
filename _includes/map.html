@@ -1,6 +1,10 @@
 <div id="map" class="h-70">
   {%- for item in site.projects -%}
-  <div class="absolute" data-lon="{{ item.lon }}" data-lat="{{ item.lat }}">
+  <div
+    class="absolute map-location"
+    data-lon="{{ item.longitude }}"
+    data-lat="{{ item.latitude }}"
+  >
     {%- include project-card-md.html -%}
   </div>
 
