@@ -25,8 +25,8 @@ visualization: Jakub Nováček
 size: 1,7 ha
 price: 77 miliónů Kč
 slug: ''
-latitude: 48.973911
-longitude: '14.475020'
+latitude: 48.989379
+longitude: 14.446918
 
 ---
 Návrh podporuje významné historické prvky – morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
