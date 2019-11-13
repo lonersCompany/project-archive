@@ -1,30 +1,31 @@
+---
 members:
-  - name: Markéta Veličková
-    position: Autorizovaný krajinářský architekt
-    phone: +420 603 713 838
-    cv: "text for cv"
-
-  - name: Petr Velička
-    position: Autorizovaný krajinářský architekt
-    phone: +420 603 713 838
-    cv: "text for cv"
+- name: Markéta Veličková
+  position: Autorizovaný krajinářský architekt
+  phone: "+420 603 713 838"
+  cv: text for cv
+- name: Petr Velička
+  position: Autorizovaný krajinářský architekt
+  phone: "+420 603 713 838"
+  cv: text for cv
 email: mp@mparch.cz
-street: Vrchovecká 49/1
+street: U Vody 1194/10
 city: Velké Meziříčí
 postcode: 594 01
 county: Česká republika
 awards:
-  - "1. Místo architektonická soutěž „Park 4 dvory“ České Budějovice rok 2012"
-  - "3. Místo Photographia Natura 2010 fotografická soutěž rok 2010"
-  - "1. Místo Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany – česká část“ rok 2009"
+- 3. Místo Photographia Natura 2010 fotografická soutěž rok 2010
+- 1. Místo Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany – česká
+  část“ rok 2009
+- 1. Místo architektonická soutěž „Park 4 dvory“ České Budějovice rok 2012
 colaborations:
-  - "architekt David Prudík"
-  - "architekt Jan Cyrany"
-  - "architekt Ivan Kolář"
-  - "architekt Petr Páv"
-  - "grafik Josef Válek"
-  - "umělkině Jitka Calabová"
-  - "režisér Ljuba Václavová"
-  - "hudební skladatel Jiří Václav"
-  - "fotograf Jitka Calabová"
-  - "sochař Jan Zemánek"
+- architekt David Prudík
+- architekt Jan Cyrany
+- architekt Ivan Kolář
+- architekt Petr Páv
+- grafik Josef Válek
+- grafička Jitka Calabová
+- režisér Ljuba Václavová
+- hudební skladatel Jiří Václav
+- fotograf Jitka Calabová
+- sochař Jan Zemánek
