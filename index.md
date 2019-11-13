@@ -1,12 +1,12 @@
 ---
 layout: home
 title: M&P Architekti
-permalink: /
+permalink: "/"
 section: home
-logo: /v1573555265/archweb/logo.png
----
+logo: "/v1573555265/archweb/logo.png"
 
+---
 Ateliér krajinářské architektury založili
 v roce 2004 Markéta a Petr Veličkovi.
 
-Ateliér zajišťuje komplexní činnost krajinářské architektury, jež zahrnují proces od první skici, přes kompletní projektovou dokumentaci po autorský dozor na stavbě.
+Konkrétní místo je vždy základem naší tvorby. Opakovaně se jej pokoušíme přečíst, nalézat významy, neničit, citlivě zacházet.
