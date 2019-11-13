@@ -29,7 +29,6 @@ images:
 - "/v1573640263/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0232_krlca3.jpg"
 - "/v1573640264/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0207_vn8uyx.jpg"
 - "/v1573640235/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0203_wnjdpy.jpg"
-- "/v1573639707/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0203_dzzcvk.jpg"
 categories:
 - realizace
 - parky
