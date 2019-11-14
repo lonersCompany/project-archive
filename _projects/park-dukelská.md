@@ -10,7 +10,13 @@ title: Park Dukelská
 year: "2019"
 size: 1,7 ha
 price: 20 000 000 Kč
-images: []
+images:
+- "/v1573757948/archweb/19109A_190821_cy_D0030_dqzjzx.jpg"
+- "/v1573757949/archweb/19109A_190815_cy_C0050_lteqtc.jpg"
+- "/v1573757945/archweb/19109A_190815_cy_C0044_gjb15k.jpg"
+- "/v1573757949/archweb/19109A_190815_cy_C0043_gz6czn.jpg"
+- "/v1573757949/archweb/19109A_190815_cy_C0020_a6duek.jpg"
+- "/v1573757946/archweb/19109A_190815_cy_C0011_dwyj4m.jpg"
 latitude: 48.970679
 longitude: 14.477217
 description: ''
