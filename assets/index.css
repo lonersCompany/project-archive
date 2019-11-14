@@ -129,6 +129,10 @@ button:focus {
   }
 }
 
+.min-h-70 {
+  min-height: 70vh;
+}
+
 .h-70 {
   height: 50vh;
 

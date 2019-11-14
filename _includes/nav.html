@@ -4,7 +4,7 @@
     {% for item in include.navigation %}
     <li>
       <a
-        class="block px-4 py-2 mb-4 hover:bg-gray-300 text-gray-600 text-xxl font-medium border-solid rounded border-2 border-gray-600 "
+        class="block px-4 py-2 mb-4 hover:bg-gray-300 text-gray-600 text-xxl font-medium border-solid rounded border-2 border-gray-600"
         href="{{ item.url | relative_url }}"
         {% if item.url == navurl %} data-current="current page"{% endif %}
         >{{ item.text }}</a
