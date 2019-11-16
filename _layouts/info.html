@@ -4,17 +4,17 @@ layout: default
 
 <section>
   <div class="max-w-md mx-auto my-10 px-4">
-    {%- include label-hr.html content="E-mail" -%}
-    {{ site.data.information.email }}
+    {%- include label-hr.html content="E-mail" -%} {{
+    site.data.information.email }}
   </div>
 </section>
 <section>
   <div class="max-w-md mx-auto my-10 px-4">
     {%- include label-hr.html content="Adresa" -%}
     <ul>
-      <li>{{ site.data.information.street }}</li>
-      <li>{{ site.data.information.city }}</li>
-      <li>{{ site.data.information.postcode }}</li>
+      <li>{{ site.data.information.post_adress.street }}</li>
+      <li>{{ site.data.information.post_adress.city }}</li>
+      <li>{{ site.data.information.post_adress.postcode }}</li>
     </ul>
   </div>
 </section>

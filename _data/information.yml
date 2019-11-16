@@ -1,45 +1,37 @@
 ---
 members:
-- name: Markéta Veličková
-  position: Autorizovaná architektka - krajinářská architektura
-  phone: "+420 603 713 838"
-  cv: text for cv
-- name: Petr Velička
-  position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
-  phone: "+420 731 477 608"
-  cv: text for cv
+  - name: Markéta Veličková
+    position: Autorizovaná architektka - krajinářská architektura
+    phone: "+420 603 713 838"
+    cv: text for cv
+  - name: Petr Velička
+    position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
+    phone: "+420 731 477 608"
+    cv: text for cv
 email: mp@mparch.cz
-street: U Vody 1194/10
-city: Velké Meziříčí
-postcode: 594 01
-county: Česká republika
 colaborations:
-- architekt David Prudík
-- architekt Jan Cyrany
-- architekt Ivan Kolář
-- architekt Petr Páv
-- grafik Josef Válek
-- grafička Jitka Calabová
-- režisér Ljuba Václavová
-- hudební skladatel Jiří Václav
-- fotograf Jitka Calabová
-- sochař Jan Zemánek
+  - architekt David Prudík
+  - architekt Jan Cyrany
+  - architekt Ivan Kolář
+  - architekt Petr Páv
+  - grafik Josef Válek
+  - grafička Jitka Calabová
+  - režisér Ljuba Václavová
+  - hudební skladatel Jiří Václav
+  - fotograf Jitka Calabová
+  - sochař Jan Zemánek
 awards:
-- award_name: Photographia Natura 2010 fotografická soutěž rok 2010
-  placement: 
-  link: ''
-- award_name: Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
-    – česká část“ rok 2009
-  placement: 
-  link: ''
-- award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice rok 2012
-  placement: 
-  link: ''
-post_office:
-  street: U Vody 1194/10
-  city: Velké Meziříčí
-  post_code: 594 01
-  county: Česká republika
+  - award_name: Photographia Natura 2010 fotografická soutěž rok 2010
+    placement:
+    link: ""
+  - award_name:
+      Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
+      – česká část“ rok 2009
+    placement:
+    link: ""
+  - award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice rok 2012
+    placement:
+    link: ""
 post_adress:
   street: U Vody 1194/10
   city: Velké Meziříčí
