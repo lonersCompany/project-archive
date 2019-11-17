@@ -23,8 +23,11 @@ const createGeoJason = (el, index) => {
 
 const addMapEvent = (obj, elements, map) => {
   obj.element.addEventListener("click", () => {
+    console.log(obj);
+    console.log(elements);
     elements.forEach(siteBox => siteBox.classList.remove("open"));
     elements[obj.index].classList.add("open");
+    console.log(obj.index);
 
     map.flyTo({
       center: obj.flyTo.coordinates,
@@ -42,8 +45,8 @@ export const buildMap = () => {
     style: "mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi",
     center: [15.565441, 49.984897],
     zoom: 6,
-    minZoom: 5,
-    maxZoom: 7
+    minZoom: 6,
+    maxZoom: 8
   });
 
   //map.scrollZoom.disable();
@@ -60,11 +63,11 @@ export const buildMap = () => {
 
     var mapEntryObj = {
       element: el,
-      index: marker.index + 1,
+      index: marker.index,
 
       flyTo: {
         coordinates: marker.geometry.coordinates,
-        zoom: 5,
+        zoom: 8,
         speed: 1.5
       }
     };
@@ -72,8 +75,7 @@ export const buildMap = () => {
     addMapEvent(mapEntryObj, locationEls, map);
 
     // add marker to map
+    console.log(el);
     new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
   });
-
-  console.log(geojson);
 };
