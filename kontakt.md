@@ -1,6 +1,6 @@
 ---
 layout: info
-title: kontakt
+title: Kontakt
 ---
 
 Jsme architekti, kteří se prioritně věnují krajinářské architektuře.

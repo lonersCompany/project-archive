@@ -3,26 +3,14 @@ layout: default
 ---
 
 <section>
-  <div class="max-w-md mx-auto text-lg my-12 px-4 text-block">
-    {{ content }}
-  </div>
+  <p class="max-w-lg px-4 mx-auto">
+    {%- include btn-lg.html content="Životopis" href="/zivotopis.html" -%} {%-
+    include btn-lg.html content="Ocenění" href="/oceneni.html" -%} {%- include
+    btn-lg.html content="Spolupráce" href="/spoluprace.html" -%}
+  </p>
 </section>
 <section>
-  <p class="max-w-xs mx-auto">
-    <a
-      href="{{site.baseurl}}/zivotopis.html"
-      class="block px-4 py-2 mb-4 hover:bg-gray-300 text-gray-600 text-lg font-medium border-solid rounded border-2 border-gray-600"
-      >Životopis</a
-    >
-    <a
-      href="{{site.baseurl}}/oceneni.html"
-      class="block px-4 py-2 mb-4 hover:bg-gray-300 text-gray-600 text-lg font-medium border-solid rounded border-2 border-gray-600"
-      >Ocenění</a
-    >
-    <a
-      href="{{site.baseurl}}/spoluprace.html"
-      class="block px-4 py-2 mb-4 hover:bg-gray-300 text-gray-600 text-lg font-medium border-solid rounded border-2 border-gray-600"
-      >Spolupráce</a
-    >
-  </p>
+  <div class="max-w-lg mx-auto text-lg my-12 px-4 text-block">
+    {{ content }}
+  </div>
 </section>

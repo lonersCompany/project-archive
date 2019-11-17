@@ -3,36 +3,34 @@ layout: default
 ---
 
 <section>
-  <div class="max-w-md mx-auto my-10 px-4">
-    {%- include label-hr.html content="E-mail" -%} {{
-    site.data.information.email }}
+  <div class="max-w-lg mx-auto my-10 px-4">
+    {%- include label-hr.html content="E-mail" -%}
+    <p class="text-lg">
+      {{ site.data.information.email }}
+    </p>
   </div>
 </section>
 <section>
-  <div class="max-w-md mx-auto my-10 px-4">
+  <div class="max-w-lg mx-auto my-10 px-4">
     {%- include label-hr.html content="Adresa" -%}
     <ul>
-      <li>{{ site.data.information.post_adress.street }}</li>
-      <li>{{ site.data.information.post_adress.city }}</li>
-      <li>{{ site.data.information.post_adress.postcode }}</li>
+      <li class="text-lg">{{ site.data.information.post_adress.street }}</li>
+      <li class="text-lg">
+        {{ site.data.information.post_adress.city }}, {{
+        site.data.information.post_adress.post_code }}
+      </li>
+      <li class="text-lg">
+        {{ site.data.information.post_adress.county}}
+      </li>
     </ul>
   </div>
 </section>
 <section>
-  <div class="max-w-md mx-auto my-10 px-4">
+  <div class="max-w-lg mx-auto my-10 px-4">
     {%- include label-hr.html content="Telefon" -%} {% for member in
     site.data.information.members %}
-    <ul class="mb-5">
-      <li>
-        {{ member.name }}
-      </li>
-      <li>
-        {{ member.position }}
-      </li>
-      <li>
-        {{ member.phone }}
-      </li>
-    </ul>
+
+    <p class="text-lg">{{ member.name }}: {{ member.phone }}</p>
 
     {% endfor %}
   </div>

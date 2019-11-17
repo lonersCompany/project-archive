@@ -18,8 +18,8 @@
 header {
   background: linear-gradient(
     to bottom,
-    rgba(237, 242, 247, 1) 0%,
-    rgba(237, 242, 204, 0) 100%
+    rgba(242, 242, 242, 1) 50%,
+    rgba(242, 242, 242, 0) 100%
   );
 }
 
@@ -58,8 +58,8 @@ nav {
 }
 
 .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   display: inline-block;
   border-radius: 100%;
   background: #000;
@@ -98,6 +98,18 @@ td {
   border: 3px solid #edf2f7;
 }
 
+.text-block {
+  h1 {
+    //font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
 .map-location {
   display: none;
   &.open {
@@ -111,14 +123,6 @@ button:focus {
 
 .max-w-xxs {
   max-width: 15rem;
-}
-
-.text-xxl {
-  font-size: 2rem;
-}
-
-.text-block p {
-  margin-bottom: 2rem;
 }
 
 .max-h-70 {

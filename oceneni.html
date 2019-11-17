@@ -1,0 +1,19 @@
+---
+layout: default
+title: Ocenění
+---
+
+<section>
+  <div class="max-w-lg mx-auto my-10 px-4">
+    {%- include label-hr.html content="Ocenění" -%} {%- for item in
+    site.data.information.awards -%}
+
+    <div class="px-4 py-4 mb-4 bg-gray-300">
+      <p class="text-sm">{{ item.placement }}. místo</p>
+      <h1 class="text-2xl">{{ item.award_name }}</h1>
+      <p class="text-sm">{{ item.year }}</p>
+    </div>
+
+    {%- endfor -%}
+  </div>
+</section>
