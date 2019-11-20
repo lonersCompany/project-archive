@@ -44,8 +44,9 @@ export const buildMap = () => {
     container: "map",
     style: "mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi",
     center: [15.565441, 49.984897],
-    zoom: 6,
-    minZoom: 6,
+    scrollZoom: false,
+    zoom: 5,
+    minZoom: 5,
     maxZoom: 8
   });
 
@@ -67,7 +68,7 @@ export const buildMap = () => {
 
       flyTo: {
         coordinates: marker.geometry.coordinates,
-        zoom: 8,
+        zoom: 7,
         speed: 1.5
       }
     };
