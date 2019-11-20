@@ -1,6 +1,30 @@
-<div class="flex flex-wrap justify-center items-baseline">
-  {%- for item in site.projects -%}
-  <div class="p-2">{%- include project-card-md.html -%}</div>
+<div class="md:max-w-2xl lg:max-w-5xl mx-auto">
+  <div class="p-2 text-xl">
+    <c title="/lowerHalfWhiteSquare U+2B12 (SQUARE WITH TOP HALF BLACK)">⬒</c>
+    <c title="/Xi U+039E (GREEK CAPITAL LETTER XI)" class="">Ξ</c>
+  </div>
 
-  {%-endfor -%}
+  <!-- <div class="flex flex-wrap justify-around lg:justify-between items-baseline">
+    <table class="table-auto w-full bg-gray-300 text-lg">
+      {%- for item in site.projects -%}
+      <tr>
+        <th class="px-2">
+          {{item.title}}
+        </th>
+        <td class="px-2">
+          {{item.location}}
+        </td>
+        <td class="px-2">
+          {{item.year}}
+        </td>
+      </tr>
+      {%-endfor -%}
+    </table>
+  </div> -->
+
+  <div class="flex flex-wrap justify-around lg:justify-between items-baseline">
+    {%- for item in site.projects -%}
+    <div class="p-2">{%- include project-card-md.html -%}</div>
+    {%-endfor -%}
+  </div>
 </div>
