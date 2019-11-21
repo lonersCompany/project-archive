@@ -8,6 +8,22 @@ fields:
 - type: text
   name: title
   label: title
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Stavba
+    - Návrh
+    - Film
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
+  description: typo of project
 - name: year
   type: text
   config:
@@ -19,14 +35,6 @@ fields:
 - type: text
   name: price
   label: price
-- name: categories
-  type: tag_list
-  default:
-  - Parky
-  - Náměstí
-  - Zahrady
-  label: categories
-  description: project categories
 - type: image_gallery
   name: images
   label: images
