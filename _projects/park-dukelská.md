@@ -23,5 +23,6 @@ description: ''
 investor: ''
 visualization: ''
 slug: ''
+category: Návrh
 
 ---
