@@ -94,7 +94,19 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/fullscreen-menu.js */ \"./assets/js/fullscreen-menu.js\");\n/* harmony import */ var _js_swiper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/swiper.js */ \"./assets/js/swiper.js\");\n/* harmony import */ var _js_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/map.js */ \"./assets/js/map.js\");\n\n\n\n\nObject(_js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"buildToggleMenu\"])();\nObject(_js_swiper_js__WEBPACK_IMPORTED_MODULE_1__[\"buildSwiper\"])();\nObject(_js_map_js__WEBPACK_IMPORTED_MODULE_2__[\"buildMap\"])();\n\n\n//# sourceURL=webpack:///./assets/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/fullscreen-menu.js */ \"./assets/js/fullscreen-menu.js\");\n/* harmony import */ var _js_swiper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/swiper.js */ \"./assets/js/swiper.js\");\n/* harmony import */ var _js_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/map.js */ \"./assets/js/map.js\");\n/* harmony import */ var _js_entries_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/entries.js */ \"./assets/js/entries.js\");\n\n\n\n\n\nObject(_js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"buildToggleMenu\"])();\n\n// Init js for swiper\nObject(_js_swiper_js__WEBPACK_IMPORTED_MODULE_1__[\"buildSwiper\"])();\n\n// Init js for mapbox map\nconst mapEl = document.getElementById(\"map\");\n\nif (mapEl) {\n  Object(_js_map_js__WEBPACK_IMPORTED_MODULE_2__[\"buildMap\"])();\n}\n\n// Init js for project entries view switcher\nconst entriesEL = document.getElementById(\"entries\");\n\nif (entriesEL) Object(_js_entries_js__WEBPACK_IMPORTED_MODULE_3__[\"initEntries\"])(entriesEL);\n\n\n//# sourceURL=webpack:///./assets/index.js?");
+
+/***/ }),
+
+/***/ "./assets/js/entries.js":
+/*!******************************!*\
+  !*** ./assets/js/entries.js ***!
+  \******************************/
+/*! exports provided: initEntries */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initEntries\", function() { return initEntries; });\nconst initEntries = mainEl => {\n  const viewEls = Array.from(mainEl.getElementsByClassName(\"view-switcher\"));\n\n  if (viewEls.length > 0) {\n    viewEls.forEach(el => {\n      const mode = el.getAttribute(\"data-mode\");\n      el.addEventListener(\"click\", () => {\n        console.log(mode);\n        mainEl.setAttribute(\"data-view\", mode);\n      });\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/entries.js?");
 
 /***/ }),
 

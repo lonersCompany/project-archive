@@ -13,9 +13,26 @@
   main {
     filter: blur(10px);
   }
+
+  .page-title {
+    opacity: 0.2;
+  }
 }
 
-header {
+.entries-cards,
+.entries-table {
+  display: none;
+}
+
+.entries[data-view="cards"] .entries-cards {
+  display: block;
+}
+
+.entries[data-view="table"] .entries-table {
+  display: block;
+}
+
+.entries header {
   background: linear-gradient(
     to bottom,
     rgba(242, 242, 242, 1) 50%,
@@ -117,7 +134,7 @@ td {
   }
 }
 
-button:focus {
+.page-title button:focus {
   outline: none;
 }
 

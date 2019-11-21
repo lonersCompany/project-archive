@@ -4,6 +4,16 @@ layout: default
 
 <section>
   <div class="max-w-lg mx-auto my-10 px-4">
+    <p class="text-2xl">
+      M&P architekti
+    </p>
+    <p class="text-2xl">
+      Ateliér krajinářské architektury
+    </p>
+  </div>
+</section>
+<section>
+  <div class="max-w-lg mx-auto my-10 px-4">
     {%- include label-hr.html content="E-mail" -%}
     <p class="text-lg">
       {{ site.data.information.email }}
@@ -30,7 +40,9 @@ layout: default
     {%- include label-hr.html content="Telefon" -%} {% for member in
     site.data.information.members %}
 
-    <p class="text-lg">{{ member.name }}: {{ member.phone }}</p>
+    <p class="text-lg">
+      <span class="text-gray-500">{{ member.name }}</span> {{ member.phone }}
+    </p>
 
     {% endfor %}
   </div>

@@ -1,9 +1,8 @@
 ---
 layout: about
 title: kontakt
+desription: Jsme architekti, kteří se prioritně věnují krajinářské architektuře
 ---
-
-# Jsme architekti, kteří se prioritně věnují krajinářské architektuře.
 
 Krajinářská architektura - „architektura beze stropu“ je svébytným oborem zahrnujícím komplexní tvorbu náměstí, nábřeží, ulic, parků, promenád … Zahrnuje především krajinu města - veřejné městské / venkovské prostory, historické a soukromé zahrady, ale i krajinu volnou. Krajinářská architektura není „ozeleňováním prostoru“, ale celostním komponováním místa. Projekty řešíme od první skici po dozor při realizaci.
 
