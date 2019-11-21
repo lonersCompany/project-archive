@@ -34,6 +34,7 @@ categories:
 - parky
 latitude: 48.804363
 longitude: '17.085740'
+category: Stavba
 
 ---
 Koncept náměstí vychází ze struktury historického jádra města Stříbra, které leží na ostrohu nad řekou Mží.
