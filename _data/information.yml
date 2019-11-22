@@ -1,42 +1,45 @@
 ---
 members:
-  - name: Markéta Veličková
-    position: Autorizovaná architektka - krajinářská architektura
-    phone: "+420 603 713 838"
-    cv: text for cv
-  - name: Petr Velička
-    position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
-    phone: "+420 731 477 608"
-    cv: text for cv
+- name: Markéta Veličková
+  position: Autorizovaná architektka - krajinářská architektura
+  phone: "+420 603 713 838"
+  cv: text for cv
+- name: Petr Velička
+  position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
+  phone: "+420 731 477 608"
+  cv: text for cv
 email: mp@mparch.cz
 colaborations:
-  - architekt David Prudík
-  - architekt Jan Cyrany
-  - architekt Ivan Kolář
-  - architekt Petr Páv
-  - grafik Josef Válek
-  - grafička Jitka Calabová
-  - režisér Ljuba Václavová
-  - hudební skladatel Jiří Václav
-  - fotograf Jitka Calabová
-  - sochař Jan Zemánek
+- architekt David Prudík
+- architekt Jan Cyrany
+- architekt Ivan Kolář
+- architekt Petr Páv
+- grafik Josef Válek
+- grafička Jitka Calabová
+- režisér Ljuba Václavová
+- hudební skladatel Jiří Václav
+- fotograf Jitka Calabová
+- sochař Jan Zemánek
 awards:
-  - award_name: Photographia Natura 2010 fotografická soutěž
-    placement: 1
-    link: ""
-    year: "2019"
-  - award_name:
-      Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
-      – česká část“
-    placement: 2
-    link: ""
-    year: "2009"
-  - award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice
-    placement: 3
-    link: ""
-    year: "2012"
+- award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice
+  placement: 1
+  link: ''
+  year: "2012"
+- award_name: Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
+    – česká část“
+  placement: 2
+  link: ''
+  year: "2009"
+- award_name: Photographia Natura 2010 fotografická soutěž
+  placement: 1
+  link: ''
+  year: "2019"
 post_adress:
   street: U Vody 1194/10
   city: Velké Meziříčí
   post_code: 594 01
   county: Czech Republic
+street: ''
+city: ''
+postcode: ''
+county: ''
