@@ -21,6 +21,10 @@ colaborations:
 - fotograf Jitka Calabová
 - sochař Jan Zemánek
 awards:
+- award_name: Česká cena za architekturu - nominace
+  placement: 
+  link: https://ceskacenazaarchitekturu.cz/projekty/2019/revitalizace-masarykova-namesti-v-mestske-pamatkove-zone-mesta-stribro/
+  year: "2019"
 - award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice
   placement: 1
   link: https://www.cka.cz/cs/souteze/vysledky/park-ctyri-dvory-2013-ceske-budejovice
@@ -31,9 +35,9 @@ awards:
   link: https://www.cka.cz/cs/souteze/vysledky/mikulcice_archeopark090807
   year: "2009"
 - award_name: Photographia Natura 2010 fotografická soutěž
-  placement: 1
+  placement: 3
   link: ''
-  year: "2019"
+  year: "2010"
 post_adress:
   street: U Vody 1194/10
   city: Velké Meziříčí
