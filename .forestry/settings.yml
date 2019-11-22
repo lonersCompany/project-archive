@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
+- type: document
+  path: _data/information.yml
+  label: Informations
 - type: directory
   path: _projects
   label: Projects
@@ -15,9 +18,6 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-- type: document
-  path: _data/information.yml
-  label: Contact
 upload_dir: archweb
 public_path: ''
 front_matter_path: https://res.cloudinary.com/dhxmg9p4i/image/archweb
