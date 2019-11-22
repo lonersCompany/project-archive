@@ -12,12 +12,6 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
 upload_dir: archweb
 public_path: ''
 front_matter_path: https://res.cloudinary.com/dhxmg9p4i/image/archweb
