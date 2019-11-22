@@ -3,7 +3,7 @@ layout: project
 title: Archeopark
 year: "2015"
 slug: project-1
-authors: Markéta a Petr Veličkovi
+authors: Markéta & Petr Veličkovi a Jan Cyrany
 location: Mikulčice
 investor: Jihomoravský kraj
 visualization: Jan Cyrany Jitka Daňková
