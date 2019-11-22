@@ -20,7 +20,7 @@ images:
 - "/v1574423626/archweb/p%C5%AFdorys_anj_zn5ful.jpg"
 - "/v1574423633/archweb/vizu2012_hnqlqu.jpg"
 - "/v1574423835/archweb/4._2018_z7qncp.jpg"
-title: Park 4 Dvory
+title: Park 4Dvory
 description: 'Vzhledem ke geologickým podmínkám území (jílovitosti půdy, která udusí
   novou výsadbu nepředpěstovanou v těchto podmínkách) byl jako vůdčí koncept práce
   s vegetací zvolen princip řízené sukcese. Park je navržen jako nástup do krajiny.
