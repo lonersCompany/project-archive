@@ -5,13 +5,21 @@ categories:
 - Park
 authors: Markéta & Petr Veličkovi a David Prudík
 images:
-- "/v1573574866/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7675_j5nx6h.jpg"
-- "/v1573574865/archweb/03_VEL_C_PARK_4DVORY_FOTA_IMG_6476_lprhi3.jpg"
-- "/v1573574865/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7791_b0gehb.jpg"
-- "/v1573574895/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7778_i7anxe.jpg"
-- "/v1573574865/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7678_n9xrle.jpg"
-- "/v1573574866/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7674_hzltrs.jpg"
 - "/v1573574866/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7667-Edit_a0xquo.jpg"
+- "/v1572958332/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7005_qpmoyk.jpg"
+- "/v1572958301/archweb/03_VEL_C_PARK_4DVORY_FOTA__6825_hvdjgr.jpg"
+- "/v1572958257/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6847_vzi9u7.jpg"
+- "/v1574423997/archweb/cafeinterior_j6vu7h.jpg"
+- "/v1572958247/archweb/03_VEL_C_PARK_4DVORY_FOTA__6842_fadpee.jpg"
+- "/v1572958237/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7449_eltlxh.jpg"
+- "/v1572958258/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6511_zixche.jpg"
+- "/v1574424150/archweb/pond_by_cafe_2014_tfdhra.jpg"
+- "/v1574424127/archweb/Cafe_4Court_authors_David_Prud%C3%ADk_a_Mark%C3%A9ta_a_Petr_Veli%C4%8Dkovi_kfzbrk.jpg"
+- "/v1574424154/archweb/pond_by_entrance_2014_evqoyt.jpg"
+- "/v1574424127/archweb/pond_by_entrance_2018_ku1jdh.jpg"
+- "/v1574423626/archweb/p%C5%AFdorys_anj_zn5ful.jpg"
+- "/v1574423633/archweb/vizu2012_hnqlqu.jpg"
+- "/v1574423835/archweb/4._2018_z7qncp.jpg"
 title: Park 4 Dvory
 description: 'Vzhledem ke geologickým podmínkám území (jílovitosti půdy, která udusí
   novou výsadbu nepředpěstovanou v těchto podmínkách) byl jako vůdčí koncept práce
