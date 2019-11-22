@@ -8,6 +8,18 @@ fields:
 - type: text
   name: title
   label: title
+- type: text
+  name: descriptions
+  label: descriptions
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
 - name: category
   type: select
   default: ''
@@ -58,9 +70,6 @@ fields:
     min: 
     max: 
     step: 
-- type: text
-  name: description
-  label: description
 - type: text
   name: authors
   label: authors
