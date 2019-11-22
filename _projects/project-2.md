@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Masarykovo Náměstí
-year: "2017"
+year: "2018"
 slug: project-1
 authors: Markéta a Petr Veličkovi
 location: Stříbro
