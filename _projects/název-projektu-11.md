@@ -37,7 +37,7 @@ description: 'Vzhledem ke geologickým podmínkám území (jílovitosti půdy, 
 year: "2014"
 location: České Budějovice
 investor: Město České Budějovice
-visualization: Jakub Nováček
+visualization: Jan Cyrany
 size: 2,84 ha
 price: 30 miliónů Kč
 slug: ''
