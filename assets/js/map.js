@@ -11,12 +11,14 @@ const getCoordinates = el => {
 const createGeoJason = (el, index) => {
   // get mark coordinates
   const coordinates = getCoordinates(el);
+  const isMarked = el.getAttribute("data-marked");
 
   const completedObject = {
     index: index,
     geometry: {
       coordinates: coordinates
-    }
+    },
+    marked: isMarked
   };
   return completedObject;
 };
@@ -58,9 +60,16 @@ export const buildMap = () => {
 
   const geojson = locationEls.map(createGeoJason);
 
+  console.log(geojson);
+
   geojson.forEach(marker => {
     var el = document.createElement("div");
-    el.className = "h-4 w-4 bg-blue-600 rounded-full cursor-pointer";
+    el.className = "h-4 w-4 bg-gray-300 rounded-full cursor-pointer";
+
+    if (marker.marked) {
+      el.classList.add("bg-blue-600");
+      el.classList.add("z-10");
+    }
 
     var mapEntryObj = {
       element: el,
@@ -76,7 +85,6 @@ export const buildMap = () => {
     addMapEvent(mapEntryObj, locationEls, map);
 
     // add marker to map
-    console.log(el);
     new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
   });
 };

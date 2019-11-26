@@ -1,4 +1,6 @@
 import Swiper from "swiper";
+
+import { galleryModes } from "./gallery-modes";
 import { cards, baseImage } from "./swiperParameters";
 
 export const buildSwiper = params => {
@@ -14,6 +16,12 @@ export const buildSwiper = params => {
         case "cards":
           new Swiper(el, cards);
           break;
+
+        case "full-screen":
+          galleryModes(el);
+          console.log("GO BIG!");
+          break;
+
         default:
           new Swiper(el, baseImage);
       }

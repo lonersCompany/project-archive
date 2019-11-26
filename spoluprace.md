@@ -9,7 +9,7 @@ title: Spolupráce
   </div>
 </section>
 <section>
-  <div class="max-w-lg mx-auto my-10 px-4">
+  <div class="max-w-lg mx-auto my-10 px-4 pb-24">
     {% for colaboration in
     site.data.information.colaborations %}
     <ul>

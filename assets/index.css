@@ -1,12 +1,12 @@
 @import url("https://rsms.me/inter/inter.css");
 
+@import "swiper/swiper.scss";
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
-
-@import "swiper/swiper.scss";
 
 .menu-is-open {
   //overflow: hidden;
@@ -32,10 +32,10 @@
   display: block;
 }
 
-.entries header {
+header {
   background: linear-gradient(
     to bottom,
-    rgba(242, 242, 242, 1) 50%,
+    rgba(242, 242, 242, 1) 0%,
     rgba(242, 242, 242, 0) 100%
   );
 }
@@ -44,34 +44,24 @@ nav {
   background-color: rgba(200, 200, 200, 0.7);
 }
 
-.swiper-container[mode="scroll"] {
-  height: auto;
-
-  .swiper-wrapper {
-    flex-direction: column;
-  }
-
-  .swiper-slide {
-    height: 80vh;
-    margin-bottom: 2em;
-  }
-}
-
-.swiper-container[mode="scroll"],
-.swiper-container[mode="strobo"] {
-  .swiper-next,
-  .swiper-prev {
-    display: none;
-  }
-}
-
 .swiper-next {
   right: 0;
   cursor: e-resize;
+
+  /* background: linear-gradient(
+    90deg,
+    rgba(230, 230, 230, 0),
+    rgba(230, 230, 230, 1)
+  ); */
 }
 
 .swiper-prev {
   cursor: w-resize;
+  /* background: linear-gradient(
+    90deg,
+    rgba(230, 230, 230, 1),
+    rgba(230, 230, 230, 0)
+  ); */
 }
 
 .swiper-pagination-bullet {
@@ -103,6 +93,19 @@ nav {
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
+}
+
+.swiper-container[mode="scroll"] {
+  height: auto;
+
+  .swiper-wrapper {
+    flex-direction: column;
+  }
+
+  .swiper-slide {
+    height: 80vh;
+    margin-bottom: 2em;
+  }
 }
 
 table {
@@ -164,4 +167,13 @@ td {
   @media (min-width: 720px) {
     height: 70vh;
   }
+}
+
+div > a.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
+
+.homepage-map .bg-gray-300 {
+  background-color: #6a52ff;
 }
