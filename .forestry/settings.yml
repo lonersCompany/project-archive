@@ -19,8 +19,8 @@ sections:
   path: _data/awards.yml
   label: Awards
 - type: document
-  path: _data/colaborations.yml
-  label: Colaborations
+  path: _data/collaborations.yml
+  label: Collaborations
 - type: document
   path: _data/information.yml
   label: Informations
