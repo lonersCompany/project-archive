@@ -1,86 +1,73 @@
 ---
 members:
-- name: Markéta Veličková
-  position: Autorizovaná architektka - krajinářská architektura
-  phone: "+420 603 713 838"
-  cv: text for cv
-- name: Petr Velička
-  position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
-  phone: "+420 731 477 608"
-  cv: "# Petr Velička\n\nAutorizovaný architekt   (č.a.: 03 392)\n\n14. 3.  2006  zapsán
-    do seznamu autorizovaných osob vedeného ČKA jako svobodný architekt. \n2004 -
-    2006 jeden z  koordinátorů a autor dílčích částí v přípravě mezinárodní Krajinné
-    výstavy Marktredwitz - Cheb.\n2006 tvůrce a jeden z organizátorů mezinárodního
-    odborného symposia „Architektonické dědictví krajiny“.\n2007 tvůrce a organizátor
-    architektonické sekce mezinárodního „Filosofického festivalu\" ve Velkém Meziříčí.\n2008
-    – současnost Iniciativní skupina krajinářská architektura\n2007 – 2010  zvolen
-    do dozorčí rady České Komory architektů.\n2015 – 2018 zvolen do představenstva
-    České Komory architektů\n2018 – 2021 zvolen do představenstva České Komory architektů"
+  - name: Markéta Veličková
+    position: Autorizovaná architektka - krajinářská architektura
+    phone: "+420 603 713 838"
+  - name: Petr Velička
+    position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
+    phone: "+420 731 477 608"
 email: mp@mparch.cz
 colaborations:
-- krajinářská architektka Kateřina  Sapáková Záleská
-- krajinářský architekt Tomáš Popelínský
-- krajinářský architekt Adam Kořistka
-- krajinářská architektka Kateřina Nečasová
-- projektant pozemní stavby Tomáš Bílek
-- dopravní inženýrka  Linda Smítalová
-- dopravní inženýr Petr Smítal
-- architekt David Prudík
-- architekt Jan Cyrany
-- grafik Josef Válek
-- grafička Jitka Daňková
-- fotografka Jitka Daňková
-- režisérka Ljuba Václavová
-- hudební skladatel Jiří Václav
-- sochař Jan Zemánek
+  - krajinářská architektka Kateřina  Sapáková Záleská
+  - krajinářský architekt Tomáš Popelínský
+  - krajinářský architekt Adam Kořistka
+  - krajinářská architektka Kateřina Nečasová
+  - projektant pozemní stavby Tomáš Bílek
+  - dopravní inženýrka  Linda Smítalová
+  - dopravní inženýr Petr Smítal
+  - architekt David Prudík
+  - architekt Jan Cyrany
+  - grafik Josef Válek
+  - grafička Jitka Daňková
+  - fotografka Jitka Daňková
+  - režisérka Ljuba Václavová
+  - hudební skladatel Jiří Václav
+  - sochař Jan Zemánek
 awards:
-- award_name: vyzvaná soutěž - Park Dukelská - České Budějovice
-  placement: 2
-  link: http://parkdukelska.cz/
-  year: "2019"
-- award_name: Česká cena za architekturu - nominace - Masarykovo náměstí ve Stříbře
-  placement: 
-  link: https://ceskacenazaarchitekturu.cz/projekty/2019/revitalizace-masarykova-namesti-v-mestske-pamatkove-zone-mesta-stribro/
-  year: "2019"
-- award_name: 'Výtvarná soutěž "Lavička Ferdinanda Vaňka" - odměna - '
-  placement: 
-  link: https://www.cka.cz/cs/souteze/vysledky/lavicka-ferdinanda-vanka
-  year: "2016"
-- award_name: architektonická soutěž "Obnova náměstí Palackého v Lomnici"
-  placement: 2
-  link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
-  year: "2017"
-- award_name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějovice
-  placement: 
-  link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
-  year: "2016"
-- award_name: architektonická soutěž " Revitalizace historického jádra obce Tetín"
-  placement: 3
-  link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-historickeho-jadra-obce-tetin
-  year: "2016"
-- award_name: architektonická soutěž " Prezentace archeologických nálezů v Přerově"
-  placement: 3
-  link: https://www.cka.cz/cs/souteze/vysledky/prezentace-archeologickych-nalezu-v-prerove
-  year: "2015"
-- award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice
-  placement: 1
-  link: https://www.cka.cz/cs/souteze/vysledky/park-ctyri-dvory-2013-ceske-budejovice
-  year: "2012"
-- award_name: Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
-    – česká část“
-  placement: 1
-  link: https://www.cka.cz/cs/souteze/vysledky/mikulcice_archeopark090807
-  year: "2009"
-- award_name: Photographia Natura 2010 fotografická soutěž
-  placement: 3
-  link: ''
-  year: "2010"
+  - award_name: vyzvaná soutěž - Park Dukelská - České Budějovice
+    placement: 2
+    link: http://parkdukelska.cz/
+    year: "2019"
+  - award_name: Česká cena za architekturu - nominace - Masarykovo náměstí ve Stříbře
+    placement:
+    link: https://ceskacenazaarchitekturu.cz/projekty/2019/revitalizace-masarykova-namesti-v-mestske-pamatkove-zone-mesta-stribro/
+    year: "2019"
+  - award_name: 'Výtvarná soutěž "Lavička Ferdinanda Vaňka" - odměna - '
+    placement:
+    link: https://www.cka.cz/cs/souteze/vysledky/lavicka-ferdinanda-vanka
+    year: "2016"
+  - award_name: architektonická soutěž "Obnova náměstí Palackého v Lomnici"
+    placement: 2
+    link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
+    year: "2017"
+  - award_name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějovice
+    placement:
+    link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
+    year: "2016"
+  - award_name: architektonická soutěž " Revitalizace historického jádra obce Tetín"
+    placement: 3
+    link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-historickeho-jadra-obce-tetin
+    year: "2016"
+  - award_name: architektonická soutěž " Prezentace archeologických nálezů v Přerově"
+    placement: 3
+    link: https://www.cka.cz/cs/souteze/vysledky/prezentace-archeologickych-nalezu-v-prerove
+    year: "2015"
+  - award_name: Architektonická soutěž „Park 4 dvory“ České Budějovice
+    placement: 1
+    link: https://www.cka.cz/cs/souteze/vysledky/park-ctyri-dvory-2013-ceske-budejovice
+    year: "2012"
+  - award_name:
+      Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany
+      – česká část“
+    placement: 1
+    link: https://www.cka.cz/cs/souteze/vysledky/mikulcice_archeopark090807
+    year: "2009"
+  - award_name: Photographia Natura 2010 fotografická soutěž
+    placement: 3
+    link: ""
+    year: "2010"
 post_adress:
   street: U Vody 1194/10
   city: Velké Meziříčí
   post_code: 594 01
   county: Czech Republic
-street: ''
-city: ''
-postcode: ''
-county: ''

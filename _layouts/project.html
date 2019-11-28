@@ -7,9 +7,13 @@ layout: default
     {%- include gallery-images.html -%}
   </div>
 </section>
+
+{% if page.description != "" %}
 <section class="px-5 py-16 lg:py-24">
   <div class="max-w-lg mx-auto text-lg">{{ page.description }}</div>
 </section>
+{% endif %}
+
 <section class="px-5 pb-10">
   <div class="max-w-lg mx-auto text-lg">
     {%- include project-table.html -%}
