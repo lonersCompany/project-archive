@@ -29,6 +29,11 @@ categories:
 latitude: 49.753792
 longitude: '13.000660'
 category: Stavba
+awards:
+- name: Česká cena za architekturu - nominace - Masarykovo náměstí ve Stříbře
+  placement: ''
+  year: "2019"
+  link: ''
 
 ---
 Návrh podporuje významné historické prvky morový sloup, radnici, připomíná části již zaniklé klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové vodní střiky osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
