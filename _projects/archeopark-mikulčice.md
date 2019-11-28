@@ -31,6 +31,12 @@ categories:
 latitude: 48.804363
 longitude: '17.085740'
 category: Stavba
+awards:
+- name: Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany – česká
+    část“
+  placement: "1"
+  year: "2009"
+  link: ''
 
 ---
 Koncept náměstí vychází ze struktury historického jádra města Stříbra, které leží na ostrohu nad řekou Mží.
