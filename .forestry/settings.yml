@@ -5,6 +5,10 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: document
+  path: _data/contact.yml
+  label: Contact
+  match: "**/*"
+- type: document
   path: _data/awards.yml
   label: Awards
   match: "**/*"
