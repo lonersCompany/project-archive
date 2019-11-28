@@ -44,6 +44,11 @@ slug: ''
 latitude: 48.989379
 longitude: 14.446918
 category: Stavba
+awards:
+- name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějove
+  placement: ''
+  year: "2016"
+  link: ''
 
 ---
 Návrh podporuje významné historické prvky – morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
