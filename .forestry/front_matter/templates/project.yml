@@ -20,11 +20,6 @@ fields:
 - name: awards
   type: field_group_list
   fields:
-  - name: placement
-    type: text
-    config:
-      required: false
-    label: Placement
   - name: name
     type: textarea
     default: ''
@@ -34,6 +29,11 @@ fields:
       schema:
         format: markdown
     label: Name
+  - name: placement
+    type: text
+    config:
+      required: false
+    label: Placement
   - name: year
     type: text
     config:
