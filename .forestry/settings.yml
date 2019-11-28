@@ -5,6 +5,10 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: document
+  path: members.md
+  label: Members
+  match: "**/*"
+- type: document
   path: _data/information.yml
   label: Informations
 - type: directory
