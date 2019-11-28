@@ -12,19 +12,15 @@ sections:
 - type: document
   path: _data/contact.yml
   label: Contact
-  match: "**/*"
 - type: document
   path: _data/members.yml
   label: Members
-  match: "**/*"
 - type: document
   path: _data/awards.yml
   label: Awards
-  match: "**/*"
 - type: document
   path: _data/colaborations.yml
   label: Colaborations
-  match: "**/*"
 - type: document
   path: _data/information.yml
   label: Informations
