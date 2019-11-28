@@ -21,7 +21,7 @@ images:
 - "/v1574423633/archweb/vizu2012_hnqlqu.jpg"
 - "/v1574423835/archweb/4._2018_z7qncp.jpg"
 title: Park 4Dvory
-description: 'Vzhledem ke geologickým podmínkám území (jílovitosti půdy, která udusí
+description: "Vzhledem ke geologickým podmínkám území (jílovitosti půdy, která udusí
   novou výsadbu nepředpěstovanou v těchto podmínkách) byl jako vůdčí koncept práce
   s vegetací zvolen princip řízené sukcese. Park je navržen jako nástup do krajiny.
   Krajina - prostor s neřízenou sukcesí - je logickým a přirozeným pokračováním sukcesních
@@ -33,8 +33,8 @@ description: 'Vzhledem ke geologickým podmínkám území (jílovitosti půdy, 
   aktivit v parku, spojuje místa nástupů s potenciálními cíli návštěvníků parku a
   vytváří přirozenou tkáň území. Vzhledem k podmáčenosti území je cestní síť založena
   na nasypaném terénu. Násypy cest je pak členěna plocha území na dílčí plochy jednotlivých
-  stupňů sukcese. '
-year: "2014"
+  stupňů sukcese. \n2012 - 1. místo v architektonické soutěži\n"
+year: '2014 '
 location: České Budějovice
 investor: Město České Budějovice
 visualization: Jan Cyrany
