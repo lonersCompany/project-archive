@@ -5,8 +5,8 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: document
-  path: members.md
-  label: Members
+  path: _data/awards.yml
+  label: Awards
   match: "**/*"
 - type: document
   path: _data/information.yml
@@ -15,6 +15,10 @@ sections:
   path: _projects
   label: Projects
   create: all
+  match: "**/*"
+- type: document
+  path: _data/members.yml
+  label: Members
   match: "**/*"
 upload_dir: archweb
 public_path: ''
