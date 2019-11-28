@@ -21,8 +21,8 @@ images:
 latitude: 48.970679
 longitude: 14.477217
 description: ''
-investor: ''
-visualization: ''
+investor: Statutární město České Budějovice
+visualization: Jan Cyrany
 slug: ''
 category: Návrh
 
