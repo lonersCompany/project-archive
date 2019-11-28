@@ -17,6 +17,34 @@ fields:
     schema:
       format: markdown
   label: description
+- name: awards
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: placement
+    type: text
+    config:
+      required: false
+    label: Placement
+  - name: year
+    type: text
+    config:
+      required: false
+    label: Year
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Awards
 - name: category
   type: select
   default: ''
