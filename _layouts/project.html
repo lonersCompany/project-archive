@@ -2,20 +2,33 @@
 layout: default
 ---
 
-<section>
+<section class="pb-16 lg:pb-24">
   <div class="mx-auto pb-4">
     {%- include gallery-images.html -%}
   </div>
 </section>
 
 {% if page.description != "" %}
-<section class="px-5 py-16 lg:py-24">
-  <div class="max-w-lg mx-auto text-lg">{{ page.description }}</div>
+<section class="pb-16 lg:pb-24">
+  <div class="max-w-lg mx-auto text-lg px-5">{{ page.description }}</div>
+</section>
+{% endif %} {% if page.awards %}
+
+<section class="pb-16 lg:pb-24">
+  <div class="max-w-lg mx-auto px-5">
+    <div class="pb-10 md:lg-16">
+      {% if page.awards[0]placement != "" %}
+      <p class="pb-2">{{ page.awards[0]placement }}. místo</p>
+      {% endif %}
+      <h1 class="pb-2 text-2xl">{{ page.awards[0]name }}</h1>
+      <p>{{ page.awards[0]year }}</p>
+    </div>
+  </div>
 </section>
 {% endif %}
 
-<section class="px-5 pb-10">
-  <div class="max-w-lg mx-auto text-lg">
+<section class="pb-16 lg:pb-24">
+  <div class="max-w-lg mx-auto px-5 text-lg">
     {%- include project-table.html -%}
   </div>
 </section>
