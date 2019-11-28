@@ -8,13 +8,11 @@ location: Stříbro
 investor: město Stříbro
 visualization: Jan Cyrany Jitka Daňková
 size: 1,22 ha
-price: 45 240 000 Kč
+price: ''
 photo: Petr Velička
-description: Koncept náměstí vychází ze struktury historického jádra města Stříbra,
-  které leží na ostrohu nad řekou Mží. Návrh podporuje významné historické prvky –
-  morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk
-  – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní
-  situace a zpevněných ploch, mobiliář.
+description: |-
+  Koncept náměstí vychází ze struktury historického jádra města Stříbra, které leží na ostrohu nad řekou Mží. Návrh podporuje významné historické prvky – morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
+  2. místo architektonická soutěž
 thumb: img-1.jpg
 images:
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
