@@ -9,7 +9,9 @@ location: Ocenění
     {%- for item in site.data.information.awards -%}
 
     <div class="pb-10 md:lg-16">
+      {% if item.placement %}
       <p class="pb-2">{{ item.placement }}. místo</p>
+      {% endif %}
       <h1 class="pb-2 text-2xl">{{ item.award_name }}</h1>
       <p class="pb-2">{{ item.year }}</p>
     </div>
