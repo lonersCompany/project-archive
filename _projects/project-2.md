@@ -10,9 +10,13 @@ visualization: Jan Cyrany Jitka Daňková
 size: 1,22 ha
 price: ''
 photo: Petr Velička
-description: |-
-  Koncept náměstí vychází ze struktury historického jádra města Stříbra, které leží na ostrohu nad řekou Mží. Návrh podporuje významné historické prvky – morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
-  2. místo architektonická soutěž
+description: 'Koncept náměstí vychází ze struktury historického jádra města Stříbra,
+  které leží na ostrohu nad řekou Mží. Návrh podporuje významné historické prvky –
+  morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk
+  – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní
+  situace a zpevněných ploch, mobiliář.
+
+'
 thumb: img-1.jpg
 images:
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
@@ -30,6 +34,10 @@ latitude: 49.753792
 longitude: '13.000660'
 category: Stavba
 awards:
+- name: architektonická soutěž
+  placement: "2"
+  year: ''
+  link: ''
 - name: Česká cena za architekturu - nominace - Masarykovo náměstí ve Stříbře
   placement: ''
   year: "2019"
