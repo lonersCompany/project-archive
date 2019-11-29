@@ -45,6 +45,10 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
+- name: Park roku 2017
+  placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
+  year: "2017"
+  link: ''
 - name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějovice
   placement: ''
   year: "2016"
