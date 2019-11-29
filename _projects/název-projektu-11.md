@@ -45,7 +45,7 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
-- name: Česká cena za architekturu - Park 4Dvory, České BudějovICE
+- name: Česká cena za architekturu - Park 4Dvory, České Budějovice
   placement: NOMINACE
   year: "2016"
   link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
