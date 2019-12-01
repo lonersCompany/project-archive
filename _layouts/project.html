@@ -17,11 +17,11 @@ layout: default
 <section class="pb-16 lg:pb-24">
   <div class="max-w-lg mx-auto px-5">
     <div class="pb-10 md:lg-16">
-      {% if page.awards[0]placement != "" %}
-      <p class="pb-2">{{ page.awards[0]placement }}. místo</p>
+      {% if page.awards[0].placement != "" %}
+      <p class="pb-2">{{ page.awards[0].placement }}</p>
       {% endif %}
-      <h1 class="pb-2 text-2xl">{{ page.awards[0]name }}</h1>
-      <p>{{ page.awards[0]year }}</p>
+      <h1 class="pb-2 text-2xl">{{ page.awards[0].name }}</h1>
+      <p>{{ page.awards[0].year }}</p>
     </div>
   </div>
 </section>

@@ -81,128 +81,128 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./assets/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./dev/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/index.js":
-/*!*************************!*\
-  !*** ./assets/index.js ***!
-  \*************************/
+/***/ "./dev/index.js":
+/*!**********************!*\
+  !*** ./dev/index.js ***!
+  \**********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/fullscreen-menu.js */ \"./assets/js/fullscreen-menu.js\");\n/* harmony import */ var _js_swiper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/swiper.js */ \"./assets/js/swiper.js\");\n/* harmony import */ var _js_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/map.js */ \"./assets/js/map.js\");\n/* harmony import */ var _js_entries_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/entries.js */ \"./assets/js/entries.js\");\n\n\n\n\n\nObject(_js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"buildToggleMenu\"])();\n\n// Init js for swiper\nObject(_js_swiper_js__WEBPACK_IMPORTED_MODULE_1__[\"buildSwiper\"])();\n\n// Init js for mapbox map\nconst mapEl = document.getElementById(\"map\");\n\nif (mapEl) {\n  Object(_js_map_js__WEBPACK_IMPORTED_MODULE_2__[\"buildMap\"])();\n}\n\n// Init js for project entries view switcher\nconst entriesEL = document.getElementById(\"entries\");\n\nif (entriesEL) Object(_js_entries_js__WEBPACK_IMPORTED_MODULE_3__[\"initEntries\"])(entriesEL);\n\n// const initGalleryModes = params => {\n//   const menuBtn = document.getElementById(\"main-nav__button\");\n//   const bodyEl = document.querySelector(\"body\");\n//   const navEL = document.getElementById(\"navmenu\");\n\n//   // Evet listenere for menu button to active menu Layer\n//   if (menuBtn) {\n//     menuBtn.addEventListener(\"click\", e => {\n//       console.log(\"test\");\n//       toggleLayer(\n//         { el: menuBtn, class: \"active\" },\n//         { el: navEL, class: \"hidden\" },\n//         { el: bodyEl, class: \"menu-is-open\" }\n//       );\n//     });\n//   }\n// };\n\n\n//# sourceURL=webpack:///./assets/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/fullscreen-menu.js */ \"./dev/js/fullscreen-menu.js\");\n/* harmony import */ var _js_swiper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/swiper.js */ \"./dev/js/swiper.js\");\n/* harmony import */ var _js_map_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/map.js */ \"./dev/js/map.js\");\n/* harmony import */ var _js_entries_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/entries.js */ \"./dev/js/entries.js\");\n\n\n\n\n\nObject(_js_fullscreen_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"buildToggleMenu\"])();\n\n// Init js for swiper\nObject(_js_swiper_js__WEBPACK_IMPORTED_MODULE_1__[\"buildSwiper\"])();\n\n// Init js for mapbox map\nconst mapEl = document.getElementById(\"map\");\n\nif (mapEl) {\n  Object(_js_map_js__WEBPACK_IMPORTED_MODULE_2__[\"buildMap\"])();\n}\n\n// Init js for project entries view switcher\nconst entriesEL = document.getElementById(\"entries\");\n\nif (entriesEL) Object(_js_entries_js__WEBPACK_IMPORTED_MODULE_3__[\"initEntries\"])(entriesEL);\n\n// const initGalleryModes = params => {\n//   const menuBtn = document.getElementById(\"main-nav__button\");\n//   const bodyEl = document.querySelector(\"body\");\n//   const navEL = document.getElementById(\"navmenu\");\n\n//   // Evet listenere for menu button to active menu Layer\n//   if (menuBtn) {\n//     menuBtn.addEventListener(\"click\", e => {\n//       console.log(\"test\");\n//       toggleLayer(\n//         { el: menuBtn, class: \"active\" },\n//         { el: navEL, class: \"hidden\" },\n//         { el: bodyEl, class: \"menu-is-open\" }\n//       );\n//     });\n//   }\n// };\n\n\n//# sourceURL=webpack:///./dev/index.js?");
 
 /***/ }),
 
-/***/ "./assets/js/entries.js":
-/*!******************************!*\
-  !*** ./assets/js/entries.js ***!
-  \******************************/
+/***/ "./dev/js/entries.js":
+/*!***************************!*\
+  !*** ./dev/js/entries.js ***!
+  \***************************/
 /*! exports provided: initEntries */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initEntries\", function() { return initEntries; });\nconst initEntries = mainEl => {\n  const viewEls = Array.from(mainEl.getElementsByClassName(\"view-switcher\"));\n\n  if (viewEls.length > 0) {\n    viewEls.forEach(el => {\n      const mode = el.getAttribute(\"data-mode\");\n      el.addEventListener(\"click\", () => {\n        console.log(mode);\n        mainEl.setAttribute(\"data-view\", mode);\n      });\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/entries.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"initEntries\", function() { return initEntries; });\nconst initEntries = mainEl => {\n  const viewEls = Array.from(mainEl.getElementsByClassName(\"view-switcher\"));\n\n  if (viewEls.length > 0) {\n    viewEls.forEach(el => {\n      const mode = el.getAttribute(\"data-mode\");\n      el.addEventListener(\"click\", () => {\n        console.log(mode);\n        mainEl.setAttribute(\"data-view\", mode);\n      });\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./dev/js/entries.js?");
 
 /***/ }),
 
-/***/ "./assets/js/fullscreen-menu.js":
-/*!**************************************!*\
-  !*** ./assets/js/fullscreen-menu.js ***!
-  \**************************************/
+/***/ "./dev/js/fullscreen-menu.js":
+/*!***********************************!*\
+  !*** ./dev/js/fullscreen-menu.js ***!
+  \***********************************/
 /*! exports provided: buildToggleMenu */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildToggleMenu\", function() { return buildToggleMenu; });\n/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils.js */ \"./assets/js/utils.js\");\n\n\nconst buildToggleMenu = params => {\n  const menuBtn = document.getElementById(\"main-nav__button\");\n  const bodyEl = document.querySelector(\"body\");\n  const navEL = document.getElementById(\"navmenu\");\n\n  // Evet listenere for menu button to active menu Layer\n  if (menuBtn) {\n    menuBtn.addEventListener(\"click\", e => {\n      console.log(\"test\");\n      Object(_utils_js__WEBPACK_IMPORTED_MODULE_0__[\"toggleLayer\"])(\n        { el: menuBtn, class: \"active\" },\n        { el: navEL, class: \"hidden\" },\n        { el: bodyEl, class: \"menu-is-open\" }\n      );\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/fullscreen-menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildToggleMenu\", function() { return buildToggleMenu; });\n/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils.js */ \"./dev/js/utils.js\");\n\n\nconst buildToggleMenu = params => {\n  const menuBtn = document.getElementById(\"main-nav__button\");\n  const bodyEl = document.querySelector(\"body\");\n  const navEL = document.getElementById(\"navmenu\");\n\n  // Evet listenere for menu button to active menu Layer\n  if (menuBtn) {\n    menuBtn.addEventListener(\"click\", e => {\n      console.log(\"test\");\n      Object(_utils_js__WEBPACK_IMPORTED_MODULE_0__[\"toggleLayer\"])(\n        { el: menuBtn, class: \"active\" },\n        { el: navEL, class: \"hidden\" },\n        { el: bodyEl, class: \"menu-is-open\" }\n      );\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./dev/js/fullscreen-menu.js?");
 
 /***/ }),
 
-/***/ "./assets/js/gallery-modes/autoscroll.js":
-/*!***********************************************!*\
-  !*** ./assets/js/gallery-modes/autoscroll.js ***!
-  \***********************************************/
+/***/ "./dev/js/gallery-modes/autoscroll.js":
+/*!********************************************!*\
+  !*** ./dev/js/gallery-modes/autoscroll.js ***!
+  \********************************************/
 /*! exports provided: startScroll, stopScroll, cancelScroll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"startScroll\", function() { return startScroll; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"stopScroll\", function() { return stopScroll; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cancelScroll\", function() { return cancelScroll; });\nfunction startScroll(state) {\n  // console.log(document.body.scrollHeight - window.innerHeight);\n  // console.log(window.scrollY);\n  if (document.body.scrollHeight - window.innerHeight <= window.scrollY) {\n    window.scrollTo(0, 1);\n  }\n\n  if (state.scrollSpeed < 30) {\n    window.scrollBy(0, 4);\n  } else if (state.scrollSpeed < 40) {\n    window.scrollBy(0, 2);\n  } else {\n    window.scrollBy(0, 1);\n  }\n\n  if (state.scrolldelay) clearTimeout(state.scrolldelay);\n  //console.log(state.scrollSpeed);\n  state.scrolldelay = setTimeout(() => startScroll(state), state.scrollSpeed);\n}\n\nfunction stopScroll() {\n  //scrolldelay = null;\n  window.isScrolling = false;\n  clearTimeout(window.scrolldelay);\n  window.scrolldelay = null;\n}\n\nfunction cancelScroll() {\n  window.isScrolling = false;\n  clearTimeout(window.scrolldelay);\n  window.scrolldelay = null;\n  window.scrollTo(0, 1);\n}\n\n\n//# sourceURL=webpack:///./assets/js/gallery-modes/autoscroll.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"startScroll\", function() { return startScroll; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"stopScroll\", function() { return stopScroll; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cancelScroll\", function() { return cancelScroll; });\nfunction startScroll(state) {\n  // console.log(document.body.scrollHeight - window.innerHeight);\n  // console.log(window.scrollY);\n  if (document.body.scrollHeight - window.innerHeight <= window.scrollY) {\n    window.scrollTo(0, 1);\n  }\n\n  if (state.scrollSpeed < 30) {\n    window.scrollBy(0, 4);\n  } else if (state.scrollSpeed < 40) {\n    window.scrollBy(0, 2);\n  } else {\n    window.scrollBy(0, 1);\n  }\n\n  if (state.scrolldelay) clearTimeout(state.scrolldelay);\n  //console.log(state.scrollSpeed);\n  state.scrolldelay = setTimeout(() => startScroll(state), state.scrollSpeed);\n}\n\nfunction stopScroll() {\n  //scrolldelay = null;\n  window.isScrolling = false;\n  clearTimeout(window.scrolldelay);\n  window.scrolldelay = null;\n}\n\nfunction cancelScroll() {\n  window.isScrolling = false;\n  clearTimeout(window.scrolldelay);\n  window.scrolldelay = null;\n  window.scrollTo(0, 1);\n}\n\n\n//# sourceURL=webpack:///./dev/js/gallery-modes/autoscroll.js?");
 
 /***/ }),
 
-/***/ "./assets/js/gallery-modes/index.js":
-/*!******************************************!*\
-  !*** ./assets/js/gallery-modes/index.js ***!
-  \******************************************/
+/***/ "./dev/js/gallery-modes/index.js":
+/*!***************************************!*\
+  !*** ./dev/js/gallery-modes/index.js ***!
+  \***************************************/
 /*! exports provided: galleryModes */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"galleryModes\", function() { return galleryModes; });\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/js/swiper.esm.bundle.js\");\n/* harmony import */ var _swiperParams__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./swiperParams */ \"./assets/js/gallery-modes/swiperParams.js\");\n/* harmony import */ var _autoscroll_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./autoscroll.js */ \"./assets/js/gallery-modes/autoscroll.js\");\n\n\n\n\nwindow.scrolldelay = false;\nwindow.isScrolling = false;\n\nconst linkedList = (state, index) => {\n  let { btns, currentIndex } = state;\n\n  const prevModeBtn = btns[currentIndex];\n  const currentModeBtn = btns[index];\n  const mode = currentModeBtn.getAttribute(\"mode\");\n\n  // SWITCH MODE\n  if (prevModeBtn) {\n    prevModeBtn.classList.remove(\"active\");\n  }\n  currentModeBtn.classList.add(\"active\");\n\n  state.mainEl.setAttribute(\"mode\", mode);\n\n  if (mode === \"scroll\") {\n    console.log(mode);\n    // if (state.swiper) {\n    //   state.swiper.destroy(true, true);\n    //   state.swiper = false;\n    // }\n\n    // startScroll(state);\n\n    window.onkeydown = e => {\n      if (e.key == \"s\") {\n        if (state.scrolldelay) {\n          clearTimeout(state.scrolldelay);\n          state.scrolldelay = null;\n        } else {\n          console.log(\"run egen\");\n          Object(_autoscroll_js__WEBPACK_IMPORTED_MODULE_2__[\"startScroll\"])(state);\n        }\n      }\n    };\n  } else {\n    if (state.scrolldelay) {\n      clearTimeout(state.scrolldelay);\n      state.scrolldelay = null;\n      window.scrollTo(0, 1);\n    }\n\n    if (!state.swiper) {\n      state.swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](state.mainEl, _swiperParams__WEBPACK_IMPORTED_MODULE_1__[\"swiperParameters\"]);\n    }\n\n    if (mode === \"slide\") {\n      state.swiper.autoplay.stop();\n    }\n\n    if (mode === \"strobo\") {\n      state.swiper.autoplay.start();\n    }\n  }\n\n  state.currentIndex = index;\n  state.mode = mode;\n};\n\nconst galleryModes = mainEl => {\n  console.log(mainEl);\n  const btns = Array.from(mainEl.getElementsByClassName(\"btn-mode\"));\n\n  let state = {\n    currentIndex: 0,\n    mode: \"slide\",\n    swiper: null,\n    scrolldelay: null,\n    scrollSpeed: 30,\n    btns,\n    mainEl\n  };\n\n  linkedList(state, 2);\n\n  btns.forEach((item, index) =>\n    item.addEventListener(\"click\", () => linkedList(state, index))\n  );\n\n  const speedControler = document.getElementById(\"scroll-speed\");\n\n  speedControler.addEventListener(\"input\", e => {\n    const speedValue = Number(e.target.value);\n    const revecerceDrag = 51 - speedValue;\n    state.scrollSpeed = revecerceDrag;\n    console.log(state.scrollSpeed);\n\n    if (!state.scrolldelay) {\n      Object(_autoscroll_js__WEBPACK_IMPORTED_MODULE_2__[\"startScroll\"])(state);\n    }\n  });\n};\n\n// const SwitcherEl = document.querySelector(\".swiper-container\");\n// if (SwitcherEl) SwitcherApp(SwitcherEl);\n\n\n//# sourceURL=webpack:///./assets/js/gallery-modes/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"galleryModes\", function() { return galleryModes; });\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/js/swiper.esm.bundle.js\");\n/* harmony import */ var _swiperParams__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./swiperParams */ \"./dev/js/gallery-modes/swiperParams.js\");\n/* harmony import */ var _autoscroll_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./autoscroll.js */ \"./dev/js/gallery-modes/autoscroll.js\");\n\n\n\n\nwindow.scrolldelay = false;\nwindow.isScrolling = false;\n\nconst linkedList = (state, index) => {\n  let { btns, currentIndex } = state;\n\n  const prevModeBtn = btns[currentIndex];\n  const currentModeBtn = btns[index];\n  const mode = currentModeBtn.getAttribute(\"mode\");\n\n  // SWITCH MODE\n  if (prevModeBtn) {\n    prevModeBtn.classList.remove(\"active\");\n  }\n  currentModeBtn.classList.add(\"active\");\n\n  state.mainEl.setAttribute(\"mode\", mode);\n\n  if (mode === \"scroll\") {\n    console.log(mode);\n    // if (state.swiper) {\n    //   state.swiper.destroy(true, true);\n    //   state.swiper = false;\n    // }\n\n    // startScroll(state);\n\n    window.onkeydown = e => {\n      if (e.key == \"s\") {\n        if (state.scrolldelay) {\n          clearTimeout(state.scrolldelay);\n          state.scrolldelay = null;\n        } else {\n          console.log(\"run egen\");\n          Object(_autoscroll_js__WEBPACK_IMPORTED_MODULE_2__[\"startScroll\"])(state);\n        }\n      }\n    };\n  } else {\n    if (state.scrolldelay) {\n      clearTimeout(state.scrolldelay);\n      state.scrolldelay = null;\n      window.scrollTo(0, 1);\n    }\n\n    if (!state.swiper) {\n      state.swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](state.mainEl, _swiperParams__WEBPACK_IMPORTED_MODULE_1__[\"swiperParameters\"]);\n    }\n\n    if (mode === \"slide\") {\n      state.swiper.autoplay.stop();\n    }\n\n    if (mode === \"strobo\") {\n      state.swiper.autoplay.start();\n    }\n  }\n\n  state.currentIndex = index;\n  state.mode = mode;\n};\n\nconst galleryModes = mainEl => {\n  console.log(mainEl);\n  const btns = Array.from(mainEl.getElementsByClassName(\"btn-mode\"));\n\n  let state = {\n    currentIndex: 0,\n    mode: \"slide\",\n    swiper: null,\n    scrolldelay: null,\n    scrollSpeed: 30,\n    btns,\n    mainEl\n  };\n\n  linkedList(state, 2);\n\n  btns.forEach((item, index) =>\n    item.addEventListener(\"click\", () => linkedList(state, index))\n  );\n\n  const speedControler = document.getElementById(\"scroll-speed\");\n\n  speedControler.addEventListener(\"input\", e => {\n    const speedValue = Number(e.target.value);\n    const revecerceDrag = 51 - speedValue;\n    state.scrollSpeed = revecerceDrag;\n    console.log(state.scrollSpeed);\n\n    if (!state.scrolldelay) {\n      Object(_autoscroll_js__WEBPACK_IMPORTED_MODULE_2__[\"startScroll\"])(state);\n    }\n  });\n};\n\n// const SwitcherEl = document.querySelector(\".swiper-container\");\n// if (SwitcherEl) SwitcherApp(SwitcherEl);\n\n\n//# sourceURL=webpack:///./dev/js/gallery-modes/index.js?");
 
 /***/ }),
 
-/***/ "./assets/js/gallery-modes/swiperParams.js":
-/*!*************************************************!*\
-  !*** ./assets/js/gallery-modes/swiperParams.js ***!
-  \*************************************************/
+/***/ "./dev/js/gallery-modes/swiperParams.js":
+/*!**********************************************!*\
+  !*** ./dev/js/gallery-modes/swiperParams.js ***!
+  \**********************************************/
 /*! exports provided: swiperParameters */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"swiperParameters\", function() { return swiperParameters; });\nconst swiperParameters = {\n  loop: true,\n  speed: 0,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  autoplay: {\n    delay: 300\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/gallery-modes/swiperParams.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"swiperParameters\", function() { return swiperParameters; });\nconst swiperParameters = {\n  loop: true,\n  speed: 0,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  autoplay: {\n    delay: 300\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  }\n};\n\n\n//# sourceURL=webpack:///./dev/js/gallery-modes/swiperParams.js?");
 
 /***/ }),
 
-/***/ "./assets/js/map.js":
-/*!**************************!*\
-  !*** ./assets/js/map.js ***!
-  \**************************/
+/***/ "./dev/js/map.js":
+/*!***********************!*\
+  !*** ./dev/js/map.js ***!
+  \***********************/
 /*! exports provided: buildMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildMap\", function() { return buildMap; });\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mapbox-gl/dist/mapbox-gl.js */ \"./node_modules/mapbox-gl/dist/mapbox-gl.js\");\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0__);\n\n\n// UTIL FUNCTION\n// Get Coordinates in array format\nconst getCoordinates = el => {\n  const coordinatesLon = Number(el.getAttribute(\"data-lon\"));\n  const coordinatesLat = Number(el.getAttribute(\"data-lat\"));\n  return [coordinatesLon, coordinatesLat];\n};\n\nconst createGeoJason = (el, index) => {\n  // get mark coordinates\n  const coordinates = getCoordinates(el);\n  const isMarked = el.getAttribute(\"data-marked\");\n\n  const completedObject = {\n    index: index,\n    geometry: {\n      coordinates: coordinates\n    },\n    marked: isMarked\n  };\n  return completedObject;\n};\n\nconst addMapEvent = (obj, elements, map) => {\n  obj.element.addEventListener(\"click\", () => {\n    console.log(obj);\n    console.log(elements);\n    elements.forEach(siteBox => siteBox.classList.remove(\"open\"));\n    elements[obj.index].classList.add(\"open\");\n    console.log(obj.index);\n\n    map.flyTo({\n      center: obj.flyTo.coordinates,\n      zoom: obj.flyTo.zoom,\n      speed: obj.flyTo.speed\n    });\n  });\n};\n\nconst buildMap = () => {\n  mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.accessToken =\n    \"pk.eyJ1IjoibG9uZXJzY29tcGFueSIsImEiOiJjandqNTlsYXIwNjduNDRwNjhkemhhZXVtIn0.c2PlH4OqBZUOQgDM4hg7fw\";\n  const map = new mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.Map({\n    container: \"map\",\n    style: \"mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi\",\n    center: [15.565441, 49.984897],\n    scrollZoom: false,\n    zoom: 5,\n    minZoom: 5,\n    maxZoom: 8\n  });\n\n  //map.scrollZoom.disable();\n\n  const locationEls = Array.from(\n    document.getElementsByClassName(\"map-location\")\n  );\n\n  const geojson = locationEls.map(createGeoJason);\n\n  console.log(geojson);\n\n  geojson.forEach(marker => {\n    var el = document.createElement(\"div\");\n    el.className = \"h-4 w-4 bg-gray-300 rounded-full cursor-pointer\";\n\n    if (marker.marked) {\n      el.classList.add(\"bg-blue-600\");\n      el.classList.add(\"z-10\");\n    }\n\n    var mapEntryObj = {\n      element: el,\n      index: marker.index,\n\n      flyTo: {\n        coordinates: marker.geometry.coordinates,\n        zoom: 7,\n        speed: 1.5\n      }\n    };\n\n    addMapEvent(mapEntryObj, locationEls, map);\n\n    // add marker to map\n    new mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);\n  });\n};\n\n\n//# sourceURL=webpack:///./assets/js/map.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildMap\", function() { return buildMap; });\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mapbox-gl/dist/mapbox-gl.js */ \"./node_modules/mapbox-gl/dist/mapbox-gl.js\");\n/* harmony import */ var mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0__);\n\n\n// UTIL FUNCTION\n// Get Coordinates in array format\nconst getCoordinates = el => {\n  const coordinatesLon = Number(el.getAttribute(\"data-lon\"));\n  const coordinatesLat = Number(el.getAttribute(\"data-lat\"));\n  return [coordinatesLon, coordinatesLat];\n};\n\nconst createGeoJason = (el, index) => {\n  // get mark coordinates\n  const coordinates = getCoordinates(el);\n  const isMarked = el.getAttribute(\"data-marked\");\n\n  const completedObject = {\n    index: index,\n    geometry: {\n      coordinates: coordinates\n    },\n    marked: isMarked\n  };\n  return completedObject;\n};\n\nconst addMapEvent = (obj, elements, map) => {\n  obj.element.addEventListener(\"click\", () => {\n    console.log(obj);\n    console.log(elements);\n    elements.forEach(siteBox => siteBox.classList.remove(\"open\"));\n    elements[obj.index].classList.add(\"open\");\n    console.log(obj.index);\n\n    map.flyTo({\n      center: obj.flyTo.coordinates,\n      zoom: obj.flyTo.zoom,\n      speed: obj.flyTo.speed\n    });\n  });\n};\n\nconst buildMap = () => {\n  mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.accessToken =\n    \"pk.eyJ1IjoibG9uZXJzY29tcGFueSIsImEiOiJjandqNTlsYXIwNjduNDRwNjhkemhhZXVtIn0.c2PlH4OqBZUOQgDM4hg7fw\";\n  const map = new mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.Map({\n    container: \"map\",\n    style: \"mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi\",\n    center: [15.565441, 49.984897],\n    scrollZoom: false,\n    zoom: 5,\n    minZoom: 5,\n    maxZoom: 8\n  });\n\n  //map.scrollZoom.disable();\n\n  const locationEls = Array.from(\n    document.getElementsByClassName(\"map-location\")\n  );\n\n  const geojson = locationEls.map(createGeoJason);\n\n  console.log(geojson);\n\n  geojson.forEach(marker => {\n    var el = document.createElement(\"div\");\n    el.className = \"h-4 w-4 bg-gray-300 rounded-full cursor-pointer\";\n\n    if (marker.marked) {\n      el.classList.add(\"bg-blue-600\");\n      el.classList.add(\"z-10\");\n    }\n\n    var mapEntryObj = {\n      element: el,\n      index: marker.index,\n\n      flyTo: {\n        coordinates: marker.geometry.coordinates,\n        zoom: 7,\n        speed: 1.5\n      }\n    };\n\n    addMapEvent(mapEntryObj, locationEls, map);\n\n    // add marker to map\n    new mapbox_gl_dist_mapbox_gl_js__WEBPACK_IMPORTED_MODULE_0___default.a.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);\n  });\n};\n\n\n//# sourceURL=webpack:///./dev/js/map.js?");
 
 /***/ }),
 
-/***/ "./assets/js/swiper.js":
-/*!*****************************!*\
-  !*** ./assets/js/swiper.js ***!
-  \*****************************/
+/***/ "./dev/js/swiper.js":
+/*!**************************!*\
+  !*** ./dev/js/swiper.js ***!
+  \**************************/
 /*! exports provided: buildSwiper */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildSwiper\", function() { return buildSwiper; });\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/js/swiper.esm.bundle.js\");\n/* harmony import */ var _gallery_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gallery-modes */ \"./assets/js/gallery-modes/index.js\");\n/* harmony import */ var _swiperParameters__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./swiperParameters */ \"./assets/js/swiperParameters.js\");\n\n\n\n\n\nconst buildSwiper = params => {\n  const swiperElements = Array.from(\n    document.getElementsByClassName(\"swiper-container\")\n  );\n\n  if (swiperElements.length > 0) {\n    swiperElements.forEach(el => {\n      const attribute = el.getAttribute(\"data-swiper\");\n\n      switch (attribute) {\n        case \"cards\":\n          new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](el, _swiperParameters__WEBPACK_IMPORTED_MODULE_2__[\"cards\"]);\n          break;\n\n        case \"full-screen\":\n          Object(_gallery_modes__WEBPACK_IMPORTED_MODULE_1__[\"galleryModes\"])(el);\n          console.log(\"GO BIG!\");\n          break;\n\n        default:\n          new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](el, _swiperParameters__WEBPACK_IMPORTED_MODULE_2__[\"baseImage\"]);\n      }\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/swiper.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"buildSwiper\", function() { return buildSwiper; });\n/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ \"./node_modules/swiper/js/swiper.esm.bundle.js\");\n/* harmony import */ var _gallery_modes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gallery-modes */ \"./dev/js/gallery-modes/index.js\");\n/* harmony import */ var _swiperParameters__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./swiperParameters */ \"./dev/js/swiperParameters.js\");\n\n\n\n\n\nconst buildSwiper = params => {\n  const swiperElements = Array.from(\n    document.getElementsByClassName(\"swiper-container\")\n  );\n\n  if (swiperElements.length > 0) {\n    swiperElements.forEach(el => {\n      const attribute = el.getAttribute(\"data-swiper\");\n\n      switch (attribute) {\n        case \"cards\":\n          new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](el, _swiperParameters__WEBPACK_IMPORTED_MODULE_2__[\"cards\"]);\n          break;\n\n        case \"full-screen\":\n          Object(_gallery_modes__WEBPACK_IMPORTED_MODULE_1__[\"galleryModes\"])(el);\n          console.log(\"GO BIG!\");\n          break;\n\n        default:\n          new swiper__WEBPACK_IMPORTED_MODULE_0__[\"default\"](el, _swiperParameters__WEBPACK_IMPORTED_MODULE_2__[\"baseImage\"]);\n      }\n    });\n  }\n};\n\n\n//# sourceURL=webpack:///./dev/js/swiper.js?");
 
 /***/ }),
 
-/***/ "./assets/js/swiperParameters.js":
-/*!***************************************!*\
-  !*** ./assets/js/swiperParameters.js ***!
-  \***************************************/
+/***/ "./dev/js/swiperParameters.js":
+/*!************************************!*\
+  !*** ./dev/js/swiperParameters.js ***!
+  \************************************/
 /*! exports provided: baseImage, cards */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"baseImage\", function() { return baseImage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cards\", function() { return cards; });\nconst baseImage = {\n  loop: true,\n  pagination: { el: \".swiper-pagination\", clickable: true },\n  speed: 0,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  }\n};\n\nconst cards = {\n  loop: true,\n  pagination: { el: \".swiper-pagination\", clickable: true },\n  speed: 500,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  },\n  // Default parameters\n  slidesPerView: 1,\n  spaceBetween: 30,\n  // Responsive breakpoints\n  breakpoints: {\n    // when window width is >= 850px\n    650: {\n      slidesPerView: 2,\n      spaceBetween: 30\n    },\n    // when window width is >= 850px\n    850: {\n      slidesPerView: 3,\n      spaceBetween: 30\n    }\n  }\n};\n\n\n//# sourceURL=webpack:///./assets/js/swiperParameters.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"baseImage\", function() { return baseImage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"cards\", function() { return cards; });\nconst baseImage = {\n  loop: true,\n  pagination: { el: \".swiper-pagination\", clickable: true },\n  speed: 0,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  }\n};\n\nconst cards = {\n  loop: true,\n  pagination: { el: \".swiper-pagination\", clickable: true },\n  speed: 500,\n  navigation: {\n    nextEl: \".swiper-next\",\n    prevEl: \".swiper-prev\"\n  },\n  keyboard: {\n    enabled: true,\n    onlyInViewport: false\n  },\n  // Default parameters\n  slidesPerView: 1,\n  spaceBetween: 30,\n  // Responsive breakpoints\n  breakpoints: {\n    // when window width is >= 850px\n    650: {\n      slidesPerView: 2,\n      spaceBetween: 30\n    },\n    // when window width is >= 850px\n    850: {\n      slidesPerView: 3,\n      spaceBetween: 30\n    }\n  }\n};\n\n\n//# sourceURL=webpack:///./dev/js/swiperParameters.js?");
 
 /***/ }),
 
-/***/ "./assets/js/utils.js":
-/*!****************************!*\
-  !*** ./assets/js/utils.js ***!
-  \****************************/
+/***/ "./dev/js/utils.js":
+/*!*************************!*\
+  !*** ./dev/js/utils.js ***!
+  \*************************/
 /*! exports provided: toggleLayer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toggleLayer\", function() { return toggleLayer; });\n// function for toggle button and another element\nconst toggleLayer = (button, layer, body) => {\n  button.el.classList.toggle(button.class);\n  layer.el.classList.toggle(layer.class);\n  body.el.classList.toggle(body.class);\n};\n\n\n//# sourceURL=webpack:///./assets/js/utils.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"toggleLayer\", function() { return toggleLayer; });\n// function for toggle button and another element\nconst toggleLayer = (button, layer, body) => {\n  button.el.classList.toggle(button.class);\n  layer.el.classList.toggle(layer.class);\n  body.el.classList.toggle(body.class);\n};\n\n\n//# sourceURL=webpack:///./dev/js/utils.js?");
 
 /***/ }),
 
