@@ -31,10 +31,6 @@ latitude: 49.753792
 longitude: '13.000660'
 category: Stavba
 awards:
-- name: architektonická soutěž
-  placement: "2"
-  year: "2007"
-  link: ''
 - name: Česká cena za architekturu - nominace - Masarykovo náměstí ve Stříbře
   placement: ''
   year: "2019"
