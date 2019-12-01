@@ -45,10 +45,14 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
-- name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějove
+- name: Park roku 2017
+  placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
+  year: "2017"
+  link: ''
+- name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějovice
   placement: ''
   year: "2016"
-  link: ''
+  link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
 
 ---
 Návrh podporuje významné historické prvky – morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní situace a zpevněných ploch, mobiliář.
