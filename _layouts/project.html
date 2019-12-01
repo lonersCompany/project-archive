@@ -9,29 +9,28 @@ layout: default
 </section>
 
 {% if page.description != "" %}
-<section class="pb-16 lg:pb-24">
+<section class="pb-16 lg:pb-24 ">
   <div class="max-w-lg mx-auto text-lg px-5">{{ page.description }}</div>
 </section>
-{% endif %} {% if page.awards %}
+{% endif %}
+<section class="pb-16 lg:pb-24 ">
+  <div class="max-w-lg mx-auto px-5 text-lg">
+    {%- include project-table.html -%}
+  </div>
+</section>
 
-<section class="pb-16 lg:pb-24">
+{% if page.awards[0].placement != "" %}
+
+<section class="py-16 lg:py-24 bg-gray-500">
   <div class="max-w-lg mx-auto px-5">
-    <div class="pb-10 md:lg-16">
-      {% if page.awards[0].placement != "" %}
+    <div class="md:lg-16">
       <p class="pb-2">{{ page.awards[0].placement }}</p>
-      {% endif %}
       <h1 class="pb-2 text-2xl">{{ page.awards[0].name }}</h1>
       <p>{{ page.awards[0].year }}</p>
     </div>
   </div>
 </section>
 {% endif %}
-
-<section class="pb-16 lg:pb-24">
-  <div class="max-w-lg mx-auto px-5 text-lg">
-    {%- include project-table.html -%}
-  </div>
-</section>
 
 <section class="bg-gray-900">
   {%- include map.html project-lat=page.latitude -%}
