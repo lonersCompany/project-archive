@@ -19,15 +19,16 @@ layout: default
   </div>
 </section>
 
-{% if page.awards[0].placement != "" %}
-
+{% if page.awards %}
 <section class="py-16 lg:py-24 bg-gray-500">
   <div class="max-w-lg mx-auto px-5">
-    <div class="md:lg-16">
-      <p class="pb-2">{{ page.awards[0].placement }}</p>
-      <h1 class="pb-2 text-2xl">{{ page.awards[0].name }}</h1>
-      <p>{{ page.awards[0].year }}</p>
+    {%- for item in page.awards -%}
+    <div class="mb-10 last-entry">
+      <p class="pb-2">{{ item.placement }}</p>
+      <h1 class="pb-2 text-2xl">{{ item.name }}</h1>
+      <p>{{ item.year }}</p>
     </div>
+    {%-endfor -%}
   </div>
 </section>
 {% endif %}
