@@ -40,7 +40,7 @@ category: Stavba
 awards:
 - name: Urbanisticko-architektonická soutěž „Archeopark Mikulčice – Kopčany – česká
     část“
-  placement: "1"
+  placement: 1. místo
   year: "2009"
   link: ''
 
