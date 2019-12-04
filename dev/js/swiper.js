@@ -9,26 +9,24 @@ const toggleFullScreen = state => {
   switch (zoomMode) {
     case "false":
       sliderEl.setAttribute("zoom", "true");
-      sliderEl.classList.add("absolute");
-      sliderEl.classList.add("z-50");
-      sliderEl.classList.add("inset-0");
-      sliderEl.classList.add("bg-gray-900");
       slidesArr.forEach(el => {
-        el.classList.add("h-full");
+        el.classList.add("cursor-zoom-out");
+        el.classList.remove("cursor-zoom-in");
         el.classList.remove("max-h-70");
       });
+
+      slidesArr[0].scrollIntoView("alignToTop");
       break;
 
     default:
       sliderEl.setAttribute("zoom", "false");
-      sliderEl.classList.remove("z-50");
-      sliderEl.classList.remove("absolute");
-      sliderEl.classList.remove("inset-0");
-      sliderEl.classList.remove("bg-gray-900");
       slidesArr.forEach(el => {
         el.classList.add("max-h-70");
-        el.classList.remove("h-full");
+        el.classList.add("cursor-zoom-in");
+        el.classList.remove("cursor-zoom-out");
       });
+
+      window.document.scrollTo(0);
   }
 };
 

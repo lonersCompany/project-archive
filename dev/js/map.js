@@ -68,7 +68,7 @@ export const buildMap = () => {
   geojson.forEach(marker => {
     var el = document.createElement("div");
     el.className =
-      "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border border-gray-0";
+      "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border border-gray-800 shadow-md";
 
     if (marker.marked) {
       el.classList.add("bg-blue-600");
