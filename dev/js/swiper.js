@@ -26,7 +26,7 @@ const toggleFullScreen = state => {
         el.classList.remove("cursor-zoom-out");
       });
 
-      window.document.scrollTo(0);
+      window.scrollTo(0, 0);
   }
 };
 
