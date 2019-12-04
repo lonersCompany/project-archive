@@ -15,7 +15,15 @@ layout: default
     {%- include gallery-cards.html -%}
 
     <div class="mt-8 mx-auto max-w-sm">
-      {%- include btn-lg.html content="Projekty" href="/projekty" -%}
+      <a
+        class="flex px-5 py-3 rounded border-2 border-gray-400 hover:bg-gray-300 text-lg"
+        href="{{site.baseurl}}/oceneni.html"
+      >
+        <div class="flex-grow">
+          Projekty
+        </div>
+        <div>⟶</div>
+      </a>
     </div>
   </div>
 </section>
