@@ -5,7 +5,7 @@ location: České Budějovice
 title: Park Dukelská
 year: "2019"
 size: 1,7 ha
-price: 2019 Česká cena za architekturu, nominace, Masarykovo náměstí ve Stříbře
+price: ''
 images:
 - "/v1573757948/archweb/19109A_190821_cy_D0030_dqzjzx.jpg"
 - "/v1573757949/archweb/19109A_190815_cy_C0050_lteqtc.jpg"
