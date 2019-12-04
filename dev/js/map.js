@@ -47,7 +47,7 @@ export const buildMap = () => {
     style: "mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi",
     center: [15.565441, 49.984897],
     scrollZoom: false,
-    zoom: 5,
+    zoom: 6,
     minZoom: 5,
     maxZoom: 8
   });
