@@ -6,19 +6,25 @@ location: Ocenění
 
 <section>
   <div class="max-w-lg mx-auto my-10 px-4 pb-24">
-    {%- for item in site.data.information.awards -%}
-
-    <div class="mb-5 hover:text-blue-600 cursor-pointer ">
-      <div class="text-sm text-gray-500 my-2">
+    {%- for project in site.projects -%} {% if project.awards %} {%- for item in
+    project.awards -%}
+    <div class="mb-10">
+      <div class="text-sm text-gray-500 mb-2">
         {{ item.placement }}
       </div>
       <div class="text-lg">
-        {{ item.award_name }}
+        {% if item.link != "" %}
+        <a class="hover:text-blue-600 cursor-pointer" href="{{ item.link }}"
+          >{{ item.name }}</a
+        >
+        {% else %} {{ item.name }} {% endif %}
         <span class=""> ({{ item.year }}) </span>
       </div>
-      <!-- <div class="text-sm">Stránky ocenění</div> -->
-    </div>
 
-    {%- endfor -%}
+      <div class="text-sm text-gray-500 mb-2">
+        {{ project.title }}
+      </div>
+    </div>
+    {%-endfor -%} {%- endif -%} {%- endfor -%}
   </div>
 </section>

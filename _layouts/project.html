@@ -32,15 +32,20 @@ layout: default
         </th>
         <th class="border-0  border-gray-500">
           {%- for item in page.awards -%}
-          <div class="mb-5 hover:text-blue-600 cursor-pointer ">
+          <div class="mb-5">
             <div class="text-sm text-gray-500 mb-2">
               {{ item.placement }}
             </div>
             <div class="text-lg">
-              {{ item.name }}
+              {% if item.link != "" %}
+              <a
+                class="hover:text-blue-600 cursor-pointer"
+                href="{{ item.link }}"
+                >{{ item.name }}</a
+              >
+              {% else %} {{ item.name }} {% endif %}
               <span class=""> ({{ item.year }}) </span>
             </div>
-            <!-- <div class="text-sm">Stránky ocenění</div> -->
           </div>
           {%-endfor -%}
         </th>
