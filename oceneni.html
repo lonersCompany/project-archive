@@ -8,12 +8,15 @@ location: Ocenění
   <div class="max-w-lg mx-auto my-10 px-4 pb-24">
     {%- for item in site.data.information.awards -%}
 
-    <div class="pb-10 md:lg-16">
-      {% if item.placement %}
-      <p class="pb-2">{{ item.placement }}</p>
-      {% endif %}
-      <h1 class="pb-2 text-2xl">{{ item.award_name }}</h1>
-      <p class="pb-2">{{ item.year }}</p>
+    <div class="mb-5 hover:text-blue-600 cursor-pointer ">
+      <div class="text-sm text-gray-500 my-2">
+        {{ item.placement }}
+      </div>
+      <div class="text-lg">
+        {{ item.award_name }}
+        <span class=""> ({{ item.year }}) </span>
+      </div>
+      <!-- <div class="text-sm">Stránky ocenění</div> -->
     </div>
 
     {%- endfor -%}

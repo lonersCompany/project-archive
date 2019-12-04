@@ -78,7 +78,7 @@ export const galleryModes = mainEl => {
     mainEl
   };
 
-  linkedList(state, 2);
+  linkedList(state, 0);
 
   btns.forEach((item, index) =>
     item.addEventListener("click", () => linkedList(state, index))
@@ -86,16 +86,18 @@ export const galleryModes = mainEl => {
 
   const speedControler = document.getElementById("scroll-speed");
 
-  speedControler.addEventListener("input", e => {
-    const speedValue = Number(e.target.value);
-    const revecerceDrag = 51 - speedValue;
-    state.scrollSpeed = revecerceDrag;
-    console.log(state.scrollSpeed);
+  if (speedControler) {
+    speedControler.addEventListener("input", e => {
+      const speedValue = Number(e.target.value);
+      const revecerceDrag = 51 - speedValue;
+      state.scrollSpeed = revecerceDrag;
+      console.log(state.scrollSpeed);
 
-    if (!state.scrolldelay) {
-      startScroll(state);
-    }
-  });
+      if (!state.scrolldelay) {
+        startScroll(state);
+      }
+    });
+  }
 };
 
 // const SwitcherEl = document.querySelector(".swiper-container");

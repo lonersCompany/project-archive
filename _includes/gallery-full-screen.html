@@ -1,8 +1,11 @@
 <div
-  class="swiper-container absolute inset-0 bg-gray-900 z-10"
+  class="swiper-container absolute inset-0 bg-gray-900 z-50"
   data-swiper="full-screen"
   mode="slide"
 >
+  <button class="absolute top-0 right-0 p-5 z-20">
+    Close
+  </button>
   <div class="swiper-wrapper">
     {%- for image in page.images -%}
     <div class="swiper-slide object-contain h-screen">

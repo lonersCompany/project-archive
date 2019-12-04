@@ -54,6 +54,9 @@ export const buildMap = () => {
 
   //map.scrollZoom.disable();
 
+  // Add zoom and rotation controls to the map.
+  map.addControl(new mapboxgl.NavigationControl());
+
   const locationEls = Array.from(
     document.getElementsByClassName("map-location")
   );
@@ -64,7 +67,7 @@ export const buildMap = () => {
 
   geojson.forEach(marker => {
     var el = document.createElement("div");
-    el.className = "h-4 w-4 bg-gray-300 rounded-full cursor-pointer";
+    el.className = "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border";
 
     if (marker.marked) {
       el.classList.add("bg-blue-600");

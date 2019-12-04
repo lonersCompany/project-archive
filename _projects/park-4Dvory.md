@@ -47,7 +47,7 @@ awards:
     year: "2017"
     link: ""
   - name: Česká cena za architekturu - nominace - Park 4Dvory, České Budějovice
-    placement: ""
+    placement: "1. místo"
     year: "2016"
     link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
 ---

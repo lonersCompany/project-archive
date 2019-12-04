@@ -1,6 +1,9 @@
 export const swiperParameters = {
   loop: true,
   speed: 0,
+  zoom: {
+    maxRatio: 5
+  },
   navigation: {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev"
