@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<section>
-  <div class="max-w-lg mx-auto my-10 px-4">
+<section class="pb-10">
+  <div class="max-w-lg mx-auto px-4">
     <p class="text-2xl text-gray-600">
       M&P architekti
     </p>
@@ -12,16 +12,16 @@ layout: default
     </p>
   </div>
 </section>
-<section>
-  <div class="max-w-lg mx-auto my-10 px-4">
+<section class="pb-10">
+  <div class="max-w-lg mx-auto px-4">
     {%- include label-hr.html content="E-mail" -%}
     <p class="text-lg">
       {{ site.data.information.email }}
     </p>
   </div>
 </section>
-<section>
-  <div class="max-w-lg mx-auto my-10 px-4">
+<section class="pb-10">
+  <div class="max-w-lg mx-auto px-4">
     {%- include label-hr.html content="Adresa" -%}
     <ul>
       <li class="text-lg">{{ site.data.information.post_adress.street }}</li>
@@ -35,8 +35,8 @@ layout: default
     </ul>
   </div>
 </section>
-<section>
-  <div class="max-w-lg mx-auto my-10 px-4">
+<section class="pb-20">
+  <div class="max-w-lg mx-auto px-4">
     {%- include label-hr.html content="Telefon" -%} {% for member in
     site.data.information.members %}
 
