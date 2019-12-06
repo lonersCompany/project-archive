@@ -52,7 +52,7 @@ awards:
   placement: nominace
   year: "2016"
   link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
-- name: PRESTA JIŽNÍ ČECHY
+- name: 'PRESTA JIŽNÍ ČECHY '
   placement: čestné uznání
   year: "2015"
 
