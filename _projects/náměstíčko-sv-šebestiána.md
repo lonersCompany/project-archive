@@ -25,6 +25,5 @@ longitude: 16.015303
 investor: Město Velké Meziříčí
 visualization: Jan Cyrany
 slug: ''
-published: false
 
 ---
