@@ -28,6 +28,9 @@ latitude: 49.753792
 longitude: 13.00066
 category: Stavba
 awards:
+- name: Stavba Plzeňského Kraje
+  placement: 1. místo
+  year: "2015"
 - name: PIRANESI AWARD
   placement: nominace
   year: "2015"
