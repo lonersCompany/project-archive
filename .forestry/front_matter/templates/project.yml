@@ -120,3 +120,5 @@ fields:
   config:
     required: true
   hidden: true
+pages:
+- _projects/zámecký-park.md
