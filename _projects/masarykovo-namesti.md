@@ -15,6 +15,7 @@ description: 'Koncept náměstí vychází ze struktury historického jádra mě
   – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní
   situace a zpevněných ploch, mobiliář. '
 images:
+- "/v1575671022/archweb/DSC_0070_ivy8gq.jpg"
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
 - "/v1575668888/archweb/S_PO_REALIZACI__odraz_hxe6zx.jpg"
 - "/v1574425486/archweb/8_cgtwj5.jpg"
@@ -24,6 +25,7 @@ images:
 - "/v1574425478/archweb/DSC_0200_riamlv.jpg"
 - "/v1574425324/archweb/DSC_0534_jk1pex.jpg"
 - "/v1574425223/archweb/DSC_0547_ywmste.jpg"
+- "/v1575670927/archweb/DSC_0065_m080rf.jpg"
 - "/v1574425227/archweb/DSC_0537_fqltg4.jpg"
 - "/v1573575277/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_radnice_se_st_ikama_dfetpo.jpg"
 - "/v1575668190/archweb/_S_P%C5%AEVODN%C3%8D_STAV_uzhz38.jpg"
