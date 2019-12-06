@@ -32,6 +32,5 @@ longitude: 16.162683
 investor: Národní památkový ústav
 visualization: Jan Cyrany
 slug: ''
-published: false
 
 ---
