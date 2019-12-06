@@ -41,9 +41,9 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
-- name: BIGMAT
+- name: BIGMAT 2015
   placement: nominace
-  year: "2015"
+  year: ''
 - name: Park roku 2017
   placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
   year: "2017"
