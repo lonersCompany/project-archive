@@ -121,4 +121,5 @@ fields:
     required: true
   hidden: true
 pages:
+- _projects/náměstíčko-sv-šebestiána.md
 - _projects/zámecký-park.md
