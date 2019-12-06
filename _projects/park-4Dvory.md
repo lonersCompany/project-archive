@@ -41,9 +41,9 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
-- name: BIGMAT 2015
-  placement: nominace
-  year: ''
+- name: Grand Prix Obce Architektů
+  placement: čestné uznání
+  year: "2015"
 - name: Park roku 2017
   placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
   year: "2017"
@@ -52,6 +52,9 @@ awards:
   placement: nominace
   year: "2016"
   link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
+- name: BIGMAT 2015
+  placement: nominace
+  year: ''
 - name: 'PRESTA JIŽNÍ ČECHY '
   placement: čestné uznání
   year: "2015"
