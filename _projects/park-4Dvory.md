@@ -41,8 +41,8 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
-- name: PRESTA JIŽNÍ ČECHY
-  placement: čestné uznání
+- name: BIGMAT
+  placement: nominace
   year: "2015"
 - name: Park roku 2017
   placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
@@ -52,5 +52,8 @@ awards:
   placement: nominace
   year: "2016"
   link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
+- name: PRESTA JIŽNÍ ČECHY
+  placement: čestné uznání
+  year: "2015"
 
 ---
