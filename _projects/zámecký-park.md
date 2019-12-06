@@ -2,7 +2,7 @@
 authors: Markéta a Petr Veličkovi
 layout: project
 location: Náměšť nad Oslavou
-title: zámecký park
+title: Zámecký park
 description: "Jedná se o komplex historických budov zámku, správních a hospodářských
   budov, bývalého kláštera, bývalého zámeckého zahradnictví a řady drobných staveb
   a uměleckých prvků (fontány, sochy, kamenné vázy). Nezastavěné plochy tvoří zámecký
