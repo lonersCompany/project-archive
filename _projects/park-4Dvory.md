@@ -41,6 +41,9 @@ latitude: 48.989379
 longitude: 14.446918
 category: Stavba
 awards:
+- name: PRESTA JIŽNÍ ČECHY
+  placement: čestné uznání
+  year: "2015"
 - name: Park roku 2017
   placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
   year: "2017"
