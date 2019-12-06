@@ -46,6 +46,5 @@ awards:
 - name: Stavba Plzeňského Kraje
   placement: 1. místo
   year: "2015"
-published: false
 
 ---
