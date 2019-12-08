@@ -25,6 +25,5 @@ longitude: 15.856974
 investor: Město Třebíč
 visualization: Jan Cyrany
 slug: ''
-published: false
 
 ---
