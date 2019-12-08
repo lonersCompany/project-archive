@@ -131,6 +131,7 @@ fields:
     required: true
   hidden: true
 pages:
+- _projects/obnova-zástavby-a-parku.md
 - _projects/náměstí.md
 - _projects/palackého-náměstí.md
 - _projects/revitalizace-brownfield-borovina.md
