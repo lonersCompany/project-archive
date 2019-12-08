@@ -1,5 +1,5 @@
 ---
-authors: Markéta a Petr Veličkovi
+authors: Markéta a Petr Veličkovi, David Prudík
 layout: project
 weight: 
 location: Humpolec
