@@ -2,6 +2,16 @@
 label: project
 hide_body: true
 fields:
+- name: weight
+  type: number
+  label: Order
+  description: ''
+  default: ''
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: location
   label: location
@@ -121,6 +131,6 @@ fields:
     required: true
   hidden: true
 pages:
-- _projects/zámecký-park.md
-- _projects/náměstíčko-sv-šebestiána.md
 - _projects/zahrady.md
+- _projects/náměstíčko-sv-šebestiána.md
+- _projects/zámecký-park.md
