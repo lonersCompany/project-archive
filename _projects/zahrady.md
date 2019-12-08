@@ -1,4 +1,5 @@
 ---
+weight: 95
 authors: Markéta a Petr Veličkovi
 layout: project
 location: Česká republika
@@ -6,30 +7,29 @@ title: Zahrady
 description: zahrady pro soukromé investory
 awards: []
 category: Stavba
-year: ''
-size: ''
-price: ''
+year: ""
+size: ""
+price: ""
 images:
-- "/v1575670002/archweb/PO_REALIZACI___17_tniw10.jpg"
-- "/v1575670380/archweb/PO_REALIZACI__28f_VELI%C4%8CCI_fota__9_pn8eqi.jpg"
-- "/v1575670298/archweb/PO_REALIZACI___13_xvg8dq.jpg"
-- "/v1575670182/archweb/PO_REALIZACI___8_poxfqa.jpg"
-- "/v1575670079/archweb/PO_REALIZACI___9_bc83dm.jpg"
-- "/v1575670454/archweb/PO_REALIZACI___3_s5xmcs.jpg"
-- "/v1575670250/archweb/PO_REALIZACI___2_pkjjug.jpg"
-- "/v1575669505/archweb/DSCF2837_hhmuwf.jpg"
-- "/v1575669439/archweb/DSCF1565_uadaqx.jpg"
-- "/v1575669409/archweb/DSCF1570_s1ogyx.jpg"
-- "/v1575669820/archweb/_od_listopadu_2006-do_z%C3%A1%C5%99%C3%AD_2009_34_m95ky1.jpg"
-- "/v1575669772/archweb/_od_listopadu_2006-do_z%C3%A1%C5%99%C3%AD_2009_32_lq22o1.jpg"
-- "/v1575669703/archweb/P1300316_g6huji.jpg"
-- "/v1575669671/archweb/P1300313_as4p9u.jpg"
-- "/v1575669621/archweb/P1290247_ck3dns.jpg"
-- "/v1575669571/archweb/P1080791_ht83lj.jpg"
-latitude: 
-longitude: 
-investor: ''
-visualization: ''
-slug: ''
-
+  - "/v1575670002/archweb/PO_REALIZACI___17_tniw10.jpg"
+  - "/v1575670380/archweb/PO_REALIZACI__28f_VELI%C4%8CCI_fota__9_pn8eqi.jpg"
+  - "/v1575670298/archweb/PO_REALIZACI___13_xvg8dq.jpg"
+  - "/v1575670182/archweb/PO_REALIZACI___8_poxfqa.jpg"
+  - "/v1575670079/archweb/PO_REALIZACI___9_bc83dm.jpg"
+  - "/v1575670454/archweb/PO_REALIZACI___3_s5xmcs.jpg"
+  - "/v1575670250/archweb/PO_REALIZACI___2_pkjjug.jpg"
+  - "/v1575669505/archweb/DSCF2837_hhmuwf.jpg"
+  - "/v1575669439/archweb/DSCF1565_uadaqx.jpg"
+  - "/v1575669409/archweb/DSCF1570_s1ogyx.jpg"
+  - "/v1575669820/archweb/_od_listopadu_2006-do_z%C3%A1%C5%99%C3%AD_2009_34_m95ky1.jpg"
+  - "/v1575669772/archweb/_od_listopadu_2006-do_z%C3%A1%C5%99%C3%AD_2009_32_lq22o1.jpg"
+  - "/v1575669703/archweb/P1300316_g6huji.jpg"
+  - "/v1575669671/archweb/P1300313_as4p9u.jpg"
+  - "/v1575669621/archweb/P1290247_ck3dns.jpg"
+  - "/v1575669571/archweb/P1080791_ht83lj.jpg"
+latitude:
+longitude:
+investor: ""
+visualization: ""
+slug: ""
 ---

@@ -53,20 +53,24 @@ nav {
   right: 0;
   cursor: e-resize;
 
-  /* background: linear-gradient(
-    90deg,
-    rgba(230, 230, 230, 0),
-    rgba(230, 230, 230, 1)
-  ); */
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(230, 230, 230, 0.2),
+      rgba(230, 230, 230, 1)
+    );
+  }
 }
 
 .swiper-prev {
   cursor: w-resize;
-  /* background: linear-gradient(
-    90deg,
-    rgba(230, 230, 230, 1),
-    rgba(230, 230, 230, 0)
-  ); */
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(230, 230, 230, 1),
+      rgba(230, 230, 230, 0.2)
+    );
+  }
 }
 
 .swiper-pagination-bullet {
