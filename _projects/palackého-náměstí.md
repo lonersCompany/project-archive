@@ -36,12 +36,14 @@ year: "2016"
 size: ''
 price: ''
 images:
+- "/v1575848340/archweb/3_3no%C4%8Dn%C3%AD_final_vynv9y.jpg"
+- "/v1575848326/archweb/1_4_final_fgdjmg.jpg"
 - "/v1575848310/archweb/2_3_vetsi_final_oyrl8w.jpg"
 - "/v1575848100/archweb/lomnice_iom7jv.jpg"
-latitude: 
-longitude: 
-investor: ''
-visualization: ''
+latitude: 49.404403
+longitude: 16.413675
+investor: Město Lomnice
+visualization: Tomáš Popelínský
 slug: ''
 published: false
 
