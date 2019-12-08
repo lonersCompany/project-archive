@@ -19,6 +19,7 @@ description: Pocit dříve prožitého, viděného, slyšeného. Východiskem je
   soudobého jazyka.
 images:
 - "/v1573640201/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0450_nep3xw.jpg"
+- "/v1575845389/archweb/0004_kopie_rldkll.jpg"
 - "/v1573640207/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0392_kajk6m.jpg"
 - "/v1573640264/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0362_kf5np0.jpg"
 - "/v1573640235/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0328_zcap4v.jpg"
