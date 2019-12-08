@@ -1,7 +1,7 @@
 ---
 authors: Markéta a Petr Veličkovi
 layout: project
-weight: 4
+weight: 
 location: Kostelní Vydří
 title: Krajina karmelitánského kláštera
 description: ''
