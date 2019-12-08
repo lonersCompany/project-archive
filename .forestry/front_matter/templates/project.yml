@@ -2,6 +2,16 @@
 label: project
 hide_body: true
 fields:
+- name: weight
+  type: number
+  label: Order
+  description: ''
+  default: ''
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: location
   label: location
@@ -120,16 +130,6 @@ fields:
   config:
     required: true
   hidden: true
-- name: weight
-  type: number
-  label: Order
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
 - _projects/zahrady.md
 - _projects/náměstíčko-sv-šebestiána.md
