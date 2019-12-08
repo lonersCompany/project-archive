@@ -3,9 +3,7 @@ layout: default
 ---
 
 <section class="pb-16 lg:pb-24">
-  <div class="mx-auto pb-4">
-    {%- include gallery-images.html -%}
-  </div>
+  {%- include gallery-images.html -%}
 </section>
 
 {% if page.description != "" %}
@@ -19,7 +17,7 @@ layout: default
   </div>
 </section>
 
-{% if page.awards %}
+{% if page.awards[0] %}
 <section class="py-16 lg:py-24 bg-gray-200">
   <div class="max-w-xl mx-auto px-5">
     <table class="text-lg">

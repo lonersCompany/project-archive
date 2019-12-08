@@ -48,9 +48,16 @@ defaults:
       layout: "default"
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - webpack.config.js
+  - yarn.lock
+  - src
+  - package.json
   - "*.config.js"
   - "package*.json"
   - "node_modules"
+  - "dev"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
