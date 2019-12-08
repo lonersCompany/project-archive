@@ -120,7 +120,17 @@ fields:
   config:
     required: true
   hidden: true
+- name: weight
+  type: number
+  label: Order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
-- _projects/zámecký-park.md
-- _projects/náměstíčko-sv-šebestiána.md
 - _projects/zahrady.md
+- _projects/náměstíčko-sv-šebestiána.md
+- _projects/zámecký-park.md
