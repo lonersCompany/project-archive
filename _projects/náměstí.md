@@ -22,6 +22,5 @@ longitude: 12.883211
 investor: Město Černošín
 visualization: Jan Cyrany
 slug: ''
-published: false
 
 ---
