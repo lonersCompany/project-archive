@@ -31,11 +31,13 @@ awards:
   placement: 2. místo
   year: "2016"
   link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
-category: ''
-year: ''
+category: Návrh
+year: "2016"
 size: ''
 price: ''
-images: []
+images:
+- "/v1575848310/archweb/2_3_vetsi_final_oyrl8w.jpg"
+- "/v1575848100/archweb/lomnice_iom7jv.jpg"
 latitude: 
 longitude: 
 investor: ''
