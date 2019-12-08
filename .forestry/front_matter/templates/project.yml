@@ -131,6 +131,7 @@ fields:
     required: true
   hidden: true
 pages:
+- _projects/krajina-karmelitánského-kláštera.md
 - _projects/zahrady.md
 - _projects/náměstíčko-sv-šebestiána.md
 - _projects/zámecký-park.md
