@@ -44,16 +44,21 @@ fields:
     config:
       required: false
     label: Placement
-  - name: year
-    type: text
-    config:
-      required: false
-    label: Year
   - name: link
     type: text
     config:
       required: false
     label: Link
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   config:
     min: 
     max: 
