@@ -4,7 +4,8 @@ layout: project
 weight: 99
 location: Lomnice u Tišnova
 title: Palackého náměstí
-description: "Návrh se snaží v maximální možné míře reflektovat dochované hodnoty,
+description:
+  "Návrh se snaží v maximální možné míře reflektovat dochované hodnoty,
   které chce podpořit kvalitou a čitelností prostoru s jeho logickým funkčním využitím
   (jak trvalého tak dočasného charakteru). Nakloněný rozevírající se lichoběžník náměstí
   v kombinaci s křížovou dispozicí je sám o sobě dostatečně dynamickým a prostorovým
@@ -27,23 +28,22 @@ description: "Návrh se snaží v maximální možné míře reflektovat dochova
   ne příliš hezkých zákoutí na náměstí. Troufáme si říct, že přinášíme novou opodstatněnou
   vrstvu, která však celek náměstí nenaruší vizuálně a zároveň jej uživatelsky zpříjemní.\n"
 awards:
-- name: architektonická soutěž
-  placement: 2. místo
-  year: "2016"
-  link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
+  - name: architektonická soutěž
+    placement: 2. místo
+    year: 2016
+    link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
 category: Návrh
-year: "2016"
-size: ''
-price: ''
+year: 2016
+size: ""
+price: ""
 images:
-- "/v1575848340/archweb/3_3no%C4%8Dn%C3%AD_final_vynv9y.jpg"
-- "/v1575848326/archweb/1_4_final_fgdjmg.jpg"
-- "/v1575848310/archweb/2_3_vetsi_final_oyrl8w.jpg"
-- "/v1575848100/archweb/lomnice_iom7jv.jpg"
+  - "/v1575848340/archweb/3_3no%C4%8Dn%C3%AD_final_vynv9y.jpg"
+  - "/v1575848326/archweb/1_4_final_fgdjmg.jpg"
+  - "/v1575848310/archweb/2_3_vetsi_final_oyrl8w.jpg"
+  - "/v1575848100/archweb/lomnice_iom7jv.jpg"
 latitude: 49.404403
 longitude: 16.413675
 investor: Město Lomnice
 visualization: Tomáš Popelínský
-slug: ''
-
+slug: ""
 ---

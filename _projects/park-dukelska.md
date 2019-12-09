@@ -4,7 +4,7 @@ authors: Markéta a Petr Veličkovi
 layout: project
 location: České Budějovice
 title: Park Dukelská
-year: "2019"
+year: 2019
 size: 1,7 ha
 price: ""
 images:

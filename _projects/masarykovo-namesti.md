@@ -40,12 +40,12 @@ category: Stavba
 awards:
   - name: Česká cena za architekturu  - Masarykovo náměstí ve Stříbře
     placement: nominace
-    year: "2019"
+    year: 2019
     link: ""
   - name: PIRANESI AWARD
     placement: nominace
-    year: "2015"
+    year: 2015
   - name: Stavba Plzeňského Kraje
     placement: 1. místo
-    year: "2015"
+    year: 2015
 ---

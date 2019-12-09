@@ -33,7 +33,7 @@ description:
   vytváří přirozenou tkáň území. Vzhledem k podmáčenosti území je cestní síť založena
   na nasypaném terénu. Násypy cest je pak členěna plocha území na dílčí plochy jednotlivých
   stupňů sukcese.
-year: "2014"
+year: 2014
 location: České Budějovice
 investor: Město České Budějovice
 visualization: Jan Cyrany
@@ -45,19 +45,19 @@ category: Stavba
 awards:
   - name: Park roku 2017
     placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
-    year: "2017"
+    year: 2017
     link: ""
   - name: Česká cena za architekturu - Park 4Dvory, České Budějovice
     placement: nominace
-    year: "2016"
+    year: 2016
     link: https://ceskacenazaarchitekturu.cz/projekty/2016/park-4dvory/
   - name: Grand Prix Obce Architektů
     placement: čestné uznání
-    year: "2015"
+    year: 2015
   - name: BIGMAT 2015
     placement: nominace
-    year: ""
+    year:
   - name: "PRESTA JIŽNÍ ČECHY "
     placement: čestné uznání
-    year: "2015"
+    year: 2015
 ---

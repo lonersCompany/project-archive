@@ -14,7 +14,7 @@ description:
   náměstí sv. Šebestiána, jehož sochu navracíme do prostoru na důstojné místo "
 awards: []
 category: Návrh
-year: "2010"
+year: 2010
 size: 0,46 ha
 price: ""
 images:

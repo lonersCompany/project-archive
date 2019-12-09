@@ -17,7 +17,7 @@ description:
   prezentace zahrady jako památky, udržitelnost  údržby. \n"
 awards: []
 category: Návrh
-year: "2011"
+year: 2011
 size: 15,23 ha
 price: ""
 images:
