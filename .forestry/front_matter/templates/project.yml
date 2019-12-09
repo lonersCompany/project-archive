@@ -118,7 +118,7 @@ fields:
   label: Investor
 - type: text
   name: visualization
-  label: visualization
+  label: Visualization
 - name: collaborations
   type: list
   config:
@@ -126,10 +126,6 @@ fields:
     min: 
     max: 
   label: Collaborations
-- type: text
-  name: slug
-  label: slug
-  hidden: true
 - type: text
   name: layout
   label: layout
