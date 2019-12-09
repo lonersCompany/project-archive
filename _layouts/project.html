@@ -41,8 +41,9 @@ layout: default
                 href="{{ item.link }}"
                 >{{ item.name }}</a
               >
-              {% else %} {{ item.name }} {% endif %}
+              {% else %} {{ item.name }} {% endif %} {% if item.year != "" %}
               <span class=""> ({{ item.year }}) </span>
+              {% endif %}
             </div>
           </div>
           {%-endfor -%}
