@@ -1,7 +1,7 @@
 ---
 authors: Markéta a Petr Veličkovi
 layout: project
-weight: 
+weight: 99
 location: Lomnice u Tišnova
 title: Palackého náměstí
 description: "Návrh se snaží v maximální možné míře reflektovat dochované hodnoty,
