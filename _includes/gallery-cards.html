@@ -1,7 +1,9 @@
 <div class="swiper-container" data-swiper="cards">
   <div class="swiper-pagination"></div>
   <div class="swiper-wrapper">
-    {%- for item in site.projects | sort:"weight" -%}
+    {% assign items = site.projects | sort: 'weight' %}
+    <!-- mark -->
+    {%- for item in items limit:4 -%}
     <div class="swiper-slide py-6">
       {%- include swiper-card-md.html -%}
     </div>

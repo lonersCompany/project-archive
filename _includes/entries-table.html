@@ -15,7 +15,8 @@
         </th>
       
     </tr>
-    {%- for item in site.projects -%}
+    {% assign items = site.projects | sort: 'weight' %}
+    {%- for item in items -%}
     <tr class="hover:bg-gray-300">
         <th class="py-4 border-0 border-b-2 border-gray-400">
           <a href="{{item.url}}">
