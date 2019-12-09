@@ -1,7 +1,17 @@
-<table class="table-auto w-full text-lg">
-  {%- include tr.html title="Název" value=page.title -%} {%- include tr.html
-  title="Lokace" value=page.location -%} {%- include tr.html title="Cena"
-  value=page.price -%} {%- include tr.html title="Rozloha" value=page.size -%}
-  {%- include tr.html title="Investor" value=page.investor -%} {%- include
-  tr.html title="Rok" value=page.year -%}
+<table class="align-top table-auto w-full text-lg">
+  {%- include tr.html title="Název" value=page.title -%}
+  <!-- . -->
+  {%- include tr.html title="Lokace" value=page.location -%}
+  <!-- . -->
+  {%- include tr.html title="Cena" value=page.price -%}
+  <!-- . -->
+  {%- include tr.html title="Rozloha" value=page.size -%}
+  <!-- . -->
+  {%- include tr.html title="Investor" value=page.investor -%}
+  <!-- . -->
+  {%- include tr.html title="Rok" value=page.year -%}
+  <!-- . -->
+  {%- include tr.html title="Autoři" value=page.authors -%}
+  <!-- . -->
+  {%- include tr-multiple.html title="Spolupráce" value=page.collaborations -%}
 </table>

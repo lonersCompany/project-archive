@@ -6,8 +6,15 @@ location: Ocenění
 
 <section>
   <div class="max-w-lg mx-auto my-10 px-4 pb-24">
-    {%- for project in site.projects -%} {% if project.awards %} {%- for item in
-    project.awards -%}
+    {% assign projects = site.projects | sort: 'year' %}
+    <!-- . -->
+    {%- for project in site.projects -%}
+    <!-- . -->
+    {% if project.awards[0] %}
+    <div class="text-2xl"><span>{{project.title}}, {{project.year}}</span></div>
+    <!-- . -->
+    {%- for item in project.awards -%}
+    <!-- . -->
     <div class="mb-10">
       <div class="text-sm text-gray-500 mb-2">
         {{ item.placement }}

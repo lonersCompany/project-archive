@@ -2,7 +2,7 @@
 weight: 98
 layout: project
 title: Masarykovo Náměstí
-year: "2018"
+year: 2018
 authors: Markéta a Petr Veličkovi
 location: Stříbro
 investor: město Stříbro

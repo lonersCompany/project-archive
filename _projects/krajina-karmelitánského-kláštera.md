@@ -7,7 +7,7 @@ title: Krajina karmelitánského kláštera
 description: ""
 awards: []
 category: Stavba
-year: "2012"
+year: 2012
 size: ""
 price: ""
 images:
