@@ -1,7 +1,7 @@
 ---
 authors: Markéta a Petr Veličkovi, David Prudík
 layout: project
-weight: 
+weight: 99
 location: Humpolec
 title: Obnova zástavby a parku
 description: "Konceptem řešení území je odclonění dopravy od klidového prostoru parku

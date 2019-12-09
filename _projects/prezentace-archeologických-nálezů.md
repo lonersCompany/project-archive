@@ -1,7 +1,7 @@
 ---
 authors: Markéta a Petr Veličkovi
 layout: project
-weight: 
+weight: 99
 location: Přerov
 title: Památník Jednoty bratrské
 description: |
