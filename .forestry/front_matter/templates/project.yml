@@ -59,6 +59,16 @@ fields:
     max: 
     labelField: 
   label: Awards
+- name: year
+  type: number
+  label: Year
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: category
   type: select
   default: ''
@@ -75,11 +85,6 @@ fields:
       path: 
   label: Category
   description: typo of project
-- name: year
-  type: text
-  config:
-    required: false
-  label: Year
 - type: text
   name: size
   label: Size
@@ -134,12 +139,12 @@ fields:
     required: true
   hidden: true
 pages:
-- _projects/obnova-zástavby-a-parku.md
+- _projects/krajina-karmelitánského-kláštera.md
 - _projects/náměstí.md
+- _projects/obnova-zástavby-a-parku.md
 - _projects/prezentace-archeologických-nálezů.md
 - _projects/revitalizace-brownfield-borovina.md
 - _projects/palackého-náměstí.md
-- _projects/krajina-karmelitánského-kláštera.md
 - _projects/zahrady.md
 - _projects/náměstíčko-sv-šebestiána.md
 - _projects/zámecký-park.md
