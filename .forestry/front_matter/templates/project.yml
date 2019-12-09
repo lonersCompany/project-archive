@@ -63,7 +63,7 @@ fields:
   type: number
   label: Year
   description: ''
-  default: 0
+  default: '2019'
   required: true
   config:
     min: 
