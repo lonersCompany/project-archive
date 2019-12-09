@@ -16,7 +16,14 @@ category: Návrh
 year: '2014 '
 size: ''
 price: ''
-images: []
+images:
+- "/v1575849748/archweb/A0035_bm309p.jpg"
+- "/v1575849479/archweb/Aa0060_waro2h.jpg"
+- "/v1575849724/archweb/Aa0030_iotjc7.jpg"
+- "/v1575849696/archweb/Ab0000_bcie4j.jpg"
+- "/v1575849659/archweb/Ab0010_xjhgab.jpg"
+- "/v1575849629/archweb/Ab0020_itvocc.jpg"
+- "/v1575849605/archweb/Panely_B1_2x_fin_2014_08_22_Page_1_ght8o4.jpg"
 latitude: 49.543537
 longitude: 15.356749
 investor: Město Humpolec
