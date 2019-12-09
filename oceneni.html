@@ -11,7 +11,9 @@ location: Ocenění
     {%- for project in projects -%}
     <!-- . -->
     {% if project.awards[0] %}
-    <div class=" pt-10"><span>{{project.title}}, {{project.year}}</span></div>
+    <div class="text-2xl pt-20 pb-5">
+      <span>{{project.title}}</span>
+    </div>
     <!-- . -->
     {%- for item in project.awards -%}
     <!-- . -->
