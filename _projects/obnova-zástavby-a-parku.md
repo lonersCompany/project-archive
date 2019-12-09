@@ -29,6 +29,5 @@ longitude: 15.356749
 investor: Město Humpolec
 visualization: Jan Cyrany
 slug: ''
-published: false
 
 ---
