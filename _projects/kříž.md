@@ -26,6 +26,5 @@ collaborations:
 - Leoš Bílek
 - Vratislav Čamek
 - Vojtěch Halámek
-published: false
 
 ---
