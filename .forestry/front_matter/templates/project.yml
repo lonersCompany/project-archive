@@ -144,6 +144,7 @@ fields:
     required: true
   hidden: true
 pages:
+- _projects/náměstí.md
 - _projects/krajina-karmelitánského-kláštera.md
 - _projects/náměstíčko-sv-šebestiána.md
 - _projects/obnova-zástavby-a-parku.md
@@ -151,5 +152,4 @@ pages:
 - _projects/prezentace-archeologických-nálezů.md
 - _projects/zahrady.md
 - _projects/revitalizace-brownfield-borovina.md
-- _projects/náměstí.md
 - _projects/zámecký-park.md
