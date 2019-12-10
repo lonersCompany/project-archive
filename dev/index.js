@@ -2,11 +2,19 @@ import { buildToggleMenu } from "./js/fullscreen-menu.js";
 import { buildSwiper } from "./js/swiper.js";
 import { buildMap } from "./js/map.js";
 import { initEntries } from "./js/entries.js";
+import { initTagFilters } from "./js/tag-filter.js";
 
 buildToggleMenu();
 
 // Init js for swiper
 buildSwiper();
+
+// Init entries
+const entriesELs = Array.from(document.querySelectorAll(".entries"));
+
+if (entriesELs.length > 0) {
+  entriesELs.forEach(el => initTagFilters(el));
+}
 
 // Init js for mapbox map
 const mapEl = document.getElementById("map");

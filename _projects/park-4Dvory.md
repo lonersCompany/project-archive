@@ -56,8 +56,8 @@ awards:
     year: 2015
   - name: BIGMAT 2015
     placement: nominace
-    year:
-  - name: "PRESTA JIŽNÍ ČECHY "
+    year: ""
+  - name: "PRESTA JIŽNÍ ČECHY"
     placement: čestné uznání
     year: 2015
 ---

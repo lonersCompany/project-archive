@@ -3,18 +3,18 @@ layout: default
 title: Spolupráce
 ---
 
-<section>
-  <div class="max-w-lg mx-auto my-10 px-4 text-2xl">
+<section class="py-12">
+  <div class="max-w-lg mx-auto px-4 text-4xl">
     Děkujeme za spolupráci
   </div>
 </section>
 
-<section>
+<section class="pb-32">
 
-  <div class="max-w-lg mx-auto my-10 px-4 pb-24">
+  <div class="max-w-lg mx-auto px-4">
     {% for item in site.data.collaborations %}
 
-    <p class="pb-6"><span class="text-gray-500">{{ item.position }}</span>
+    <p class="pb-6"><span class="text-gray-500">{{ item.profession }}</span>
       <span class="font-bold">{{ item.name }}</span>
     </p>
     {% endfor %}

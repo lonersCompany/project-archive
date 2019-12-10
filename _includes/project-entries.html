@@ -1,17 +1,34 @@
 <div
   id="entries"
-  class="entries md:max-w-2xl lg:max-w-5xl mx-auto"
+  class="entries md:max-w-2xl lg:max-w-5xl mx-auto Stavba Návrh"
   data-view="cards"
 >
-  <div id="entry-contorls" class="p-2 text-2xl text-right">
-    <button class="view-switcher" data-mode="cards">
-      <c title="/topHalfWhiteSquare U+2B13 (SQUARE WITH BOTTOM HALF BLACK)"
-        >⬓</c
+  <div id="entry-contorls" class="flex px-2 mb-2">
+    <div class="flex-grow">
+      {% include btn-lg.html class="btn-filter bg-gray-300" content="Stavby"
+      tag="Stavba" %}
+      <!-- . -->
+      {% include btn-lg.html class="btn-filter bg-gray-300" content="Návrhy"
+      tag="Návrh" %}
+      <!-- . -->
+      <!-- {% include btn-lg.html class="btn-filter" content="Filmy" tag="Film" %} -->
+    </div>
+    <div class="text-2xl text-right w-24">
+      <button
+        class="view-switcher py-2 text-gray-400 hover:text-gray-600"
+        data-mode="cards"
       >
-    </button>
-    <button class="view-switcher" data-mode="table">
-      <c title="/Xi U+039E (GREEK CAPITAL LETTER XI)" class="">Ξ</c>
-    </button>
+        <c title="/topHalfWhiteSquare U+2B13 (SQUARE WITH BOTTOM HALF BLACK)"
+          >⬓</c
+        >
+      </button>
+      <button
+        class="view-switcher py-2 text-gray-400 hover:text-gray-600"
+        data-mode="table"
+      >
+        <c title="/Xi U+039E (GREEK CAPITAL LETTER XI)" class="">Ξ</c>
+      </button>
+    </div>
   </div>
   <div class="entries-cards">
     {%- include entries-cards.html -%}

@@ -2,7 +2,8 @@
 <a class="block" href="{{site.baseurl}}{{ include.href }}">
   {% endif %}
   <button
-    class="block w-full py-2 px-6 mb-4 hover:bg-gray-300 text-gray-600 text-xl border-solid rounded border-2 border-gray-400"
+    data-tag="{{ include.tag }}"
+    class="{{ include.class }} text-xl lg:text-xl py-2 px-10 mb-2 mr-2 bg-gray-100 font-medium hover:bg-gray-400 border-2 border-gray-300 rounded-lg"
   >
     {{ include.content }}
   </button>

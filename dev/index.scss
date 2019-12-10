@@ -92,10 +92,6 @@ nav {
   margin: 0 4px;
 }
 
-/* .swiper-container {
-  overflow: visible;
-} */
-
 .swiper-pagination {
   text-align: center;
 }
@@ -202,4 +198,28 @@ div > a.mapboxgl-ctrl-logo,
 
 .cursor-zoom-out {
   cursor: zoom-out;
+}
+
+.entrie {
+  display: none;
+}
+
+.Návrh {
+  tr.entrie[data-tag="Návrh"] {
+    display: table-row;
+  }
+
+  .entrie[data-tag="Návrh"] {
+    display: block;
+  }
+}
+
+.Stavba {
+  tr.entrie[data-tag="Stavba"] {
+    display: table-row;
+  }
+
+  .entrie[data-tag="Stavba"] {
+    display: inline;
+  }
 }
