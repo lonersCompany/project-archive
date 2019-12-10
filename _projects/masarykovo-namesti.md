@@ -7,14 +7,13 @@ authors: Markéta a Petr Veličkovi
 location: Stříbro
 investor: město Stříbro
 visualization: Jan Cyrany Jitka Daňková
-size: 1,22 ha
-price: ''
+size: 1,62 ha
+price: 62 mil. Kč
 photo: Petr Velička
-description: 'Koncept náměstí vychází ze struktury historického jádra města Stříbra,
-  které leží na ostrohu nad řekou Mží. Návrh podporuje významné historické prvky –
-  morový sloup, radnici, připomíná části již zaniklé – klášter, královskou cestu Norimberk
-  – Praha, tržiště a dodává prvky nové – vodní střiky, osvětlení, nové řešení dopravní
-  situace a zpevněných ploch, mobiliář. '
+description: |
+  Stříbro je město s 7900 obyvateli ležící 25 km západně od Krajského města Plzně. První zmínka o městě padá do roku 1183 n.l.
+  Jádro města je semknuto do kruhu, jehož pomyslným středem je budova renesanční radnice. Základní koncept náměstí vychází ze struktury historického centra města, zvýrazňuje historicky významné monumenty a doplňuje je soudobým řešením za použití přírodních materiálů. Část dlážděné plochy vodního parteru v jihovýchodním rohu náměstí tvoří mozaika fasády dnes již neexistujícího minoritského kláštera. V trase původní významné středověké evropské kupecké stezky je do dlažby vložena „stříbrná brož - kilometrovník“. Pískovcová kašna před radnicí je zachována v původním místě. Celé náměstí je osvětleno nasvícením fasád a osmi dvanáctimetrovými lampami, které byly autory projektu designově navrženy přímo pro toto místo se symbolikou přilétajících ptáků. Na východní straně náměstí vytváří stříhaná alej platanů společně s vodními prvky a nově vybudovanou pohledovou stěnou „novou východní frontu“. Betonová stěna nese skleněné desky, na kterých je v češtině, angličtině a němčině popsán historický vývoj města jeho památky, zajímavosti a turistické cíle v okolí.Prostor je doplněn o autorský mobiliář.
+   Významnou změnou je omezení frekvence provozu automobilů a stanovení nových pravidel průjezdnosti.
 images:
 - "/v1576014590/archweb/DSC_0974_tz7ce7.jpg"
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
