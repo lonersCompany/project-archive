@@ -1,7 +1,7 @@
 ---
 weight: 15
 layout: project
-title: Masarykovo Náměstí
+title: Masarykovo náměstí
 year: 2018
 authors: Markéta a Petr Veličkovi
 location: Stříbro
@@ -15,7 +15,6 @@ description: |
   Jádro města je semknuto do kruhu, jehož pomyslným středem je budova renesanční radnice. Základní koncept náměstí vychází ze struktury historického centra města, zvýrazňuje historicky významné monumenty a doplňuje je soudobým řešením za použití přírodních materiálů. Část dlážděné plochy vodního parteru v jihovýchodním rohu náměstí tvoří mozaika fasády dnes již neexistujícího minoritského kláštera. V trase původní významné středověké evropské kupecké stezky je do dlažby vložena „stříbrná brož - kilometrovník“. Pískovcová kašna před radnicí je zachována v původním místě. Celé náměstí je osvětleno nasvícením fasád a osmi dvanáctimetrovými lampami, které byly autory projektu designově navrženy přímo pro toto místo se symbolikou přilétajících ptáků. Na východní straně náměstí vytváří stříhaná alej platanů společně s vodními prvky a nově vybudovanou pohledovou stěnou „novou východní frontu“. Betonová stěna nese skleněné desky, na kterých je v češtině, angličtině a němčině popsán historický vývoj města jeho památky, zajímavosti a turistické cíle v okolí.Prostor je doplněn o autorský mobiliář.
    Významnou změnou je omezení frekvence provozu automobilů a stanovení nových pravidel průjezdnosti.
 images:
-- "/v1576014590/archweb/DSC_0974_tz7ce7.jpg"
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
 - "/v1576014409/archweb/nam%C4%9Bst%C3%AD_wtxxhe.jpg"
 - "/v1576013987/archweb/DSC_0807_e7yr3c.jpg"
