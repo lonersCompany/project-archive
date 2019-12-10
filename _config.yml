@@ -38,8 +38,6 @@ img_url: "https://res.cloudinary.com/dhxmg9p4i/image/upload/"
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 defaults:
   - scope:
