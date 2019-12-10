@@ -40,7 +40,7 @@ awards:
 - name: Česká cena za architekturu  - Masarykovo náměstí ve Stříbře
   placement: nominace
   year: 2019
-  link: ''
+  link: https://ceskacenazaarchitekturu.cz/projekty/2019/revitalizace-masarykova-namesti-v-mestske-pamatkove-zone-mesta-stribro/
 - name: PIRANESI AWARD
   placement: nominace
   year: 2015
