@@ -17,7 +17,6 @@ description: 'Koncept náměstí vychází ze struktury historického jádra mě
   situace a zpevněných ploch, mobiliář. '
 images:
 - "/v1576014590/archweb/DSC_0974_tz7ce7.jpg"
-- "/v1576014549/archweb/DSC_0240_thh1lo.jpg"
 - "/v1573575291/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_hlavn_foto_mtbisk.jpg"
 - "/v1576014409/archweb/nam%C4%9Bst%C3%AD_wtxxhe.jpg"
 - "/v1576013987/archweb/DSC_0807_e7yr3c.jpg"
@@ -33,6 +32,7 @@ images:
 - "/v1573575265/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_laviu%CC%88ky_zyqz82.jpg"
 - "/v1574425483/archweb/DSC_0199_zlaa3x.jpg"
 - "/v1574425478/archweb/DSC_0200_riamlv.jpg"
+- "/v1576014549/archweb/DSC_0240_thh1lo.jpg"
 - "/v1575671101/archweb/DSC_0073_i5buyy.jpg"
 - "/v1575670927/archweb/DSC_0065_m080rf.jpg"
 - "/v1574425227/archweb/DSC_0537_fqltg4.jpg"
