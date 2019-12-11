@@ -1,7 +1,7 @@
 ---
 weight: 99
 year: 2017
-authors: Petr Veličkovi
+authors: 'Markéta a Petr Veličkovi '
 layout: project
 location: Kámen
 title: Schodiště v zahradě hradu Kámen
