@@ -142,9 +142,11 @@ td {
   }
 }
 
-.page-title button:focus {
+button:focus {
   outline: none;
 }
+
+
 
 .max-w-xxs {
   max-width: 15rem;
