@@ -1,9 +1,9 @@
 ---
-authors: Markéta a Petr Veličkovi
+authors: Markéta a Petr Veličkovi, David Prudík
 layout: project
 weight: 35
 location: Černošín
-title: Náměstí
+title: Náměstí 1. máje
 description: ''
 awards: []
 category: Stavba

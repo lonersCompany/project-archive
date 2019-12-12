@@ -12,6 +12,8 @@ size: 2,71 ha
 price: 46,3 mil. Kč
 images:
 - "/v1575847161/archweb/DSC_0941_vfmnma.jpg"
+- "/v1576015892/archweb/DSC_0439_ulbzad.jpg"
+- "/v1576015945/archweb/DSC_0935_wh0cme.jpg"
 - "/v1575847128/archweb/3_pis6lb.jpg"
 - "/v1575847097/archweb/2_dyx2ns.jpg"
 - "/v1575847078/archweb/1_j8y44q.jpg"
