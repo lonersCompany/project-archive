@@ -4,7 +4,7 @@ year: 2012
 authors: Petr Velička, David Prudík
 layout: project
 location: Tábor
-title: náměstí T.G.Masaryka
+title: Náměstí T.G.Masaryka
 description: |-
   KONCEPT
   V návrhu jsme se pokusili spojit dva rozdílné charaktery prostoru, park a náměstí, obohacené o prvky
