@@ -144,15 +144,16 @@ fields:
     required: true
   hidden: true
 pages:
-- _projects/kříž.md
 - _projects/expozice-středomoří.md
-- _projects/schodiště-v-zahradě-hradu-kámen.md
-- _projects/náměstí.md
-- _projects/prezentace-archeologických-nálezů.md
-- _projects/palackého-náměstí.md
-- _projects/obnova-zástavby-a-parku.md
-- _projects/náměstíčko-sv-šebestiána.md
 - _projects/krajina-karmelitánského-kláštera.md
+- _projects/kříž.md
+- _projects/lesopark-v-zátiší.md
+- _projects/náměstí.md
+- _projects/náměstíčko-sv-šebestiána.md
+- _projects/obnova-zástavby-a-parku.md
+- _projects/palackého-náměstí.md
+- _projects/prezentace-archeologických-nálezů.md
 - _projects/revitalizace-brownfield-borovina.md
-- _projects/zámecký-park.md
+- _projects/schodiště-v-zahradě-hradu-kámen.md
 - _projects/zahrady.md
+- _projects/zámecký-park.md
