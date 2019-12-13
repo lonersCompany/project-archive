@@ -70,6 +70,5 @@ longitude: 14.668553
 investor: Město Tábor
 visualization: Jan Cyrany
 collaborations: []
-published: false
 
 ---
