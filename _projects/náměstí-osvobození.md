@@ -25,6 +25,5 @@ longitude: '16.876270'
 investor: Město Zábřeh
 visualization: Jan Cyrany
 collaborations: []
-published: false
 
 ---
