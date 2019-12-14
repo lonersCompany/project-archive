@@ -36,8 +36,8 @@ images:
 - "/v1576354140/archweb/B_VIII_Detail_H%C3%A1jenka_3D_copy_bd3ljh.jpg"
 - "/v1576354120/archweb/B_VI_lxceck.jpg"
 - "/v1576353734/archweb/B_I._Hlavn%C3%AD_v%C3%BDkres_Krajin%C3%A1%C5%99sko_architektonick%C3%A9_%C5%99e%C5%A1en%C3%AD_zmen%C5%A1en%C3%BD_v%C3%BDkres_stikye.jpg"
-latitude: 
-longitude: 
+latitude: 49.337404
+longitude: 17.589578
 investor: ''
 visualization: ''
 collaborations: []
