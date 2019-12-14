@@ -5,8 +5,10 @@ authors: Markéta & Petr Veličkovi
 layout: project
 location: Rudíkov
 title: Schodiště a rampy
-description: V trase bývalého schodiště vznikl požadavek na propojení částí obce bezbariérovými
-  rampami a novým schodištěm.
+description: Rozpadající se schodiště obec plánovala opravit. Vznikl však požadavek
+  na propojení částí obce bezbariérovými rampami a novým schodištěm. Navrhli jsme
+  systém ramp a původní schodiště rozdělili do několika částí. S obcí se povedlo dojednat
+  designové osvětlení Metronomis, které bylo v té době užito v ČR poprvé.
 awards: []
 category: Stavba
 size: ''
