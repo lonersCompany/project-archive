@@ -25,6 +25,5 @@ longitude: 15.946985
 investor: Obec Rudíkov
 visualization: ''
 collaborations: []
-published: false
 
 ---
