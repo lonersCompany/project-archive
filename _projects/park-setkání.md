@@ -29,6 +29,5 @@ longitude: 15.484448
 investor: Město Třešť
 visualization: ''
 collaborations: []
-published: false
 
 ---
