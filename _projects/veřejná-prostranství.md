@@ -54,6 +54,5 @@ longitude: 15.995277
 investor: Obec Oslavice
 visualization: Tomáš Popelínský
 collaborations: []
-published: false
 
 ---
