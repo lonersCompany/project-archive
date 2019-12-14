@@ -18,13 +18,13 @@ category: Stavba
 size: ''
 price: ''
 images:
-- "/v1576340011/archweb/port_6_-_373_kb_ioey2f.jpg"
+- "/v1576340626/archweb/port_6_-_373_kb_o3rnak.jpg"
 - "/v1576340028/archweb/port_7_-_206_kb_izmchb.jpg"
 - "/v1576340043/archweb/port_8_-_362_kb_yykqo9.jpg"
 - "/v1576340057/archweb/port_9_-_372_kb_difyz5.jpg"
 latitude: 50.079485
 longitude: 12.364886
-investor: ''
+investor: Město Cheb
 visualization: ''
 collaborations: []
 
