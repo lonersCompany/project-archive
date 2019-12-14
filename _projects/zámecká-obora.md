@@ -7,22 +7,10 @@ location: Holešov
 title: Zámecká obora
 description: |-
   Základním východiskem pro tvorbu návrhu je cenný historický prostor, do kterého
-  neinvazivně
-  zasahujeme. Koncept je daný historickým členěním prostoru cestami doprovázenými alejemi , jádrovým
-  umístěním objektu hájenky , včleněním vodního toku, nebo třeba pozd ějším umístěním jezdeckého oválu.
-  V symbióze s technickými prvky je v oboře živá vegetační složka. Náplň a původní užití prostoru dnes
-  nelze vrátit. Proto jsme se pokusili zamyslet nejen nad podobu objektu z hlediska historicky velice
-  cenného místa, ale také nad jeho uživatelskou náplní, která je nedílně spojená se změnou majitelů.
-  V
-  konceptu je zásadní vedení cest Pro užití prostoru je nejdůležitější jejich kvalitní povrch. Cesty
-  ponecháváme v jejich trasách Místy doplňujeme zanikl é trasování s ohledem na smysluplnost , ne
-  v absolutní míře. Pro návštěvníky zpřístupňujeme pěší cestou vodní náhon a také doplňujeme chybějící
-  spojnici mezi hlavní podélnou a vedlejší podélnou osou vinoucí se při východní hranici obory. K cestám
-  neoddělitelně patří vegetační doprovod aleje i volnější liniové výsadby stromů. Ty vnášejí do prostoru
-  řád i atmosféru . V několika málo trasách doplňujeme k cestám zemní osvětlení, které může sloužit při
-  akcích a zároveň v případě zájmu může prodloužit dobu užití místa mimo vegetační sezónu, kdy je málo
-  světla a dny jsou velice krátké. Na cesty užíváme měkkého, vodu propustného povrchu s tradičním
-  vzhledem mlatu. Některé trasy obnovujeme prostřednictvím vyšší intenzity kosení trávníku
+  neinvazivně zasahujeme. Koncept je daný historickým členěním prostoru cestami doprovázenými alejemi, jádrovým umístěním objektu hájenky, včleněním vodního toku, nebo třeba pozdějším umístěním jezdeckého oválu.
+  V symbióze s technickými prvky je v oboře živá vegetační složka. Náplň a původní užití prostoru dnes nelze vrátit. Proto jsme se pokusili zamyslet nejen nad podobu objektu z hlediska historicky velice cenného místa, ale také nad jeho uživatelskou náplní, která je nedílně spojená se změnou majitelů.
+  V konceptu je zásadní vedení cest Pro užití prostoru je nejdůležitější jejich kvalitní povrch. Cesty ponecháváme v jejich trasách Místy doplňujeme zaniklé trasování s ohledem na smysluplnost, ne v absolutní míře. Pro návštěvníky zpřístupňujeme pěší cestou vodní náhon a také doplňujeme chybějící spojnici mezi hlavní podélnou a vedlejší podélnou osou vinoucí se při východní hranici obory. K cestám neoddělitelně patří vegetační doprovod aleje i volnější liniové výsadby stromů. Ty vnášejí do prostoru
+  řád i atmosféru . V několika málo trasách doplňujeme k cestám zemní osvětlení, které může sloužit při akcích a zároveň v případě zájmu může prodloužit dobu užití místa mimo vegetační sezónu, kdy je málo světla a dny jsou velice krátké. Na cesty užíváme měkkého, vodu propustného povrchu s tradičním vzhledem mlatu. Některé trasy obnovujeme prostřednictvím vyšší intenzity kosení trávníku
 awards: []
 category: Návrh
 size: ''
