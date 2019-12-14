@@ -24,6 +24,5 @@ longitude:
 investor: ''
 visualization: ''
 collaborations: []
-published: false
 
 ---
