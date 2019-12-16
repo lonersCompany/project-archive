@@ -3,8 +3,7 @@ weight: 10
 layout: project
 authors: Markéta & Petr Veličkovi a David Prudík
 images:
-- "/v1573574866/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7667-Edit_a0xquo.jpg"
-- "/v1576020790/archweb/GDA20_HO_WINNER_RGB_rrefck.png"
+- "/v1576507316/archweb/4dvory_bkuhsu.jpg"
 - "/v1572958332/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7005_qpmoyk.jpg"
 - "/v1572958301/archweb/03_VEL_C_PARK_4DVORY_FOTA__6825_hvdjgr.jpg"
 - "/v1572958257/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6847_vzi9u7.jpg"
