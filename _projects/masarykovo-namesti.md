@@ -3,7 +3,7 @@ weight: 15
 layout: project
 title: Masarykovo náměstí
 year: 2018
-authors: Markéta a Petr Veličkovi
+authors: Markéta & Petr Veličkovi
 location: Stříbro
 investor: město Stříbro
 visualization: Jan Cyrany Jitka Daňková
@@ -22,9 +22,9 @@ images:
 - "/v1575671022/archweb/DSC_0070_ivy8gq.jpg"
 - "/v1576014131/archweb/DSC_0227_tklmyp.jpg"
 - "/v1576014090/archweb/ornament_jla2ch.jpg"
+- "/v1576964084/archweb/DSC_0358_uf7vng.jpg"
 - "/v1576014056/archweb/DSC_0802_ph26d1.jpg"
 - "/v1575668474/archweb/S_PO_REALIZACI__st%C5%99%C3%ADbrn%C3%A1_linka_iilcsl.jpg"
-- "/v1575668888/archweb/S_PO_REALIZACI__odraz_hxe6zx.jpg"
 - "/v1574425324/archweb/DSC_0534_jk1pex.jpg"
 - "/v1574425486/archweb/8_cgtwj5.jpg"
 - "/v1573575265/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_laviu%CC%88ky_zyqz82.jpg"
@@ -55,5 +55,6 @@ awards:
 - name: Stavba Plzeňského Kraje
   placement: 1. místo
   year: 2015
+published: false
 
 ---
