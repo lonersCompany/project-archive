@@ -39,6 +39,5 @@ longitude: 16.036007
 investor: soukromý investor
 visualization: Jan Cyrany, Adam Kořistka
 collaborations: []
-published: false
 
 ---
