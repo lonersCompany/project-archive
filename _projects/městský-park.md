@@ -28,6 +28,5 @@ longitude: 14.495669
 investor: Město Jílové u Prahy
 visualization: Tomáš Popelínský
 collaborations: []
-published: false
 
 ---
