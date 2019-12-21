@@ -49,6 +49,5 @@ investor: Město Uničov
 visualization: Adam Kořistka
 collaborations:
 - Tomáš Bílek, Tomáš Popelínský, Kateřina Sapáková Záleská
-published: false
 
 ---
