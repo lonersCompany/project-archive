@@ -8,6 +8,5 @@ description: Českomoravská vrchovina je kraj, kde se na malé ploše narodili 
   velcí umělci. Čím je její krajina zvláštní a inspirativní? Dokument Ljuby Václavové
   a Václava Cílka uvádíme jako vzpomínku na nedávno zesnulého literárního kritika,
   spisovatele a strážce odkazu básníků z Vysočiny Jaroslava Meda (2014)
-published: false
 
 ---
