@@ -14,7 +14,7 @@ sections:
 - type: directory
   path: _media
   label: Media
-  create: all
+  create: documents
   match: "**/*"
 - type: document
   path: _data/contact.yml
