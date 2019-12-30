@@ -16,6 +16,8 @@ sections:
   label: Media
   create: documents
   match: "**/*"
+  templates:
+  - media
 - type: document
   path: _data/contact.yml
   label: Contact
