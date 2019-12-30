@@ -14,6 +14,5 @@ description: 'Aleje u silnic ohrožují životy motoristů, a proto se kácejí 
   a hlavně – jezdit opatrněji. Rozumně uvažující lidé soudí, že aleje patří neodmyslitelně
   do naší krajiny, definují ji, a proto považují jejich kácení za nezvratné zásahy
   do její duše.'
-published: false
 
 ---
