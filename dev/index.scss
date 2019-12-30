@@ -52,24 +52,17 @@ nav {
 .swiper-next {
   right: 0;
   cursor: e-resize;
-
-  &:hover {
-    background: linear-gradient(
-      90deg,
-      rgba(230, 230, 230, 0.2),
-      rgba(230, 230, 230, 1)
-    );
-  }
 }
 
 .swiper-prev {
   cursor: w-resize;
+}
+
+.swiper-next,
+.swiper-prev {
+  transition: all 1s ease-in-out;
   &:hover {
-    background: linear-gradient(
-      90deg,
-      rgba(230, 230, 230, 1),
-      rgba(230, 230, 230, 0.2)
-    );
+    background-color: rgba(200, 200, 200, 0.8);
   }
 }
 
@@ -145,8 +138,6 @@ td {
 button:focus {
   outline: none;
 }
-
-
 
 .max-w-xxs {
   max-width: 15rem;

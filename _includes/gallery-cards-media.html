@@ -2,7 +2,7 @@
   <div class="swiper-pagination"></div>
   <div class="swiper-wrapper">
     <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
-    {% assign items = site.projects | sort: 'weight' %}
+    {% assign items = site.media | sort: 'weight' %}
     <!-- mark -->
     {%- for item in items limit: 4 -%}
     <div class="swiper-slide py-6">

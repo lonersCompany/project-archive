@@ -6,9 +6,12 @@
       alt="{{ project.title }}, {{ site.title }}"
     />
     <div class="py-2 px-3">
+      {% if item.location %}
       <p class="text-lg">{{ item.location }}</p>
-      <!-- <p class="text-lg text-gray-600">{{ item.title }}</p> -->
       <p class="text-lg text-gray-600">{{ item.title }}</p>
+      {% else %}
+      <p class="text-lg">{{ item.title }}</p>
+      {% endif %}
     </div>
   </a>
 </div>

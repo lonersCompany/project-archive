@@ -32,7 +32,8 @@ github_username: jekyll
 collections:
   projects:
     output: true
-
+  media:
+    output: true
 img_url: "https://res.cloudinary.com/dhxmg9p4i/image/upload/"
 # img_url: /assets/images/
 
