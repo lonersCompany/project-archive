@@ -15,6 +15,5 @@ description: Při putování malebnou českou krajinou objevíme spousty cest le
   a s mnoha alejemi, které tvoří monumentální chodby se stromy, kvůli kterým stojí
   zato zdvihnout hlavu k nebi. Pořad natočila režisérka Ljuba Václavová s kameramanem
   Josefem Nekvasilem.
-published: false
 
 ---
