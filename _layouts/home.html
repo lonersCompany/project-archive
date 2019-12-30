@@ -28,24 +28,24 @@ layout: default
   </div>
 </section>
 
-<section class="bg-gray-200 relative">
-  {%- include image-cover.html src="/v1576510621/archweb/adam-gebrian-4.jpg" -%}
-
-  <div class="absolute inset-0 flex justify-center px-4">
-    <a
-      class="cursor-pointer block self-center text-center lg:text-2xl py-2 px-2 lg:px-5 border-gray-400 bg-gray-300 hover:bg-gray-100 border-2 rounded-lg shadow-md"
-      href="https://www.televizeseznam.cz/video/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912"
-    >
-      <span class="block cursor-pointer">
-        Park 4dvory v pořadu Gebrian VS
-      </span>
-      <span class="block text-sm cursor-pointer">
-        Přejděte na video
-      </span>
-    </a>
-  </div>
-</section>
-
 <section class="homepage-map">
   {%- include map.html -%}
+</section>
+
+<section class="bg-gray-300">
+  <div class="container mx-auto px-4 pt-24 pb-24">
+    {%- include gallery-cards-media.html -%}
+
+    <div class="mt-8 mx-auto">
+      <a
+        class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:bg-gray-400"
+        href="{{site.baseurl}}/projekty/"
+      >
+        <div class="flex-grow">
+          Publikace
+        </div>
+        <div>⟶</div>
+      </a>
+    </div>
+  </div>
 </section>
