@@ -19,11 +19,11 @@ description:
   Návrh má ambici vytvořit srozumitelnou sponu mezi minulostí a současností za použití
   soudobého jazyka.
 images:
+  - "/v1573640235/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0328_zcap4v.jpg"
   - "/v1573640201/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0450_nep3xw.jpg"
   - "/v1575845389/archweb/0004_kopie_rldkll.jpg"
   - "/v1573640207/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0392_kajk6m.jpg"
   - "/v1573640264/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0362_kf5np0.jpg"
-  - "/v1573640235/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0328_zcap4v.jpg"
   - "/v1573640263/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0307_tnuzz5.jpg"
   - "/v1573640235/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0277_cgcfzm.jpg"
   - "/v1573640268/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0266_hbwnbg.jpg"

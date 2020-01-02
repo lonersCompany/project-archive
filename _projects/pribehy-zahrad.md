@@ -1,5 +1,6 @@
 ---
 title: Příběhy zahrad
+category: Publikace
 layout: project
 weight: 900
 description:

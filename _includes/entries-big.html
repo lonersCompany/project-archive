@@ -1,0 +1,26 @@
+<div class="container mx-auto">
+  <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
+  {% assign items = site.projects | sort: 'weight' %}
+  <!-- mark -->
+  {%- for item in items limit: 2 -%}
+
+  <a
+    class="blur-link block rounded border-4 border-gray-400 hover:border-blue-500"
+    href="{{item.url}}"
+    ><img
+      class="w-full"
+      src="{{ site.img_url }}c_thumb,h_800,w_2000{{ item.images[0] }}"
+      alt="{{ project.title }}, {{ site.title }}"
+    />
+    <!-- <div>
+        <div class="py-6 px-4">
+          <p class="text-2xl">
+            <span class="text-gray-600 ">{{ item.location }}, </span
+            ><span>{{ item.title }}</span>
+          </p>
+        </div>
+      </div> -->
+  </a>
+
+  {%- endfor -%}
+</div>

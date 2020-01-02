@@ -16,21 +16,24 @@
     </tr>
     {% assign items = site.projects | sort: 'weight' %}
     {%- for item in items -%}
+    
     <tr class="hover:bg-gray-300 entrie" data-tag="{{item.category}}">
-        <th class="py-4 border-0 border-b-2 border-gray-400">
-          <a href="{{item.url}}">
-           {{item.title}} 
-          </a>
+        <th class="border-0 border-b-2 border-gray-400">
+          <a class="block py-4" href="{{item.url}}"><span>{{item.title}} </span></a>
+          
         </th>
-        <th class="py-4 border-0 border-b-2 border-gray-400">
-          {{item.location}}
+        <th class="border-0 border-b-2 border-gray-400">
+            <a class="block py-4" href="{{item.url}}"><span>{{item.location}}</span></a>
+          
         </th>
-        <th class="py-4 border-0 border-b-2 border-gray-400">
-            {{item.category}}
+        <th class="border-0 border-b-2 border-gray-400">
+            <a class="block py-4" href="{{item.url}}"><span>{{item.category}}</span></a>
+            
         </th>
         
-        <th class="py-4 border-0 border-b-2 border-gray-400">
-          {{item.year}}
+        <th class="border-0 border-b-2 border-gray-400">
+            <a class="block py-4" href="{{item.url}}"><span>{{item.year}}</span></a>
+          
         </th>
     </tr>
     {%-endfor -%}

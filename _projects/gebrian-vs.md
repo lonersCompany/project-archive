@@ -1,5 +1,6 @@
 ---
 title: Gebrian VS
+category: Publikace
 layout: project
 weight: 900
 images:

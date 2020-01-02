@@ -1,5 +1,6 @@
 ---
 layout: project
+category: Publikace
 title: Bermudský poetický trojúhelník nad Vysočinou
 weight: 900
 images:
