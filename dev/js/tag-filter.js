@@ -9,19 +9,19 @@ const setCategory = (mainEl, btnEls, el) => {
   mainEl.classList.add(value);
 };
 
-export const initTagFilters = mainEl => {
-  const getUrlVars = () => {
-    var vars = {};
-    var parts = window.location.href.replace(
-      /[?&]+([^=&]+)=([^&]*)/gi,
-      function(m, key, value) {
-        vars[key] = value;
-      }
-    );
-    return vars;
-  };
-  console.log(getUrlVars());
+const getUrlVars = () => {
+  var vars = {};
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(
+    m,
+    key,
+    value
+  ) {
+    vars[key] = value;
+  });
+  return vars;
+};
 
+export const initTagFilters = mainEl => {
   const btnEls = Array.from(mainEl.querySelectorAll(".btn-filter"));
 
   btnEls.forEach(el => {
@@ -29,4 +29,13 @@ export const initTagFilters = mainEl => {
       setCategory(mainEl, btnEls, el);
     });
   });
+
+  // SET CATEGORY IF URL VARIABLE IS PAST
+  const tagsPastInURL = getUrlVars();
+  if (tagsPastInURL.category) {
+    const el = btnEls.find(
+      el => el.getAttribute("data-tag") == tagsPastInURL.category
+    );
+    setCategory(mainEl, btnEls, el);
+  }
 };
