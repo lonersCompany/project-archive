@@ -1,9 +1,9 @@
 ---
 weight: 99
 year: 2012
-authors: Markéta & Petr Veličkovi
+authors: Markéta & Petr Veličkovi, Jan Cyrany, Susanne Spurna
 layout: project
-location: Lahr - Germany
+location: Lahr/ Schwarzwald
 title: 'Landesgartenschau '
 description: ''
 awards: []
@@ -11,9 +11,9 @@ category: Návrh
 size: ''
 price: ''
 images:
+- "/v1578092595/archweb/_OD___PUDORYS_1000X2000_cm_TRVALE_bhtqsu.jpg"
 - "/v1578092956/archweb/VIZUALIZACE_a3_etqevt.jpg"
 - "/v1578092621/archweb/plakat2_DETAIL1_abn7ym.jpg"
-- "/v1578092595/archweb/_OD___PUDORYS_1000X2000_cm_TRVALE_bhtqsu.jpg"
 - "/v1578092642/archweb/plakat2_DETAIL2_ujme6b.jpg"
 - "/v1578092773/archweb/13_FINAL_funieu.jpg"
 - "/v1578093068/archweb/5_NEFINAL_kopie_b3lgdv.jpg"
@@ -30,10 +30,10 @@ images:
 - "/v1578093191/archweb/10_FINAL_tcq5jb.jpg"
 - "/v1578092699/archweb/plakat3_%C5%99ez2_500_qgbzpp.jpg"
 - "/v1578092681/archweb/plakat3_%C5%99ez1_500_lwb1gr.jpg"
-latitude: 
-longitude: 
-investor: ''
-visualization: ''
+latitude: 48.332261
+longitude: 7.837945
+investor: Město Lahr- Germany
+visualization: Jan Cyrany, Markéta & Petr Veličkovi
 collaborations: []
 published: false
 
