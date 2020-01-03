@@ -49,7 +49,7 @@ export const buildMap = () => {
     scrollZoom: false,
     zoom: 6,
     minZoom: 5,
-    maxZoom: 8
+    maxZoom: 10
   });
 
   //map.scrollZoom.disable();
@@ -61,34 +61,34 @@ export const buildMap = () => {
     document.getElementsByClassName("map-location")
   );
 
-  const geojson = locationEls.map(createGeoJason);
+  if (locationEls) {
+    const geojson = locationEls.map(createGeoJason);
 
-  console.log(geojson);
+    geojson.forEach(marker => {
+      var el = document.createElement("div");
+      el.className =
+        "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border border-gray-800 shadow-md";
 
-  geojson.forEach(marker => {
-    var el = document.createElement("div");
-    el.className =
-      "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border border-gray-800 shadow-md";
-
-    if (marker.marked) {
-      el.classList.add("bg-blue-600");
-      el.classList.add("z-10");
-    }
-
-    var mapEntryObj = {
-      element: el,
-      index: marker.index,
-
-      flyTo: {
-        coordinates: marker.geometry.coordinates,
-        zoom: 7,
-        speed: 1.5
+      if (marker.marked) {
+        el.classList.add("bg-blue-600");
+        el.classList.add("z-10");
       }
-    };
 
-    addMapEvent(mapEntryObj, locationEls, map);
+      var mapEntryObj = {
+        element: el,
+        index: marker.index,
 
-    // add marker to map
-    new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
-  });
+        flyTo: {
+          coordinates: marker.geometry.coordinates,
+          zoom: 7,
+          speed: 1.5
+        }
+      };
+
+      addMapEvent(mapEntryObj, locationEls, map);
+
+      // add marker to map
+      new mapboxgl.Marker(el).setLngLat(marker.geometry.coordinates).addTo(map);
+    });
+  }
 };

@@ -3,23 +3,44 @@
     id="map"
     class="h-70"
     data-pin-lon="{{ page.longitude }}"
-    data-pin-lat="{{ page.latitude}}"
+    data-pin-lat="{{ page.latitude }}"
   ></div>
-  <div class="md:absolute md:top-0 z-10">
-    {%- for item in site.projects -%}
-    <div
-      class="map-location p-6"
-      data-lon="{{ item.longitude }}"
-      data-lat="{{ item.latitude }}"
-      
-      {% if item.longitude == page.longitude %}
-        data-marked="true"  
-      {% endif %}  
-    >
-      {%- include project-card-md.html -%}
-      
-    </div>
 
-    {%- endfor -%}
-  </div>
+
+  {% if include.type == "contact" %}
+    <div class="md:absolute md:top-0 z-10">
+      <div
+        class="map-location p-6"
+        data-lon="{{ page.longitude }}"
+        data-lat="{{ page.latitude }}"
+        data-marked="true"  
+      >
+      {%- include project-card-md.html headline=site.data.information.post_adress.city subline=site.data.information.post_adress.street -%}
+      </div>
+
+    </div>
+  {% endif %} 
+
+  {% if include.type == "projects" %}
+    <div class="md:absolute md:top-0 z-10">
+      {%- for item in site.projects -%}
+      <div
+        class="map-location p-6"
+        data-lon="{{ item.longitude }}"
+        data-lat="{{ item.latitude }}"
+        
+        {% if item.longitude == page.longitude %}
+          data-marked="true"  
+        {% endif %}  
+      >
+        {%- include project-card-md.html headline=item.location subline=item.title -%}
+        
+      </div>
+
+      {%- endfor -%}
+    </div>
+  {% endif %}
+
+
+
 </div>

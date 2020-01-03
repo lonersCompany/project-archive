@@ -3,7 +3,8 @@
   <!-- . -->
   {%- for item in items -%}
   <div class="entrie p-2 pb-5" data-tag="{{item.category}}">
-    {%- include project-card-md.html -%}
+    {%- include project-card-md.html headline=item.location subline=item.title
+    -%}
   </div>
   {%-endfor -%}
 </div>
