@@ -1,6 +1,6 @@
 ---
 layout: project
-category: Film
+category: ''
 title: Bermudský poetický trojúhelník nad Vysočinou
 weight: 900
 images:
