@@ -2,12 +2,11 @@
 title: Gebrian VS
 category: Publikace
 layout: project
-weight: 900
+weight: 100
 images:
-  - "/v1573640201/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0450_nep3xw.jpg"
-  - "/v1575845389/archweb/0004_kopie_rldkll.jpg"
-  - "/v1573640207/archweb/03_VEL_A_MIKULC%CC%8CICE_FOTA_DSC_0392_kajk6m.jpg"
-description: Pocit dříve prožitého, viděného, slyšeného. Východiskem je samotné místo.
+  - "/v1576512929/archweb/adam-gebrian-3.jpg"
+  - "/v1576507316/archweb/4dvory_bkuhsu.jpg"
+description: Třetina obyvatel v Česku žije na sídlišti. Bylo by zřejmé, že v prostředí, kde žije velké množství lidí, jsou peníze investovány do jeho zlepšování. Je to však zcela ojedinělé, tak jak jsme mohli vidět na sídlišti Máj v Českých Budějovicích.
 link: https://www.televizeseznam.cz/video/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
 year: 2019
 ---
