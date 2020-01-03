@@ -4,7 +4,7 @@ year: 2005
 authors: Markéta & Petr Veličkovi a Jan Cyrany
 layout: project
 location: Chiampo
-title: Revitalizace krajiny mramorových lomů
+title: Revitalizace mramorových lomů
 description: ''
 awards: []
 category: Návrh
