@@ -23,6 +23,5 @@ longitude: '11.280630'
 investor: Město Chiampo - Italy
 visualization: Jan Cyrany
 collaborations: []
-published: false
 
 ---
