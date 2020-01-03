@@ -19,6 +19,7 @@ images:
 - "/v1578088443/archweb/DSC_0370_nfky5k.jpg"
 - "/v1577720027/archweb/cast_04_cmzsof.jpg"
 - "/v1577720027/archweb/cast_02_ncqlhm.jpg"
+- "/v1578090657/archweb/DSC_0013_xwpjbu.jpg"
 link: https://www.ceskatelevize.cz/porady/10389951691-bermudsky-poeticky-trojuhelnik-nad-vysocinou/21356226462
 description: Českomoravská vrchovina je kraj, kde se na malé ploše narodili a vyrostli
   velcí umělci. Čím je její krajina zvláštní a inspirativní? Dokument Ljuby Václavové
