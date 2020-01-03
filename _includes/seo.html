@@ -18,3 +18,21 @@
   property="og:image"
   content="{{ site.img_url }}c_thumb,h_300,w_500{{ page.images[0] }}"
 />
+
+<meta name="twitter:card" content="summary" />
+<meta
+  name="twitter:description"
+  content="{% if page.description %}{{
+page.description }}{% else %}{{ site.description }}{% endif %}"
+/>
+<meta
+  name="twitter:title"
+  content="{% if page.title %}{{ page.title }}{% else
+%}{{ site.title }}{% endif %}"
+/>
+<meta name="twitter:site" content="@mpArchitekti" />
+<meta
+  name="twitter:image"
+  content="{{ site.img_url }}c_thumb,h_300,w_500{{ page.images[0] }}"
+/>
+<meta name="twitter:creator" content="@mpArchitekti" />
