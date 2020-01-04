@@ -1,4 +1,6 @@
-<div class="swiper-slide rounded overflow-hidden shadow-lg bg-gray-000">
+<div
+  class="swiper-slide rounded overflow-hidden shadow-lg bg-gray-100 border-2 border-gray-300 hover:border-gray-600"
+>
   <a class="block" href="{{ site.baseurl }}{{ item.url }}">
     <img
       class="w-full object-cover"
@@ -8,9 +10,12 @@
     <div class="py-2 px-3">
       {% if item.location %}
       <p class="text-lg">{{ item.location }}</p>
-      <p class="text-lg text-gray-600">{{ item.title }}</p>
+      <p class="text-lg text-gray-600">
+        {{ item.title }} • {{ item.category }}
+      </p>
       {% else %}
       <p class="text-lg">{{ item.title }}</p>
+      <p class="text-lg text-gray-600">{{ item.category }}</p>
       {% endif %}
     </div>
   </a>

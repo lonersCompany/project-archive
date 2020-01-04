@@ -50,11 +50,11 @@ nav {
 
 .swiper-next {
   right: 0;
-  cursor: e-resize;
+  cursor: url("/assets/font-files/arrow-right.svg"), e-resize;
 }
 
 .swiper-prev {
-  cursor: w-resize;
+  cursor: url("/assets/font-files/arrow-left.svg"), w-resize;
 }
 
 // .swiper-next,
@@ -213,6 +213,16 @@ div > a.mapboxgl-ctrl-logo,
 
   .entrie[data-tag="Stavba"] {
     display: inline;
+  }
+}
+
+.Film {
+  tr.entrie[data-tag="Film"] {
+    display: table-row;
+  }
+
+  .entrie[data-tag="Film"] {
+    display: block;
   }
 }
 

@@ -32,12 +32,12 @@ export const cards = {
     // when window width is >= 850px
     650: {
       slidesPerView: 2,
-      spaceBetween: 30
+      spaceBetween: 20
     },
     // when window width is >= 850px
     850: {
       slidesPerView: 3,
-      spaceBetween: 30
+      spaceBetween: 20
     }
   }
 };

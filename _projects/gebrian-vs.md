@@ -1,6 +1,6 @@
 ---
 title: Gebrian VS
-category: Publikace
+category: Film
 layout: project
 weight: 100
 images:
