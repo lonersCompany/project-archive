@@ -1,6 +1,6 @@
 ---
 title: Krajina
-category: ''
+category: Publikace
 layout: project
 year: 2009
 weight: 900
