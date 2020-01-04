@@ -11,13 +11,6 @@ sections:
   match: "**/*"
   templates:
   - project
-- type: directory
-  path: _media
-  label: Media
-  create: documents
-  match: "**/*"
-  templates:
-  - media
 - type: document
   path: _data/contact.yml
   label: Contact
