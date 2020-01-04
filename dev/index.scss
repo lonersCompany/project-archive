@@ -57,13 +57,13 @@ nav {
   cursor: w-resize;
 }
 
-.swiper-next,
-.swiper-prev {
-  transition: all 1s ease-in-out;
-  &:hover {
-    background-color: rgba(230, 230, 230, 0.8);
-  }
-}
+// .swiper-next,
+// .swiper-prev {
+//   transition: all 1s ease-in-out;
+//   &:hover {
+//     background-color: rgba(230, 230, 230, 0.8);
+//   }
+// }
 
 .swiper-pagination-bullet {
   width: 14px;
