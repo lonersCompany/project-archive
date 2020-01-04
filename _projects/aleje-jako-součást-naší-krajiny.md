@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ''
+category: Publikace
 title: Aleje jako součást naší krajiny
 year: 2007
 weight: 900
