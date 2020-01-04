@@ -45,14 +45,14 @@ latitude: 49.753792
 longitude: 13.00066
 category: Stavba
 awards:
-  - name: Česká cena za architekturu  - Masarykovo náměstí ve Stříbře
+  - title: Česká cena za architekturu  - Masarykovo náměstí ve Stříbře
     placement: nominace
     year: 2019
     link: https://ceskacenazaarchitekturu.cz/projekty/2019/revitalizace-masarykova-namesti-v-mestske-pamatkove-zone-mesta-stribro/
-  - name: PIRANESI AWARD
+  - title: PIRANESI AWARD
     placement: nominace
     year: 2015
-  - name: Stavba Plzeňského Kraje
+  - title: Stavba Plzeňského Kraje
     placement: 1. místo
     year: 2015
 ---

@@ -12,36 +12,31 @@ location: Ocenění
     <!-- . -->
     {% if project.awards[0] %}
     <div class="text-2xl pt-20 pb-5">
-      <span>{{project.title}}</span>
-      <span>{{project.year}}</span>
+      <span>{{project.location}},</span>
+      <span class="text-gray-500">{{project.title}}</span>
     </div>
     <!-- . -->
     {%- for item in project.awards -%}
     <!-- . -->
-    <div class="pb-5">
-      <div class="text-sm text-gray-500 mb-2">
-        {{ item.placement }}
-      </div>
-      <div class="text-lg">
-        {% if item.link != "" %}
-        <a class="hover:text-blue-600 cursor-pointer" href="{{ item.link }}">
-          {% endif %}
+    {% if item.link and item.link != "" %}
+    <a class="block hover:bg-gray-300" href="{{ item.link }}">
+      {% endif %}
+      <div class="py-3 border-b border-gray-400">
+        <div class="text-sm text-gray-500 mb-2">
+          {{ item.placement }}
+        </div>
+        <div class="text-lg">
           <!-- . -->
-          {{ item.name }}
-          <!-- . -->
-          {% if item.link != "" %}
-        </a>
-        {% endif %}
-        <!-- . -->
-        {% if item.year != "" %}
-        <span class=""> ({{ item.year }}) </span>
+          {{ item.title }}
+        </div>
+        {% if item.link and item.link != "" %}
+        <div class="text-sm text-gray-500 mb-2">
+          Přejít na stránky ocenění
+        </div>
         {% endif %}
       </div>
-
-      <!-- <div class="text-sm text-gray-500 mb-2">
-        {{ project.title }}
-      </div> -->
-    </div>
-    {%-endfor -%} {%- endif -%} {%- endfor -%}
+      {% if item.link and item.link != "" %}
+    </a>
+    {% endif %} {%-endfor -%} {%- endif -%} {%- endfor -%}
   </div>
 </section>

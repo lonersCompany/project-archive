@@ -1,6 +1,6 @@
 ---
 layout: about
-title: kontakt
+title: studio
 desription: Jsme architekti, kteří se prioritně věnují krajinářské architektuře
 ---
 

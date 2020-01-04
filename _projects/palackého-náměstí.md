@@ -28,7 +28,7 @@ description:
   ne příliš hezkých zákoutí na náměstí. Troufáme si říct, že přinášíme novou opodstatněnou
   vrstvu, která však celek náměstí nenaruší vizuálně a zároveň jej uživatelsky zpříjemní.\n"
 awards:
-  - name: architektonická soutěž
+  - title: architektonická soutěž
     placement: 2. místo
     year: 2016
     link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
