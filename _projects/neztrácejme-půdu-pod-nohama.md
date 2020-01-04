@@ -13,7 +13,7 @@ description: Půda je slovo mnohoznačné. Úrodná či neúrodná zem, zastavě
   evoluční vývoj a je nutností s ní dobře hospodařit, protože je to ona, která nás
   živí.
 awards: []
-category: ''
+category: Publikace
 size: ''
 price: ''
 images:
@@ -26,5 +26,6 @@ longitude:
 investor: ''
 visualization: ''
 collaborations: []
+link: ''
 
 ---
