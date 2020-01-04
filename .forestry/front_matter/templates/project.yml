@@ -30,15 +30,11 @@ fields:
 - name: awards
   type: field_group_list
   fields:
-  - name: name
-    type: textarea
-    default: ''
+  - name: title
+    type: text
     config:
       required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Name
+    label: Title
   - name: placement
     type: text
     config:
