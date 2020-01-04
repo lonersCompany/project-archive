@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ''
+category: Publikace
 title: Aleje
 year: 2009
 weight: 900
