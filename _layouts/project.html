@@ -9,7 +9,8 @@ layout: default
 {% if page.link and page.link != "" %}
 <section class="pb-16 lg:pb-24 ">
   <div class="max-w-xl mx-auto text-lg px-5 text-center">
-    {%- include btn-lg.html content="Přejít na stránky pořadu" -%}
+    {%- include btn-lg.html content="Přejít na stránky pořadu" link=page.link
+    -%}
   </div>
 </section>
 {% endif %}
@@ -49,7 +50,7 @@ layout: default
               <a
                 class="hover:text-blue-600 cursor-pointer"
                 href="{{ item.link }}"
-                >{{ item.name }}</a
+                >{{ item.title }}</a
               >
               {% else %} {{ item.name }} {% endif %} {% if item.year != "" %}
               <span class=""> ({{ item.year }}) </span>

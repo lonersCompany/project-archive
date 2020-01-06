@@ -1,5 +1,5 @@
-{% if include.href %}
-<a class="block" href="{{site.baseurl}}{{ include.href }}">
+{% if include.link %}
+<a class="block" href="{{site.baseurl}}{{ include.link }}">
   {% endif %}
   <button
     data-tag="{{ include.tag }}"
@@ -7,6 +7,6 @@
   >
     {{ include.content }}
   </button>
-  {% if include.href %}
+  {% if include.link %}
 </a>
 {% endif %}
