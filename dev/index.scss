@@ -54,11 +54,13 @@ nav {
 
 .swiper-next {
   right: 0;
-  cursor: url("/assets/font-files/arrow-right.svg"), e-resize;
+  cursor: pointer;
+  //cursor: url("/assets/font-files/arrow-right.svg"), e-resize;
 }
 
 .swiper-prev {
-  cursor: url("/assets/font-files/arrow-left.svg"), w-resize;
+  cursor: pointer;
+  //cursor: url("/assets/font-files/arrow-left.svg"), w-resize;
 }
 
 // .swiper-next,
@@ -189,6 +191,14 @@ div > a.mapboxgl-ctrl-logo,
 
   &:hover {
     transform: scale(1.02);
+  }
+}
+
+.hover-scale {
+  transition: transform 0.3s;
+
+  &:hover .arrow {
+    transform: scale(1.2);
   }
 }
 

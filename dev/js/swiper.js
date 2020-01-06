@@ -1,5 +1,5 @@
 import Swiper from "swiper";
-import { cards, baseImage } from "./swiperParameters";
+import { cards, baseImage, cardsLg } from "./swiperParameters";
 
 const toggleFullScreen = state => {
   const { sliderEl, slidesArr } = state;
@@ -57,6 +57,10 @@ export const buildSwiper = params => {
           new Swiper(el, cards);
           break;
 
+        case "cards-lg":
+          console.log("cards-lg");
+          new Swiper(el, cardsLg);
+          break;
         default:
           initFullScreen(el);
           new Swiper(el, baseImage);

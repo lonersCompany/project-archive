@@ -1,6 +1,5 @@
 export const baseImage = {
   loop: true,
-  pagination: { el: ".swiper-pagination", clickable: true },
   speed: 0,
   navigation: {
     nextEl: ".swiper-next",
@@ -40,4 +39,20 @@ export const cards = {
       spaceBetween: 20
     }
   }
+};
+
+export const cardsLg = {
+  loop: true,
+  pagination: { el: ".swiper-pagination", clickable: true },
+  speed: 500,
+  navigation: {
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev"
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false
+  },
+  // Default parameters
+  slidesPerView: "auto"
 };
