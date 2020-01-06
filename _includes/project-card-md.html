@@ -1,18 +1,17 @@
-<div
-  class="max-w-xs overflow-hidden rounded shadow-xl border-2 border-gray-300 hover:border-gray-600"
+<a
+  class="block max-w-xs overflow-hidden rounded bg-white shadow-xl border-2 border-gray-300 hover:border-gray-600 transition"
+  href="{{ site.baseurl }}{{ item.url }}"
 >
-  <a class="block" href="{{ site.baseurl }}{{ item.url }}">
-    <img
-      class="h-48 w-full object-cover"
-      src="{{ site.img_url }}c_thumb,h_600,w_1000{{ item.images[0] }}"
-      alt="{{ project.title }}, {{ site.title }}"
-    />
-    <div class="py-2 px-3">
-      <p class="text-lg">{{ include.headline }}</p>
-      <!-- <p class="text-lg text-gray-600">{{ item.title }}</p> -->
-      <p class="text-lg text-gray-600">
-        {{ include.subline }} •&nbsp;{{ include.tag }}
-      </p>
-    </div>
-  </a>
-</div>
+  <img
+    class="h-48 w-full object-cover"
+    src="{{ site.img_url }}c_thumb,h_600,w_1000{{ item.images[0] }}"
+    alt="{{ project.title }}, {{ site.title }}"
+  />
+  <div class="py-2 px-3">
+    <p class="text-lg">{{ include.headline }}</p>
+    <!-- <p class="text-lg text-gray-600">{{ item.title }}</p> -->
+    <p class="text-lg text-gray-600">
+      {{ include.subline }} •&nbsp;{{ include.tag }}
+    </p>
+  </div>
+</a>
