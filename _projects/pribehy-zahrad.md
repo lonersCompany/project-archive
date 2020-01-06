@@ -1,6 +1,6 @@
 ---
 title: Příběhy zahrad
-category: ''
+category: Film
 layout: project
 weight: 900
 description: Vypovídají o nás víc, než si myslíme. Jsou součástí života i historie.
