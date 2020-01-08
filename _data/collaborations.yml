@@ -1,15 +1,15 @@
 ---
-- name: Pavla Drbalová
+- name: Eva Teplická
   profession: krajinářská architektka
 - name: Kateřina Sapáková Záleská
-  profession: krajinářská architektka
-- name: Kateřina Nečasová
   profession: krajinářská architektka
 - name: Tomáš Popelínský
   profession: krajinářský architekt
   link: https://tpopelinsky.blogspot.com/
 - name: Adam Kořistka
   profession: krajinářský architekt
+- name: Kateřina Nečasová
+  profession: krajinářská architektka
 - name: Tomáš Bílek
   profession: projektant pozemní stavby
 - name: Linda Smítalová
@@ -30,3 +30,5 @@
   profession: hudební skladatel
 - name: Jan Zemánek
   profession: sochař
+- name: Pavla Drbalová
+  profession: krajinářská architektka
