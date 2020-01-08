@@ -18,6 +18,7 @@ images:
 - "/v1578088662/archweb/DSC_0404_y0c8ag.jpg"
 - "/v1578088623/archweb/do_2.5_velkej_fotak_794_gljxsi.jpg"
 link: https://www.ceskatelevize.cz/porady/10943460296-pribehy-zahrad/21556226533
-year: 2014
+year: '2015'
+director: Ljuba Václavová
 
 ---
