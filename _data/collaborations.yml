@@ -1,6 +1,4 @@
 ---
-- name: Eva Teplická
-  profession: krajinářská architektka
 - name: Kateřina Sapáková Záleská
   profession: krajinářská architektka
 - name: Tomáš Popelínský
@@ -31,4 +29,6 @@
 - name: Jan Zemánek
   profession: sochař
 - name: Pavla Drbalová
+  profession: krajinářská architektka
+- name: Eva Teplická
   profession: krajinářská architektka
