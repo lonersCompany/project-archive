@@ -1,6 +1,6 @@
 ---
 layout: project
-category: ''
+category: Film
 title: Bermudský poetický trojúhelník nad Vysočinou
 weight: 900
 images:
@@ -26,5 +26,6 @@ description: Českomoravská vrchovina je kraj, kde se na malé ploše narodili 
   a Václava Cílka uvádíme jako vzpomínku na nedávno zesnulého literárního kritika,
   spisovatele a strážce odkazu básníků z Vysočiny Jaroslava Meda (2014)
 year: 2014
+director: Ljuba Václavová
 
 ---
