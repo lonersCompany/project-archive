@@ -210,6 +210,10 @@ div > a.mapboxgl-ctrl-logo,
   display: none;
 }
 
+.into-dark {
+  background: linear-gradient( 90deg, rgba(100, 100, 100, 0), #edf2f7);
+}
+
 .Návrh {
   tr.entrie[data-tag="Návrh"] {
     display: table-row;
