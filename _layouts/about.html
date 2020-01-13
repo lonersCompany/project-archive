@@ -48,7 +48,20 @@ layout: default
   </div>
 </section>
 <section class="bg-gray-300">
-  <div class="container mx-auto px-4 pt-24 pb-24">
-    {%- include gallery-cards-media.html -%}
-  </div>
+    <div class="container mx-auto">
+        {%- include gallery-cards-lg.html category="Film" -%}
+    
+        <div class="px-4 pt-20 pb-24 max-w-xl mx-auto">
+          <a
+            class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-gray-600 hover:bg-gray-300 transition"
+            href="{{site.baseurl}}/projekty?category=Film"
+          >
+            <div class="flex-grow">
+                Filmy
+            </div>
+            <div>⟶</div>
+          </a>
+        </div>
+      </div>
 </section>
+

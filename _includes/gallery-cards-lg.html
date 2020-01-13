@@ -1,10 +1,12 @@
 <div class="swiper-container" data-swiper="cards-lg">
-  <div class="swiper-pagination pb-4"></div>
   <div class="swiper-wrapper">
     <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
-    {% assign items = site.projects | sort: 'weight' %}
+
+    {% assign items = site.projects | where: "category", include.category | sort: 'weight'
+    %}
+
     <!-- mark -->
-    {%- for item in items limit: 4 -%}
+    {%- for item in items limit: 6 -%}
     <div class="swiper-slide w-2/3 lg:w-2/5">
       <a
         class="block"
@@ -32,7 +34,7 @@
   </div>
   <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
   <div class="flex swiper-next absolute inset-y-0 right-0 w-16 z-10 mr-2">
-    <div class="self-center text-center h-16 w-16 bg-gray-500 rounded-full ">
+    <div class="self-center text-center h-16 w-16 rounded-full ">
       <div class="pt-3 text-2xl">
         ⟶
       </div>
