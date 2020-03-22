@@ -19,9 +19,9 @@ category: Návrh
 size: 1,35 ha
 price: ''
 images:
+- "/v1584893476/archweb/VIZUALIZACEod_radnice_nahoru_qtqyxf.jpg"
 - "/v1584891629/archweb/__Situace_1_al7jz3.jpg"
 - "/v1584893501/archweb/Z%C3%A1kres_do_povinn%C3%A9_fotografie_Perspektivn%C3%AD_pohled_I_dwlaen.jpg"
-- "/v1584893476/archweb/VIZUALIZACEod_radnice_nahoru_qtqyxf.jpg"
 - "/v1584893454/archweb/vizu2_nia6nt.jpg"
 - "/v1584891699/archweb/VIZUALIZACE_Detail_schodi%C5%A1t%C4%9B_s_posezen%C3%ADm_yzi5zh.jpg"
 - "/v1584891642/archweb/__Pta%C4%8D%C3%AD_pohled_aydb9u.jpg"
