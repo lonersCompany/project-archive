@@ -1,5 +1,5 @@
 ---
-weight: 99
+weight: 97
 year: 2011
 authors: Markéta & Petr Veličkovi
 layout: project
