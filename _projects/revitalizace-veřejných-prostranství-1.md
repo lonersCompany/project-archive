@@ -4,7 +4,7 @@ year: 2011
 authors: Markéta & Petr Veličkovi
 layout: project
 location: Hrotovice
-title: Revitalizace veřejných prostranství
+title: Veřejná prostranství
 description: Celkový koncept vychází z požadavku na zkvalitnění veřejného prostranství
   - architektonické úpravy náměstí, zpřístupnění zarostlých částí, vznik prostranství
   pro kulturní akce na centrální louce pod Horním rybníkem, instalace mobiliáře, herních
