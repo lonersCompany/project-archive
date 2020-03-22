@@ -14,7 +14,7 @@ awards:
 - placement: 1. místo
   link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-miru-v-tisnove
   year: 2020
-  title: architektonická soutěž
+  title: architektonicko - urbanistická soutěž
 category: Návrh
 size: 1,35 ha
 price: ''
