@@ -1,5 +1,5 @@
 ---
-weight: 99
+weight: 29
 year: 2020
 authors: Markéta & Petr Veličkovi
 layout: project
