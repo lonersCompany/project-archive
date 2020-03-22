@@ -21,6 +21,5 @@ description: ''
 investor: Statutární město České Budějovice
 visualization: Jan Cyrany
 category: Návrh
-published: false
 
 ---
