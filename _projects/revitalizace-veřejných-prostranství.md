@@ -1,6 +1,6 @@
 ---
 category: Návrh
-weight: 99
+weight: 97
 title: Revitalizace veřejných prostranství
 director: ''
 year: 2011
