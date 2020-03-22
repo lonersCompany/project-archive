@@ -24,6 +24,5 @@ authors: Markéta & Petr Veličkovi
 investor: soukromý investor
 visualization: Jan Cyrany
 location: Hrotovice
-published: false
 
 ---
