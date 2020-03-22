@@ -14,11 +14,7 @@ description: "Jedná se o komplex historických budov zámku, správních a hosp
   stejné architektonické a estetické kvality. Zároveň jsou na jednotlivé celky kladeny
   nároky vyplývající ze současných potřeb - využívání pro kulturní akce a výstavy,
   prezentace zahrady jako památky, udržitelnost  údržby. \n"
-awards:
-- year: 
-  title: ''
-  placement: ''
-  link: ''
+awards: []
 category: Návrh
 year: 2011
 size: 15,23 ha
