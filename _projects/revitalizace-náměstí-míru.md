@@ -34,6 +34,5 @@ investor: Město Tišnov
 visualization: Tomáš Popelínský
 collaborations:
 - Adam Kořistka, Tomáš Popelínský, Kateřina Záleská Sapáková, Linda Smítalová
-published: false
 
 ---
