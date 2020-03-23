@@ -1,10 +1,9 @@
 ---
 weight: 15
 layout: project
-title: Masarykovo náměstí
 year: 2018
 authors: Markéta & Petr Veličkovi
-location: Stříbro
+title: Stříbro, Masarykovo náměstí
 investor: město Stříbro
 visualization: Jan Cyrany Jitka Daňková
 size: 1,62 ha

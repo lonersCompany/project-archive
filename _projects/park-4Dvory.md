@@ -18,7 +18,8 @@ images:
   - "/v1574423626/archweb/p%C5%AFdorys_anj_zn5ful.jpg"
   - "/v1574423633/archweb/vizu2012_hnqlqu.jpg"
   - "/v1574423835/archweb/4._2018_z7qncp.jpg"
-title: Park 4Dvory
+title: České Budějovice, Park 4Dvory
+subtitle:
 description:
   Vzhledem ke geologickým podmínkám území (jílovitosti půdy, která udusí
   novou výsadbu nepředpěstovanou v těchto podmínkách) byl jako vůdčí koncept práce
@@ -34,7 +35,6 @@ description:
   na nasypaném terénu. Násypy cest je pak členěna plocha území na dílčí plochy jednotlivých
   stupňů sukcese.
 year: 2014
-location: České Budějovice
 investor: Město České Budějovice
 visualization: Jan Cyrany
 size: 2,84 ha

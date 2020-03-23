@@ -2,8 +2,8 @@
 authors: Markéta a Petr Veličkovi, David Prudík
 layout: project
 weight: 99
-location: Humpolec
-title: Obnova zástavby a parku
+title: Humpolec, obnova zástavby a parku
+subtitle:
 description:
   "Konceptem řešení území je odclonění dopravy od klidového prostoru parku
   a vytvoření tak „nové městské zahrady“ – parku Stromovka. Nová zástavba je navržena

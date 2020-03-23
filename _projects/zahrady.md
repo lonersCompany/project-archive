@@ -2,7 +2,6 @@
 weight: 25
 authors: Markéta a Petr Veličkovi
 layout: project
-location: Česká republika
 title: Zahrady
 description: zahrady pro soukromé investory
 awards: []

@@ -3,8 +3,8 @@ weight: 99
 year: 2017
 authors: Markéta & Petr Veličkovi
 layout: project
-location: Oslavice
-title: Veřejná prostranství
+title: Oslavice, veřejná prostranství
+subtitle:
 description: |-
   V závislosti na stávajících zaužívaných pěších tazích a prostorových
   možnostech uličního profilu bylo navrženo trasování chodníků. Začátek
@@ -38,21 +38,20 @@ description: |-
   části trasován po levé straně.
 awards: []
 category: Návrh
-size: ''
-price: ''
+size: ""
+price: ""
 images:
-- "/v1576351746/archweb/Oslavice_vizu_2_w8nkbm.jpg"
-- "/v1576351766/archweb/Oslavicevizu_FIN_1_odo7lt.jpg"
-- "/v1576351813/archweb/vizu_1_edweeo.jpg"
-- "/v1576351792/archweb/vizu_2_2_jirldr.jpg"
-- "/v1576351629/archweb/Oslavice_j4m0us.jpg"
-- "/v1576351654/archweb/Oslavice_panely_2_FIN_shvhp0.jpg"
-- "/v1576351722/archweb/Oslavice_panely_1_FIN_3_arv1xq.jpg"
-- "/v1576351689/archweb/vizu_3_gpzdia.jpg"
+  - "/v1576351746/archweb/Oslavice_vizu_2_w8nkbm.jpg"
+  - "/v1576351766/archweb/Oslavicevizu_FIN_1_odo7lt.jpg"
+  - "/v1576351813/archweb/vizu_1_edweeo.jpg"
+  - "/v1576351792/archweb/vizu_2_2_jirldr.jpg"
+  - "/v1576351629/archweb/Oslavice_j4m0us.jpg"
+  - "/v1576351654/archweb/Oslavice_panely_2_FIN_shvhp0.jpg"
+  - "/v1576351722/archweb/Oslavice_panely_1_FIN_3_arv1xq.jpg"
+  - "/v1576351689/archweb/vizu_3_gpzdia.jpg"
 latitude: 49.340162
 longitude: 15.995277
 investor: Obec Oslavice
 visualization: Tomáš Popelínský
 collaborations: []
-
 ---

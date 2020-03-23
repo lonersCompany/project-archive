@@ -3,9 +3,10 @@ weight: 99
 year: 2010
 authors: Markéta & Petr Veličkovi
 layout: project
-location: Berlín
-title: Tempelhof
-description: "LIBRETO – Most jako symbol cesty ke spojení názorů, přátelství, kultur,
+title: Berlín, Tempelhof
+subtitle:
+description:
+  "LIBRETO – Most jako symbol cesty ke spojení názorů, přátelství, kultur,
   času, hodnot, pohledů  …\nVýchodiskem je samotné místo, které má v sobě nesmazatelný
   otisk lidského ducha. Koncept se snaží podpořit vnímání minulosti zachováním části
   historických stop – vnějšího okruhu, přistávacích drah, obratiště pro letadla, meteorologické
@@ -23,18 +24,17 @@ description: "LIBRETO – Most jako symbol cesty ke spojení názorů, přátels
   za použití soudobého jazyka s akcentací kulturních i ekologických nároků.   \n"
 awards: []
 category: Návrh
-size: ''
-price: ''
+size: ""
+price: ""
 images:
-- "/v1576271107/archweb/MP_Berlin_poster4_rfdzdm.jpg"
-- "/v1576271056/archweb/MP_Berlin_poster4a_icwnhq.jpg"
-- "/v1576271006/archweb/MP_Berlin_r3-4_uj8llt.jpg"
-- "/v1576271021/archweb/MP_Berlin_posterA_hdtijh.jpg"
-- "/v1576270986/archweb/MP_Berlin__gohk7w.jpg"
-latitude: '52.472970'
+  - "/v1576271107/archweb/MP_Berlin_poster4_rfdzdm.jpg"
+  - "/v1576271056/archweb/MP_Berlin_poster4a_icwnhq.jpg"
+  - "/v1576271006/archweb/MP_Berlin_r3-4_uj8llt.jpg"
+  - "/v1576271021/archweb/MP_Berlin_posterA_hdtijh.jpg"
+  - "/v1576270986/archweb/MP_Berlin__gohk7w.jpg"
+latitude: "52.472970"
 longitude: 13.403737
 investor: Stadt Berlin
 visualization: Jan Cyrany
 collaborations: []
-
 ---

@@ -16,7 +16,9 @@ layout: default
   <div class="max-w-lg mx-auto px-4">
     {%- include label-hr.html content="E-mail" -%}
     <p class="text-lg">
-      {{ site.data.information.email }}
+
+      <a href="mailto:{{ site.data.information.email }}" class="text-purple-700 hover:text-blue-800">{{ site.data.information.email }}</a>
+      
     </p>
   </div>
 </section>

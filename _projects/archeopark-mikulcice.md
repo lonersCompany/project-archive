@@ -1,10 +1,10 @@
 ---
 weight: 20
 layout: project
-title: Archeopark
+subtitle: Archeopark
 year: 2015
 authors: Markéta & Petr Veličkovi a Jan Cyrany
-location: Mikulčice
+title: Mikulčice, Archeopark
 investor: Jihomoravský kraj
 visualization: Jan Cyrany Jitka Daňková
 size: 135 ha
