@@ -10,6 +10,10 @@
 
 @import "./scss/_fonts.scss";
 
+body p {
+  @apply font-body;
+}
+
 .transition {
   transition: all 0.3s ease-in;
 }

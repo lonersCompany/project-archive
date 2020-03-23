@@ -6,6 +6,15 @@ layout: default
   {%- include gallery-images.html -%}
 </section>
 
+{% if page.embed %}
+<section class="pb-16">
+  <div class="flex justify-center">
+    {{page.embed}}
+  </div>
+</section>
+{% endif %}
+
+<!-- . -->
 {% if page.link and page.link != "" %}
 <section class="pb-16 lg:pb-24 ">
   <div class="max-w-xl mx-auto text-lg px-5 text-center">
