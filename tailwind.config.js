@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ["Inter !important"],
-      body: ["Inter !important"]
+      display: ["Inter", "sans-serif"],
+      body: ["Inter", "sans-serif"]
     }
     // colors: {
     //   gray: {
