@@ -10,6 +10,5 @@ images:
 - "/v1575842914/archweb/kosteln%C3%AD_vyd%C5%99%C3%AD_ljilz9.jpg"
 link: https://youtu.be/Y0e1rWYp9Hk
 director: ''
-published: false
 
 ---
