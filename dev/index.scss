@@ -210,50 +210,37 @@ div > a.mapboxgl-ctrl-logo,
   cursor: zoom-out;
 }
 
-.entrie {
-  display: none;
-}
-
 .into-dark {
   background: linear-gradient(90deg, rgba(100, 100, 100, 0), #edf2f7);
 }
 
-.Návrh {
-  tr.entrie[data-tag="Návrh"] {
-    display: table-row;
-  }
-
-  .entrie[data-tag="Návrh"] {
-    display: block;
-  }
-}
-
-.Stavba {
-  tr.entrie[data-tag="Stavba"] {
-    display: table-row;
-  }
-
-  .entrie[data-tag="Stavba"] {
-    display: inline;
-  }
-}
-
-.Film {
-  tr.entrie[data-tag="Film"] {
-    display: table-row;
-  }
-
+.entries.Stavba {
+  .entrie[data-tag="Návrh"],
   .entrie[data-tag="Film"] {
-    display: block;
+    display: none;
   }
 }
 
-.Publikace {
-  tr.entrie[data-tag="Publikace"] {
-    display: table-row;
-  }
-
-  .entrie[data-tag="Publikace"] {
-    display: block;
+.entries.Návrh {
+  .entrie[data-tag="Stavba"],
+  .entrie[data-tag="Film"] {
+    display: none;
   }
 }
+
+.entries.Film {
+  .entrie[data-tag="Stavba"],
+  .entrie[data-tag="Návrh"] {
+    display: none;
+  }
+}
+
+// .Publikace {
+//   tr.entrie[data-tag="Publikace"] {
+//     display: table-row;
+//   }
+
+//   .entrie[data-tag="Publikace"] {
+//     display: block;
+//   }
+// }

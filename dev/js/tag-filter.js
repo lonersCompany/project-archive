@@ -1,17 +1,23 @@
-const setCategory = (mainEl, btnEls, el) => {
-  const value = el.getAttribute("data-tag");
-  const attributesArr = btnEls.map(el => el.getAttribute("data-tag"));
+const setCategory = (btn, state) => {
+  if (state.activeEl) state.activeEl.classList.remove("bg-gray-300");
+  if (state.value) state.mainEl.classList.remove(state.value);
+  if (state.activeEl === btn) {
+    state.activeEl = null;
+    state.value = null;
+    return;
+  }
 
-  attributesArr.forEach(attribute => mainEl.classList.remove(attribute));
-  btnEls.forEach(el => el.classList.remove("bg-gray-300"));
+  const value = btn.getAttribute("data-tag");
 
-  el.classList.add("bg-gray-300");
-  mainEl.classList.add(value);
+  state.mainEl.classList.add(value);
+  btn.classList.add("bg-gray-300");
+  state.value = value;
+  state.activeEl = btn;
 };
 
 const getUrlVars = () => {
   var vars = {};
-  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (
     m,
     key,
     value
@@ -21,21 +27,27 @@ const getUrlVars = () => {
   return vars;
 };
 
-export const initTagFilters = mainEl => {
+export const initTagFilters = (mainEl) => {
   const btnEls = Array.from(mainEl.querySelectorAll(".btn-filter"));
 
-  btnEls.forEach(el => {
+  const state = {
+    activeEl: null,
+    mainEl,
+    btnEls,
+  };
+
+  btnEls.forEach((el) => {
     el.addEventListener("click", () => {
-      setCategory(mainEl, btnEls, el);
+      setCategory(el, state);
     });
   });
 
-  // SET CATEGORY IF URL VARIABLE IS PAST
+  // SET CATEGORY AFTER REDIRECT
   const tagsPastInURL = getUrlVars();
   if (tagsPastInURL.category) {
     const el = btnEls.find(
-      el => el.getAttribute("data-tag") == tagsPastInURL.category
+      (el) => el.getAttribute("data-tag") == tagsPastInURL.category
     );
-    setCategory(mainEl, btnEls, el);
+    setCategory(el, state);
   }
 };
