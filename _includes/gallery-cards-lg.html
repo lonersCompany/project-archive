@@ -2,8 +2,8 @@
   <div class="swiper-wrapper">
     <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
 
-    {% assign items = site.projects | where: "category", include.category | sort: 'weight'
-    %}
+    {% assign items = site.projects | where: "category", include.category |
+    sort: 'weight' %}
 
     <!-- mark -->
     {%- for item in items limit: 6 -%}
@@ -16,7 +16,7 @@
         <img
           class="w-full object-cover overflow-hidden border-2 border-gray-400 hover:border-gray-600 transition"
           src="{{ site.img_url }}c_thumb,h_500,w_800{{ item.images[0] }}"
-          alt="{{ project.title }}, {{ site.title }}"
+          alt="{{ page.title }}, {{ site.title }}, Mp architekti"
         />
         <div class="py-2 px-3">
           {% if item.location %}
@@ -33,8 +33,8 @@
     {%- endfor -%}
   </div>
   <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
-  <div class="flex swiper-next absolute inset-y-0 right-0 w-16 z-10 ">
-    <div class="self-center text-center h-16 w-16 rounded-full ">
+  <div class="flex swiper-next absolute inset-y-0 right-0 w-16 z-10">
+    <div class="self-center text-center h-16 w-16 rounded-full">
       <div class="pt-3 text-2xl">
         ⟶
       </div>
