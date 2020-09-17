@@ -17,7 +17,7 @@ sections:
   label: Studio
 - type: document
   path: _data/studio.yml
-  label: Members
+  label: Petr a Markéta
 - type: document
   path: _data/contact.yml
   label: Contact
