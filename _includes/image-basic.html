@@ -1,0 +1,11 @@
+<img
+  srcset="
+{{ site.img_url }}w_300{{ image }} 500w,
+{{ site.img_url }}w_500{{ image }} 710w,
+{{ site.img_url }}w_700{{ image }} 1000w,
+{{ site.img_url }}w_700{{ image }} 1420w"
+  src="{{ site.img_url }}w_500{{ image }}"
+  sizes="100vw"
+  alt="{{ page.title }}, {{ site.title }}, Mp architekti"
+  class="max-h-70 object-contain mx-auto"
+/>
