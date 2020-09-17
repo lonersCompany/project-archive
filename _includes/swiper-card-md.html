@@ -1,6 +1,6 @@
 <div class="p-1">
   <div
-    class="swiper-slide rounded overflow-hidden shadow-lg bg-gray-100 border-2 border-gray-300 hover:border-gray-600 transition"
+    class="swiper-slide rounded overflow-hidden shadow-lg bg-gray-100 border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 transition"
   >
     <a class="block" href="{{ site.baseurl }}{{ item.url }}">
       <img
@@ -11,9 +11,7 @@
       <div class="py-2 px-3">
         {% if item.location %}
         <p class="text-lg">{{ item.location }}</p>
-        <p class="text-lg text-gray-600">
-          {{ item.title }}
-        </p>
+        <p class="text-lg text-gray-600">{{ item.title }}</p>
         {% else %}
         <p class="text-lg">{{ item.title }}</p>
         {% endif %}

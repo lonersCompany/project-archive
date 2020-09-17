@@ -4,65 +4,59 @@ layout: default
 
 <section>
   <div class="max-w-xl text-2xl text-gray-700 mx-auto pb-24 px-4 text-block">
-    <div class="text-center  pb-24">
+    <div class="text-center pb-24">
       <img class="inline w-32" src="{{ site.img_url }}{{ page.logo }}" alt="" />
     </div>
     {{ content }}
   </div>
 </section>
 <section class="bg-gray-200">
-  <div class=" mx-auto">
+  <div class="mx-auto">
     {%- include gallery-cards-lg.html -%}
 
     <div class="px-4 pt-20 pb-32 max-w-xl mx-auto">
       <a
-        class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-gray-600 hover:bg-gray-300 transition"
+        class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-blue-600 hover:text-blue-600 hover:bg-gray-300 transition"
         href="{{site.baseurl}}/projekty/"
       >
-        <div class="flex-grow">
-          Projekty
-        </div>
+        <div class="flex-grow">Projekty</div>
         <div>⟶</div>
       </a>
     </div>
   </div>
 </section>
 
-<section class="homepage-map">
-  {%- include map.html type="projects" -%}
-</section>
+<section class="homepage-map">{%- include map.html type="projects" -%}</section>
 
 <section class="bg-gray-200 py-32">
-  <div class="max-w-xl text-2xl text-gray-700 mx-auto  px-4 text-block">
-    Naším přáním je kvalitní život lidí užívajících svůj obytný prostor. Věříme, že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.  Krása je nutnou součástí života každého z nás.
+  <div class="max-w-xl text-2xl text-gray-700 mx-auto px-4 text-block">
+    Naším přáním je kvalitní život lidí užívajících svůj obytný prostor. Věříme,
+    že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
+    Krása je nutnou součástí života každého z nás.
   </div>
   <div class="px-4 pt-20 max-w-xl mx-auto">
     <a
-      class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-gray-600 hover:bg-gray-300 transition"
+      class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-blue-600 hover:text-blue-600 hover:bg-gray-300 transition"
       href="{{site.baseurl}}/studio/"
     >
-      <div class="flex-grow">
-        Studio
-      </div>
+      <div class="flex-grow">Studio</div>
       <div>⟶</div>
     </a>
   </div>
 </section>
 
 <section class="bg-gray-200">
-    <div class=" mx-auto pb-64">
-        {%- include gallery-cards-lg.html category="Film" -%}
-    
-        <div class="px-4 pt-20  max-w-xl mx-auto">
-          <a
-            class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-gray-600 hover:bg-gray-300 transition"
-            href="{{site.baseurl}}/projekty?category=Film"
-          >
-            <div class="flex-grow">
-                Filmy
-            </div>
-            <div>⟶</div>
-          </a>
-        </div>
-      </div>
+  <div class="mx-auto pb-64">
+    {%- include gallery-cards-lg.html category="Film" -%}
+
+    <div class="px-4 pt-20 max-w-xl mx-auto">
+      <a
+        class="text-2xl flex px-5 py-3 rounded border-2 border-gray-400 hover:border-blue-600 hover:text-blue-600 hover:bg-gray-300 transition"
+        href="{{site.baseurl}}/projekty?category=Film"
+      >
+        <div class="flex-grow">Filmy</div>
+        <div>⟶</div>
+      </a>
+    </div>
+  </div>
 </section>

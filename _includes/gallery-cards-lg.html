@@ -9,12 +9,11 @@
     {%- for item in items limit: 6 -%}
     <div class="swiper-slide w-2/3 lg:w-2/5">
       <a
-        class="block"
-        style="margin-right: 4px;"
+        class="block hover:text-blue-600 transition"
         href="{{ site.baseurl }}{{ item.url }}"
       >
         <img
-          class="w-full object-cover overflow-hidden border-2 border-gray-400 hover:border-gray-600 transition"
+          class="w-full object-cover overflow-hidden border-2 border-gray-400 hover:border-blue-600 transition"
           src="{{ site.img_url }}c_thumb,h_500,w_800{{ item.images[0] }}"
           alt="{{ page.title }}, {{ site.title }}, Mp architekti"
         />
@@ -35,9 +34,7 @@
   <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
   <div class="flex swiper-next absolute inset-y-0 right-0 w-16 z-10">
     <div class="self-center text-center h-16 w-16 rounded-full">
-      <div class="pt-3 text-2xl">
-        ⟶
-      </div>
+      <div class="pt-3 text-2xl">⟶</div>
     </div>
   </div>
 </div>
