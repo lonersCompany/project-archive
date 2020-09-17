@@ -1,5 +1,8 @@
-<table class="w-full text-lg">
+<table class="w-full text-lg overflow-x-scroll">
     <tr>
+      <th class="uppercase text-xs py-2 border-0 border-b-2 border-gray-300 text-gray-400">
+        
+      </th>
       <th class="uppercase text-xs py-2 border-0 border-b-2 border-gray-300 text-gray-400">
         Název
       </th>
@@ -14,9 +17,12 @@
     {% assign items = site.projects | sort: 'weight' %}
     {%- for item in items -%}
     
-    <tr class="hover:bg-gray-300 entrie" data-tag="{{item.category}}">
+    <tr class="hover:bg-gray-300 entrie min-w-64" data-tag="{{item.category}}">
         <th class="border-0 border-b-2 border-gray-300 p-0">
-          <a class="block flex" href="{{item.url}}"><div class="w-32"><img class="w-24 md:inline" src="{{ site.img_url }}c_thumb,w_350,h_220{{ item.images[0] }}" alt=""></div><div class="pl-2 py-4">{{item.title}}</div></a>
+          <a class="block flex" href="{{item.url}}"><div class="w-32"><img class="w-32 md:inline" src="{{ site.img_url }}c_thumb,w_350,h_220{{ item.images[0] }}" alt=""></div></a>
+        </th>
+        <th class="border-0 border-b-2 border-gray-300 p-0">
+          <a class="block flex" href="{{item.url}}"><div class="pl-2 py-4">{{item.title}}</div></a>
         </th>
         <th class="border-0 border-b-2 border-gray-300">
             <a class="block py-4" href="{{item.url}}"><span>{{item.category}}</span></a>      
