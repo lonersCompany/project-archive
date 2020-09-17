@@ -16,7 +16,7 @@ sections:
   path: studio.md
   label: Studio
 - type: document
-  path: _data/members.yml
+  path: _data/studio.yml
   label: Members
 - type: document
   path: _data/contact.yml
