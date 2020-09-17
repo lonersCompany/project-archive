@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: _projects
-  label: Projects
+  label: Projekty
   create: documents
   match: "**/*"
   templates:
@@ -20,10 +20,10 @@ sections:
   label: Petr a Markéta
 - type: document
   path: _data/contact.yml
-  label: Contact
+  label: Kontakty
 - type: document
   path: _data/collaborations.yml
-  label: Collaborations
+  label: Kolaborace
 upload_dir: archweb
 public_path: ''
 front_matter_path: https://res.cloudinary.com/dhxmg9p4i/image/archweb
