@@ -2,8 +2,8 @@
   <div
     id="map"
     class="h-70"
-    data-pin-lon="{{ site.data.contact.longitude }}"
-    data-pin-lat="{{ site.data.contact.latitude }}"
+    data-pin-lon="{{ site.data.contact.studiopin.longitude }}"
+    data-pin-lat="{{ site.data.contact.studiopin.latitude }}"
   ></div>
 
 
@@ -11,11 +11,11 @@
     <div class="md:absolute md:top-0 z-10">
       <div
         class="map-location p-6"
-        data-lon="{{ site.data.contact.longitude }}"
-        data-lat="{{ site.data.contact.latitude }}"
+        data-lon="{{ site.data.contact.studiopin.longitude }}"
+        data-lat="{{ site.data.contact.studiopin.latitude }}"
         data-marked="true"  
       >
-      {%- include project-card-md.html headline=site.data.information.post_adress.city subline=site.data.information.post_adress.street -%}
+      {%- include project-card-md.html headline=site.data.contact.post_adress.city subline=site.data.contact.post_adress.street -%}
       </div>
 
     </div>
