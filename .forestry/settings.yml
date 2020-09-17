@@ -16,11 +16,11 @@ sections:
   path: studio.md
   label: Studio
 - type: document
-  path: _data/contact.yml
-  label: Contact
-- type: document
   path: _data/members.yml
   label: Members
+- type: document
+  path: _data/contact.yml
+  label: Contact
 - type: document
   path: _data/collaborations.yml
   label: Collaborations
