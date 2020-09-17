@@ -1,9 +1,10 @@
 ---
 layout: studio
 title: studio
-desription: Ateliér krajinářské architektury založili v&nbsp;roce 2004 Markéta a&nbsp;Petr Veličkovi.
----
+desription: Ateliér krajinářské architektury založili v&nbsp;roce 2004 Markéta a&nbsp;Petr
+  Veličkovi.
 
+---
 Krajinářská architektura - „architektura beze stropu“ je svébytným oborem zahrnujícím komplexní tvorbu náměstí, nábřeží, ulic, parků, promenád … Zahrnuje především krajinu města - veřejné městské / venkovské prostory, historické a soukromé zahrady, ale i krajinu volnou. Krajinářská architektura není „ozeleňováním prostoru“, ale celostním komponováním místa. Projekty řešíme od první skici po dozor při realizaci.
 
 Konkrétní místo je vždy základem naší tvorby. Opakovaně se jej pokoušíme přečíst, nalézat významy, neničit, citlivě zacházet.
