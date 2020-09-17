@@ -1,8 +1,11 @@
 ---
-- name: Markéta Veličková
-  position: Autorizovaná architektka - krajinářská architektura
-  phone: "+420 603 713 838"
-  cv: "Markéta Veličková (1978, Třebíč) absolventka Gymnázia Třebíč, vystudovala
+title: mpArch
+members:
+  - name: Markéta Veličková
+    portret: "/v1600346179/archweb/vpravo_IMG_8487_f3g3up.jpg"
+    position: Autorizovaná architektka - krajinářská architektura
+    phone: "+420 603 713 838"
+    resume: "Markéta Veličková (1978, Třebíč) absolventka Gymnázia Třebíč, vystudovala
     krajinářskou architekturu na Mendelově univerzitě v Brně, Od roku 2008 autorizovaná
     architektka A3. V roce 2004 spoluzaložila s P. Veličkou ateliér M&P architekti–krajinářská
     architektura, ve kterém působí dodnes. K jejím realizovaným stavbám patří např.
@@ -13,11 +16,12 @@
     2014, Nominace Česká cena za architekturu 2016 a 2019, German Design Awards
     2020. Spoluautorka knih a filmových dokumentů ČT o krajině a zahradách v České
     republice. Spoluautorka Manifestu Krajinářské architektury (2017)."
-- name: Petr Velička
-  position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
-  phone: "+420 731 477 608"
-  cv:
-    "Po absolutoriu Gymnázia Tišnov 1990 -1994 vystudoval krajinářskou architekturu
+
+  - name: Petr Velička
+    portret: "/v1600346197/archweb/IMG_8381_tegrie.jpg"
+    position: Autorizovaný architekt - architektura, územní plánování, krajinářská architektura
+    phone: "+420 731 477 608"
+    resume: "Po absolutoriu Gymnázia Tišnov 1990 -1994 vystudoval krajinářskou architekturu
     na Mendelu v Brně. V roce 2006 úspěšně složil zkoušky k autorizaci v oboru krajinářská
     architektura. V současnosti je již autorizován také v oborech architektura a
     územní plánování. Se svou ženou Markétou založili v roce 2004 ateliér M&P architekti
@@ -33,3 +37,5 @@
     i místopředsedou dozorčí rady ČKA. V roce 2015 byl zvolen do představenstva
     ČKA a v roce 2019 byl zvolen místopředsedou ČKA. S kolegy dne 27. 2. 2017 vydali
     Manifest Krajinářské architektury."
+---
+

@@ -4,29 +4,29 @@ layout: default
 
 <section class="pb-10">
   <div class="max-w-lg mx-auto px-4">
-    <p class="text-2xl text-gray-600">
-      M&P architekti
-    </p>
-    <p class="text-2xl text-gray-600">
-      Ateliér krajinářské architektury
-    </p>
+    <p class="text-2xl text-gray-600">M&P architekti</p>
+    <p class="text-2xl text-gray-600">Ateliér krajinářské architektury</p>
   </div>
 </section>
 <section class="pb-10">
   <div class="max-w-lg mx-auto px-4">
     {%- include label-hr.html content="E-mail" -%}
     <p class="text-lg">
-
-      <a href="mailto:{{ site.data.information.email }}" class="text-purple-700 hover:text-blue-800">{{ site.data.information.email }}</a>
-      
+      <a
+        href="mailto:{{ site.data.contact.email }}"
+        class="text-purple-700 hover:text-blue-800"
+        >{{ site.data.contact.email }}</a
+      >
     </p>
   </div>
 </section>
 
 <section class="pb-10">
   <div class="max-w-lg mx-auto px-4">
-    {%- include label-hr.html content="Telefon" -%} {% for member in
-    site.data.information.members %}
+    {%- include label-hr.html content="Telefon" -%}
+
+    <!-- .. -->
+    {% for member in site.data.studio.members %}
 
     <p class="text-lg">
       <span class="text-gray-500">{{ member.name }}</span> {{ member.phone }}
@@ -45,13 +45,9 @@ layout: default
         {{ site.data.information.post_adress.city }}, {{
         site.data.information.post_adress.post_code }}
       </li>
-      <li class="text-lg">
-        {{ site.data.information.post_adress.county}}
-      </li>
+      <li class="text-lg">{{ site.data.information.post_adress.county}}</li>
     </ul>
   </div>
 </section>
 
-<section class="homepage-map">
-  {%- include map.html type="contact" -%}
-</section>
+<section class="homepage-map">{%- include map.html type="contact" -%}</section>
