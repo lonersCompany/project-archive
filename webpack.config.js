@@ -8,12 +8,12 @@ module.exports = {
   mode: isProduction ? "production" : "development",
   entry: {
     docs: path.resolve(__dirname, "./dev/index.scss"),
-    main: path.resolve(__dirname, "./dev/index.js")
+    main: path.resolve(__dirname, "./dev/index.js"),
   },
   output: {
     path: path.resolve(__dirname, "./dist/"),
     filename: isProduction ? "[name].[hash].js" : "[name].js",
-    chunkFilename: isProduction ? "[id].[hash].js" : "[id].js"
+    chunkFilename: isProduction ? "[id].[hash].js" : "[id].js",
   },
   module: {
     rules: [
@@ -23,13 +23,13 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: process.env.NODE_ENV === "development"
-            }
+              hmr: process.env.NODE_ENV === "development",
+            },
           },
           "css-loader",
           "postcss-loader",
-          "sass-loader"
-        ]
+          "sass-loader",
+        ],
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
@@ -38,21 +38,21 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "fonts/"
-            }
-          }
-        ]
-      }
-    ]
+              outputPath: "fonts/",
+            },
+          },
+        ],
+      },
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: isProduction ? "[name].[hash].css" : "[name].css"
+      filename: isProduction ? "[name].[hash].css" : "[name].css",
     }),
     new ManifestPlugin({
       fileName: "../_data/manifest.yml",
-      publicPath: "/dist/"
-    })
-  ]
+      publicPath: "/dist/",
+    }),
+  ],
 };

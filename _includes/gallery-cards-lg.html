@@ -9,7 +9,7 @@
     {%- for item in items limit: 6 -%}
     <div class="swiper-slide w-2/3 lg:w-2/5">
       <a
-        class="block hover:text-blue-600 transition"
+        class="block hover:text-blue-600 transition bg-gray-300"
         href="{{ site.baseurl }}{{ item.url }}"
       >
         <img
@@ -32,7 +32,9 @@
     {%- endfor -%}
   </div>
   <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
-  <div class="flex swiper-next absolute inset-y-0 right-0 w-16 z-10 mr-1">
+  <div
+    class="flex swiper-next outline-none absolute inset-y-0 right-0 w-16 z-10 mr-1"
+  >
     <div
       class="self-center text-center h-16 w-16 bg-blue-200 hover:bg-blue-500 shadow rounded-full transition"
     >
