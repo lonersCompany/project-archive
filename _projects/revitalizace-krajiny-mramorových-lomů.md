@@ -7,7 +7,7 @@ title: Chiampo, revitalizace mramorových lomů
 subtitle:
 description: ""
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

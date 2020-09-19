@@ -11,7 +11,7 @@ description: |-
   V konceptu je zásadní vedení cest Pro užití prostoru je nejdůležitější jejich kvalitní povrch. Cesty ponecháváme v jejich trasách Místy doplňujeme zaniklé trasování s ohledem na smysluplnost, ne v absolutní míře. Pro návštěvníky zpřístupňujeme pěší cestou vodní náhon a také doplňujeme chybějící spojnici mezi hlavní podélnou a vedlejší podélnou osou vinoucí se při východní hranici obory. K cestám neoddělitelně patří vegetační doprovod aleje i volnější liniové výsadby stromů. Ty vnášejí do prostoru
   řád i atmosféru . V několika málo trasách doplňujeme k cestám zemní osvětlení, které může sloužit při akcích a zároveň v případě zájmu může prodloužit dobu užití místa mimo vegetační sezónu, kdy je málo světla a dny jsou velice krátké. Na cesty užíváme měkkého, vodu propustného povrchu s tradičním vzhledem mlatu. Některé trasy obnovujeme prostřednictvím vyšší intenzity kosení trávníku
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

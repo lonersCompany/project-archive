@@ -13,7 +13,7 @@ description:
   ne soukromým pozemkem. \nPůvodní, dnes zatrubněné potoky jsou připomenuty vodním
   prvkem - potokem - v místě jeho někdejšího průběhu.\n"
 awards: []
-category: Návrh
+category: Navrh
 year: 2014
 size: ""
 price: ""

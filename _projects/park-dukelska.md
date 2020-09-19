@@ -20,5 +20,5 @@ longitude: 14.477217
 description: ""
 investor: Statutární město České Budějovice
 visualization: Jan Cyrany
-category: Návrh
+category: Navrh
 ---

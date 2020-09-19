@@ -80,7 +80,7 @@ description:
   trojzubcem alejí, který se sbíhá u kapličky na původní barokní ose Vodňany – Zátiší.
   Dřevinou alejí bude lípa velkolistá.\n"
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

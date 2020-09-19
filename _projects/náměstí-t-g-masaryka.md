@@ -33,7 +33,7 @@ description: |-
   k dominantní klasicistní budově školy je i první krok návrhu tradičním rozvržením prostoru,
   který je pak dále upravován do soudobé podoby.
   KONCEPT ŘEŠENÍ VEGETACE
-  Návrh řešení počítá s využitím stávajících perspektivních stromů, které budou doplněny o nové výsadby.
+  Navrh řešení počítá s využitím stávajících perspektivních stromů, které budou doplněny o nové výsadby.
   Středová akátová alej vychází z odkazu historického parteru před zemědělskou školou a akcentuje
   jednu z kompozičních os návrhu. Použité kosterní dřeviny doplňujeme o výsadbu lip a javoru.
   Díky prosvětlení, jsme pro vymezení a odclonění zachovávaných parkovacích ploch v bočních ulicích
@@ -55,7 +55,7 @@ description: |-
   pro závlahu bude systém předčišťovat vodu vodního prvku a bude napojen na dopouštění dle možností
   z vodovodního řadu nebo systému závlahy botanické zahrady či z rybníka.
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

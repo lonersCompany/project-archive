@@ -5,7 +5,7 @@ weight: 90
 title: Lomnice u Tišnova, Palackého náměstí
 subtitle:
 description:
-  "Návrh se snaží v maximální možné míře reflektovat dochované hodnoty,
+  "Navrh se snaží v maximální možné míře reflektovat dochované hodnoty,
   které chce podpořit kvalitou a čitelností prostoru s jeho logickým funkčním využitím
   (jak trvalého tak dočasného charakteru). Nakloněný rozevírající se lichoběžník náměstí
   v kombinaci s křížovou dispozicí je sám o sobě dostatečně dynamickým a prostorovým
@@ -32,7 +32,7 @@ awards:
     placement: 2. místo
     year: 2016
     link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-namesti-palackeho-v-lomnici
-category: Návrh
+category: Navrh
 year: 2016
 size: ""
 price: ""

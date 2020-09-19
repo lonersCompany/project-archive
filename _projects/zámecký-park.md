@@ -16,7 +16,7 @@ description:
   nároky vyplývající ze současných potřeb - využívání pro kulturní akce a výstavy,
   prezentace zahrady jako památky, udržitelnost  údržby. \n"
 awards: []
-category: Návrh
+category: Navrh
 year: 2011
 size: 15,23 ha
 price: ""

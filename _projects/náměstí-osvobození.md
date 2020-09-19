@@ -10,7 +10,7 @@ description: |-
   Tento charakter místa se snažíme vyslyšet. V celém sjednoceném prostoru uchováváme parametry pohodlných a bezpečných provozů. Centrální část je interiérem pro svobodný pohyb či pobyt pěších. Okolní partery v blízkosti gymnázia a městského úřadu nejsou odtrženy dnešní dimenzí dopravy a nahodilou strukturou vegetace a zpevněných ploch. Stejně tak nám jde o zobytnění ulice Žižkova.
   Za využití tradičních materiálů, soudobých technologií v konceptu osvětlení a promyšlení funkčních vazeb a pohybu jednotlivých uživatelů prostoru (chodců, cyklistů a řidičů) se snažíme vytvořit autentický prostor, který v rámci požadavků klienta bude maximálně užitný, reprezentativní, trvanlivý. Výtvarné prvky vody jsou v návrhu užity s odkazem na historii a vývoj tohoto místa.
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

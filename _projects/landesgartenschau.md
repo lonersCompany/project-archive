@@ -7,7 +7,7 @@ title: "Lahr/ Schwarzwald, Landesgartenschau"
 subtitle: " "
 description: ""
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

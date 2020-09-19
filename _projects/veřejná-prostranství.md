@@ -22,7 +22,7 @@ description: |-
   kostce.
   V centrální části obce je navržena změna v organizaci dopravy. Jedná
   se o jednosměrnou komunikaci, která je trasována kolem tenisových
-  kurtů a kulturního domu tak, aby se zde mohl otáčet autobus. Návrh
+  kurtů a kulturního domu tak, aby se zde mohl otáčet autobus. Navrh
   počítá s umístěním autobusových zastávek naproti kulturnímu domu a
   u kapličky.
   Prostor mezi kulturním domem a rybníkem Maloušákem je dlážděný,
@@ -37,7 +37,7 @@ description: |-
   pěší lávku přimknutou ke stávajícímu mostu. Chodník je v jihovýchodní
   části trasován po levé straně.
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

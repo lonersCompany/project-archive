@@ -14,7 +14,7 @@ description:
   straně expozice jsou prezentovány rostliny biblických příběhů, druhou stranu expozice
   uzavírá objekt zazimovacího skleníku pro letněné rostliny spojený s technickým zázemím.
   Prostor skleníku má být přes léto využíván k edukaci spojené s trvalou expozicí
-  Středomoří. Návrh minimalizuje užité materiály na kámen, beton, sklo a kov. Stavební
+  Středomoří. Navrh minimalizuje užité materiály na kámen, beton, sklo a kov. Stavební
   objekty by tak měly být jednoduchým rámem proto to stěžejní – tedy prezentaci rostlin
   evokujících atmosféru jižních krajů. Kamenné konstrukce v zimě krytých tranšejí
   jsou ryze praktickými stavbami. Nicméně současně by tu návštěvník  měl díky použité
@@ -23,7 +23,7 @@ description:
   v dubové nádrži má člověka přimět k zastavení. Prostřednictvím biblických rostlin
   se tak návštěvník vypraví za poznáním a připomene si věčné příběhy z knihy knih. "
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

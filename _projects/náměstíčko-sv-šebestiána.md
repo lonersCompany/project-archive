@@ -6,14 +6,14 @@ title: Velké Meziříčí, Náměstí Sv. Šebestiána
 subtitle:
 description:
   "Místo považujeme za jednu ze stěžejních částí města díky prvku - SOUTOKU
-  ŘEK - jež je tak silným motivem, že dal jméno celému městu. Návrh si klade za cíl
+  ŘEK - jež je tak silným motivem, že dal jméno celému městu. Navrh si klade za cíl
   navrátit prostranství odpovídající kvalitu vůči historickým hodnotám místa. Prostor
   za městskými hradbami prodělal řadu změn, bývala zde zástavba a náměstí sv. Šebestiána.
   V současnosti se změnily nároky na tento prostor, opětovná zástavba zde není možná
   ani žádoucí. Přesto volně navazujeme na historii tím, že v nové formě obnovujeme
   náměstí sv. Šebestiána, jehož sochu navracíme do prostoru na důstojné místo "
 awards: []
-category: Návrh
+category: Navrh
 year: 2010
 size: 0,46 ha
 price: ""

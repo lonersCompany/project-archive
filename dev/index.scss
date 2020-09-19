@@ -215,13 +215,13 @@ div > a.mapboxgl-ctrl-logo,
 }
 
 .entries.Stavba {
-  .entrie[data-tag="Návrh"],
+  .entrie[data-tag="Navrh"],
   .entrie[data-tag="Film"] {
     display: none;
   }
 }
 
-.entries.Návrh {
+.entries.Navrh {
   .entrie[data-tag="Stavba"],
   .entrie[data-tag="Film"] {
     display: none;
@@ -230,7 +230,7 @@ div > a.mapboxgl-ctrl-logo,
 
 .entries.Film {
   .entrie[data-tag="Stavba"],
-  .entrie[data-tag="Návrh"] {
+  .entrie[data-tag="Navrh"] {
     display: none;
   }
 }

@@ -15,7 +15,7 @@ description:
   rododendrony. Nové keřové výsadby nejsou užívány z důvodu bezpečného, přehledného
   veřejného prostoru. \n\n"
 awards: []
-category: Návrh
+category: Navrh
 size: 3,5 ha
 price: ""
 images:

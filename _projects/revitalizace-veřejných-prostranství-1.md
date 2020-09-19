@@ -12,7 +12,7 @@ description:
   prvků i sportovního vybavení a celková podpora pobytu obyvatel i návštěvníků ve
   venkovním prostoru.
 awards: []
-category: Návrh
+category: Navrh
 size: 2,42 ha
 price: ""
 images:

@@ -19,7 +19,7 @@ awards:
     placement: 3. místo
     link: https://www.cka.cz/cs/souteze/vysledky/revitalizace-historickeho-jadra-obce-tetin
     year: 2016
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

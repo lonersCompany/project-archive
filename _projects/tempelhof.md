@@ -20,10 +20,10 @@ description:
   velkolepé měřítko letištního prostoru určené zejméně k pohybu letadel, do měřítka,
   které je blízké přirozenému pohybu člověka. Z multikulturního vzdušného přístavu,
   jež byl přestupní stanicí v životech lidí, se stává přístav, jež je cílovým bodem
-  setkávání lidí. Návrh má ambici vytvořit srozumitelnou sponu mezi minulostí a současností
+  setkávání lidí. Navrh má ambici vytvořit srozumitelnou sponu mezi minulostí a současností
   za použití soudobého jazyka s akcentací kulturních i ekologických nároků.   \n"
 awards: []
-category: Návrh
+category: Navrh
 size: ""
 price: ""
 images:

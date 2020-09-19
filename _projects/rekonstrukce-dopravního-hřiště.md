@@ -32,7 +32,7 @@ description:
   na pozůstatky původní aleje podél přístupové cesty.\nV areálu jsou do svahu doplněny
   betonové stupně pro možnost vyhlídky na samotné hřiště. \n"
 awards: []
-category: Návrh
+category: Navrh
 size: "9,26"
 price: ""
 images:

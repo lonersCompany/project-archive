@@ -16,7 +16,7 @@ description:
   je připomíná pomocí symbolu řeky, bývalého opevnění, skic zaniklého obrazu místa…
   Doplňujeme to, co místu vždy chybělo - rozhled z ptačí perspektivy nutný k plnému
   pochopení významu místa. Účelné řešení provozu je stejně důležité jako řešení detailů.
-  Návrh má ambici vytvořit srozumitelnou sponu mezi minulostí a současností za použití
+  Navrh má ambici vytvořit srozumitelnou sponu mezi minulostí a současností za použití
   soudobého jazyka.
 images:
   - "/v1578087241/archweb/DSC_0499_xg9xnd.jpg"
