@@ -1,11 +1,11 @@
 ---
 weight: 28
-year: 2019
-latitude: 0
-longitude: 0
+year: 2020
+latitude: 49.890502
+longitude: 16.029678
 authors: Markéta & Petr Veličkovi
 layout: project
-title: Luže  Návrší poutního kostela na Chlumku
+title: Luže - Návrší poutního kostela na Chlumku
 description: Koncept je vystavěn na mariánské symbolice, která se jím zlehka proplétá
   – M v tvarosloví cesty (v části A), brána v nástupním prostoru nesoucí písmena MA,
   sochy poutníků v modré barvě. Poutní místo „propojujeme s návštěvníky veřejných
@@ -23,12 +23,16 @@ awards:
   placement: Odměna
   link: https://www.luze.cz/mestsky-urad-1/projekty-mesta-/2020/architektonicka-soutez-2020/
   year: 2020
-category: ''
+category: Stavba
 location: ''
 size: ''
 price: ''
-images: []
-investor: ''
+images:
+- "/v1600769396/archweb/2b_yyirx9.jpg"
+- "/v1600769394/archweb/2c_p6ae4u.jpg"
+- "/v1600769496/archweb/2Epta%C4%8D%C3%AD_mndvlf.jpg"
+- "/v1600769498/archweb/2D_na50nb.jpg"
+investor: Město Luže
 visualization: ''
 collaborations: []
 published: false
