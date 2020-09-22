@@ -25,7 +25,7 @@ awards:
   year: 2020
 category: ''
 location: ''
-size: ''
+size: 2,3 ha
 price: ''
 images:
 - "/v1600769396/archweb/2b_yyirx9.jpg"
