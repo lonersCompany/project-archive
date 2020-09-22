@@ -75,6 +75,7 @@ fields:
     options:
     - Stavba
     - Film
+    - Navrh
     source:
       type: simple
       section: 
