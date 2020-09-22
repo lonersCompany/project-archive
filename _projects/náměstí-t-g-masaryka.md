@@ -4,7 +4,7 @@ year: 2012
 authors: Petr Velička, David Prudík
 layout: project
 title: Tábor, Náměstí T.G.Masaryka
-subtitle:
+subtitle: 
 description: |-
   KONCEPT
   V návrhu jsme se pokusili spojit dva rozdílné charaktery prostoru, park a náměstí, obohacené o prvky
@@ -55,19 +55,21 @@ description: |-
   pro závlahu bude systém předčišťovat vodu vodního prvku a bude napojen na dopouštění dle možností
   z vodovodního řadu nebo systému závlahy botanické zahrady či z rybníka.
 awards: []
-category: Navrh
-size: ""
-price: ""
+category: ''
+size: ''
+price: ''
 images:
-  - "/v1576273597/archweb/MParch_poster_700x100_3_swonk3.jpg"
-  - "/v1576273687/archweb/MParc1_gjxxnl.jpg"
-  - "/v1576273675/archweb/MParch_3_tdc9io.jpg"
-  - "/v1576273648/archweb/MParch2_rjqrcn.jpg"
-  - "/v1576273633/archweb/MParch_poster_700x100_2_loehvq.jpg"
-  - "/v1576273615/archweb/MParch_poster__2_wwxbwe.jpg"
+- "/v1576273597/archweb/MParch_poster_700x100_3_swonk3.jpg"
+- "/v1576273687/archweb/MParc1_gjxxnl.jpg"
+- "/v1576273675/archweb/MParch_3_tdc9io.jpg"
+- "/v1576273648/archweb/MParch2_rjqrcn.jpg"
+- "/v1576273633/archweb/MParch_poster_700x100_2_loehvq.jpg"
+- "/v1576273615/archweb/MParch_poster__2_wwxbwe.jpg"
 latitude: 49.412822
 longitude: 14.668553
 investor: Město Tábor
 visualization: Jan Cyrany
 collaborations: []
+location: ''
+
 ---
