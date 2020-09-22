@@ -42,6 +42,5 @@ images:
 investor: Město Luže
 visualization: ''
 collaborations: []
-published: false
 
 ---
