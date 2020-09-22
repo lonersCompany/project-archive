@@ -23,15 +23,22 @@ awards:
   placement: Odměna
   link: https://www.luze.cz/mestsky-urad-1/projekty-mesta-/2020/architektonicka-soutez-2020/
   year: 2020
-category: Stavba
+category: Film
 location: ''
 size: ''
 price: ''
 images:
 - "/v1600769396/archweb/2b_yyirx9.jpg"
-- "/v1600769394/archweb/2c_p6ae4u.jpg"
 - "/v1600769496/archweb/2Epta%C4%8D%C3%AD_mndvlf.jpg"
 - "/v1600769498/archweb/2D_na50nb.jpg"
+- "/v1600769394/archweb/2c_p6ae4u.jpg"
+- "/v1600771789/archweb/situace_eqmgpu.jpg"
+- "/v1600771893/archweb/5_l9sjvn.jpg"
+- "/v1600771878/archweb/6_yjchac.jpg"
+- "/v1600771816/archweb/4_y8x1qb.jpg"
+- "/v1600771770/archweb/1_x1qznr.jpg"
+- "/v1600771857/archweb/3_ulnqfo.jpg"
+- "/v1600771835/archweb/2_g45kzp.jpg"
 investor: Město Luže
 visualization: ''
 collaborations: []
