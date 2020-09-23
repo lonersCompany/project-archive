@@ -1,5 +1,5 @@
 const setCategory = (btn, state) => {
-  if (state.activeEl) state.activeEl.classList.remove("bg-gray-300");
+  if (state.activeEl) state.activeEl.classList.remove("bg-gray-400");
   if (state.value) state.mainEl.classList.remove(state.value);
   if (state.activeEl === btn) {
     state.activeEl = null;
@@ -10,7 +10,7 @@ const setCategory = (btn, state) => {
   const value = btn.getAttribute("data-tag");
 
   state.mainEl.classList.add(value);
-  btn.classList.add("bg-gray-300");
+  btn.classList.add("bg-gray-400");
   state.value = value;
   state.activeEl = btn;
 };
