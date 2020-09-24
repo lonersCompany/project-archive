@@ -2,21 +2,17 @@
 layout: default
 ---
 
-<section class="pb-16 lg:pb-24">
-  {%- include gallery-images.html -%}
-</section>
+<section class="pb-16 lg:pb-24">{%- include gallery-images.html -%}</section>
 
 {% if page.embed %}
 <section class="pb-16">
-  <div class="flex justify-center">
-    {{page.embed}}
-  </div>
+  <div class="flex justify-center">{{page.embed}}</div>
 </section>
 {% endif %}
 
 <!-- . -->
 {% if page.link and page.link != "" %}
-<section class="pb-16 lg:pb-24 ">
+<section class="pb-16 lg:pb-24">
   <div class="max-w-xl mx-auto text-lg px-5 text-center">
     {%- include btn-lg.html content="Přejít na stránky pořadu" link=page.link
     -%}
@@ -26,57 +22,91 @@ layout: default
 <!-- . -->
 
 {% if page.description and page.description != "" %}
-<section class="pb-16 lg:pb-24 ">
+<section class="pb-16 lg:pb-24">
   <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
 </section>
 {% endif %}
 
-<section class="pb-16 lg:pb-24 ">
+<section class="pb-16 lg:pb-24">
   <div class="max-w-xl mx-auto px-5 text-lg">
     {%- include project-table.html -%}
   </div>
 </section>
 
-{% if page.awards[0] %}
-<section class="py-16 lg:py-24 bg-gray-200">
-  <div class="max-w-xl mx-auto px-5">
-    <table class="text-lg">
-      <tr>
-        <th
-          style="vertical-align: text-top;"
-          class="w-1/3 border-0  border-gray-500 text-gray-500 text-gray-500"
-        >
-          Ocenění
-        </th>
-        <th class="border-0  border-gray-500">
-          {%- for item in page.awards -%}
-          <div class="mb-5">
-            <div class="text-sm text-gray-500 mb-2">
-              {{ item.placement }}
-            </div>
-            <div class="text-lg">
-              {% if item.link != "" %}
-              <a
-                class="hover:text-blue-600 cursor-pointer"
-                href="{{ item.link }}"
-                >{{ item.title }}</a
-              >
-              {% else %} {{ item.name }} {% endif %} {% if item.year != "" %}
-              <span class=""> ({{ item.year }}) </span>
-              {% endif %}
-            </div>
-          </div>
-          {%-endfor -%}
-        </th>
-      </tr>
-    </table>
+{% if page.media[0] %}
+<section class="pt-16 lg:pt-24">
+  <div class="max-w-xl mx-auto px-5 text-gray-500 text-lg mb-4">Projekt v médiích</div>
+  
+    {%- for item in page.media -%}
+    <div class="max-w-xl mx-auto px-5 pb-16 lg:pb-24">
+    <div class="mb-4">
+      <img
+        srcset="
+{{ site.img_url }}w_500{{ item.image }} 500w,
+{{ site.img_url }}w_710{{ item.image }} 710w,
+{{ site.img_url }}w_1000{{ item.image }} 1000w,
+{{ site.img_url }}w_1420{{ item.image }} 1420w"
+        src="{{ site.img_url }}w_500{{ item.image }}"
+        sizes="100vw"
+        alt="{{ project.title }}, {{ site.title }}"
+        class="h-screen w-full object-cover"
+      />
+    </div>
+    <div class="mb-4 text-center text-xl">{{item.title}}</div>
+    <div class="text-center">
+      {%- include btn-lg.html content="Přejít na stránky pořadu" link=item.link
+      -%}
+    </div>
   </div>
+    {%- endfor -%}
+ 
 </section>
-{% endif %}
+    {% endif %}
 
-<!-- . -->
-{% if page.latitude and page.latitude != "" %}
-<section class="bg-gray-800">
-  {%- include map.html type="projects" project-lat=page.latitude -%}
+    <!-- . -->
+    {% if page.awards[0] %}
+    <section class="py-16 lg:py-24 bg-gray-200">
+      <div class="max-w-xl mx-auto px-5">
+        <table class="text-lg">
+          <tr>
+            <th
+              style="vertical-align: text-top"
+              class="w-1/3 border-0 text-gray-500"
+            >
+              Ocenění
+            </th>
+            <th class="border-0 border-gray-500">
+              {%- for item in page.awards -%}
+              <div class="mb-5">
+                <div class="text-sm text-gray-500 mb-2">
+                  {{ item.placement }}
+                </div>
+                <div class="text-lg">
+                  {% if item.link != "" %}
+                  <a
+                    class="hover:text-blue-600 cursor-pointer"
+                    href="{{ item.link }}"
+                    >{{ item.title }}</a
+                  >
+                  {% else %} {{ item.name }} {% endif %} {% if item.year != ""
+                  %}
+                  <span class=""> ({{ item.year }}) </span>
+                  {% endif %}
+                </div>
+              </div>
+              {%-endfor -%}
+            </th>
+          </tr>
+        </table>
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- . -->
+    {% if page.latitude and page.latitude != "" %}
+    <section class="bg-gray-800">
+      {%- include map.html type="projects" project-lat=page.latitude -%}
+    </section>
+    {% endif %}
+  </section>
 </section>
-{% endif %}

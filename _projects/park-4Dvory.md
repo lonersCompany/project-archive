@@ -42,6 +42,10 @@ price: 30 mil. Kč
 latitude: 48.989379
 longitude: 14.446918
 category: Stavba
+media:
+  - title: "Park 4Dvory v prořádu Adama Gebriana"
+    image: "/v1576512929/archweb/adam-gebrian-3.jpg"
+    link: "https://www.televizeseznam.cz/video/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912"
 awards:
   - title: German Design Award 2020
     placement: Winner
