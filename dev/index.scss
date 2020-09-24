@@ -216,6 +216,7 @@ div > a.mapboxgl-ctrl-logo,
 
 .entries.Stavba {
   .entrie[data-tag="Navrh"],
+  .entrie[data-tag=""],
   .entrie[data-tag="Film"] {
     display: none;
   }
@@ -223,6 +224,7 @@ div > a.mapboxgl-ctrl-logo,
 
 .entries.Navrh {
   .entrie[data-tag="Stavba"],
+  .entrie[data-tag=""],
   .entrie[data-tag="Film"] {
     display: none;
   }
@@ -230,17 +232,8 @@ div > a.mapboxgl-ctrl-logo,
 
 .entries.Film {
   .entrie[data-tag="Stavba"],
+  .entrie[data-tag=""],
   .entrie[data-tag="Navrh"] {
     display: none;
   }
 }
-
-// .Publikace {
-//   tr.entrie[data-tag="Publikace"] {
-//     display: table-row;
-//   }
-
-//   .entrie[data-tag="Publikace"] {
-//     display: block;
-//   }
-// }
