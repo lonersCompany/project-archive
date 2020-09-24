@@ -57,6 +57,29 @@ fields:
     max: 
     labelField: 
   label: Awards
+- name: media
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Media
 - name: year
   type: number
   label: Year
