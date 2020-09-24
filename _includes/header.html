@@ -5,11 +5,15 @@
   <div class="w-full md:w-1/5">
     <a
       class="text-2xl text-semibold text-gray-600 hover:text-blue-600"
-      href="{{ site.baseurl }}/"
+      href="{{ site.url }}"
       alt="go to homepage"
     >
-      {{ site.title }}</a
-    >
+      <img
+        class="inline w-20"
+        src="{{ site.img_url }}{{ site.data.studio.logo }}"
+        alt=""
+      />
+    </a>
   </div>
   <div class="page-title w-full md:w-3/5 md:text-center">
     {% if page.layout == "project" %}
