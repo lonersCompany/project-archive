@@ -107,9 +107,6 @@ fields:
   label: Category
   description: typo of project
 - type: text
-  name: location
-  label: Location
-- type: text
   name: size
   label: Size
 - type: text
