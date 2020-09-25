@@ -79,7 +79,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Media
+  label: Projekt v mediích
 - name: year
   type: number
   label: Year
