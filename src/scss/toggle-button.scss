@@ -2,9 +2,9 @@
 // component: full-menu
 //________________________
 
-$size: 2.2em;
+$size: 2.5em;
 $size-sm: 1em;
-$line-height: 0.25em;
+$line-height: 0.3em;
 $line-height-sm: 0.15em;
 $color: #718096;
 
@@ -46,8 +46,8 @@ $color: #718096;
   width: $size;
   height: $size;
   position: fixed;
-  right: 20px;
-  top: 20px;
+  right: 1rem;
+  top: 1.5rem;
   margin: auto 0.1rem;
   cursor: pointer;
   @include crossB(transform, rotate(0deg));

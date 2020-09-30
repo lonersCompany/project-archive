@@ -4,6 +4,8 @@ import { buildMap } from "./js/map.js";
 import { initEntries } from "./js/entries.js";
 import { initTagFilters } from "./js/tag-filter.js";
 
+import "./index.scss";
+
 buildToggleMenu();
 
 // Init js for swiper
@@ -13,7 +15,7 @@ buildSwiper();
 const entriesELs = Array.from(document.querySelectorAll(".entries"));
 
 if (entriesELs.length > 0) {
-  entriesELs.forEach(el => initTagFilters(el));
+  entriesELs.forEach((el) => initTagFilters(el));
 }
 
 // Init js for mapbox map
