@@ -56,10 +56,7 @@ awards:
   placement: 1. místo
   year: 2015
   link: ''
-media:
-- image: ''
-  title: ''
-  link: ''
+media: []
 collaborations: []
 
 ---
