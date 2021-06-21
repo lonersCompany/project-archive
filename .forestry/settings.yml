@@ -5,14 +5,6 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
-  path: _actual
-  label: Aktuality
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - aktualita
-- type: directory
   path: _projects
   label: Projekty
   create: documents
