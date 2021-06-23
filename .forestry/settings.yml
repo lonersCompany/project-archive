@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: document
-  path: _data/actual.yml
-  label: Aktuality
 - type: directory
   path: _projects
   label: Projekty
@@ -15,6 +12,9 @@ sections:
   templates:
   - media
   - project
+- type: document
+  path: _data/actual.yml
+  label: Aktuality
 - type: document
   path: studio.md
   label: Studio
