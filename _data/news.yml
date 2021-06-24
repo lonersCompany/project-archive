@@ -7,6 +7,7 @@
   source: Český rozhlas
   weight: 300
   Thumb: ''
+  nazev_projektu: _projects/park-4Dvory.md
 - title: Z tankodromu udělali park. Byla to velká výzva, říkají krajinářští architekti
     o projektu pro Budějovice
   link: https://budejovice.rozhlas.cz/z-tankodromu-udelali-park-byla-velka-vyzva-rikaji-krajinarsti-architekti-o-8493015
@@ -15,6 +16,7 @@
   source: Český rozhlas
   weight: 100
   Thumb: ''
+  nazev_projektu: ''
 - title: 'V Červnu se otevře nově zrekonstuované náměstí ve Stříbře. '
   link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
   thumb: "/v1576507316/archweb/4dvory_bkuhsu.jpg"
@@ -22,6 +24,7 @@
   source: stream.cz
   weight: 200
   Thumb: ''
+  nazev_projektu: ''
 - title: 'V Červnu se otevře nově zrekonstuované náměstí ve Stříbře. '
   link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
   thumb: "/v1576507316/archweb/4dvory_bkuhsu.jpg"
@@ -29,3 +32,4 @@
   source: stream.cz
   weight: 200
   Thumb: ''
+  nazev_projektu: ''
