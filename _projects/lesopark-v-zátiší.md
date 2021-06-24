@@ -78,7 +78,6 @@ description: "Koncept je založen na práci se stávajícím terénem, s využit
   stromořadí. Základ je v místě již naznačen. Doplněním podpoříme krajinářskou kompozici
   trojzubcem alejí, který se sbíhá u kapličky na původní barokní ose Vodňany – Zátiší.
   Dřevinou alejí bude lípa velkolistá.\n"
-awards:
 - year: 
   title: ''
   placement: ''
