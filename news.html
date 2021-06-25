@@ -5,31 +5,36 @@ permalink: /zpravy
 ---
 
 <section class="lg:pb-40">
-  <div class="mx-auto md:max-w-2xl lg:max-w-5xl">
+  <div
+    id="entries"
+    entriesType="news"
+    class="entries mx-auto md:max-w-2xl lg:max-w-5xl priority"
+  >
     <div id="entry-contorls" class="flex px-2 mb-2">
       <!-- . -->
-      {% include btn-lg.html class="btn-filter" content="Abecendě" tag="Navrh"
-      %}
-      <!-- . -->
       {% include btn-lg.html class="btn-filter" content="Prioritně"
-      tag="prioritne" %}
+      tag="priority" %}
       <!-- . -->
-      {% include btn-lg.html class="btn-filter" content="Články" tag="prioritne"
-      %}
-      <!-- . -->
-      {% include btn-lg.html class="btn-filter" content="Podcasty"
-      tag="prioritne" %}
-      <!-- . -->
-      {% include btn-lg.html class="btn-filter" content="Videa" tag="prioritne"
-      %}
-      <!-- . -->
+      {% include btn-lg.html class="btn-filter" content="Chronologicky"
+      tag="chronologi" %}
     </div>
     <div
-      id="article-entries"
-      class="grid grid-cols-1 md:grid-cols-2"
-      data-view="cards"
+      class="article-entries grid grid-cols-1 md:grid-cols-2"
+      data-tag="priority"
     >
       {% for post in site.data.news | sort: 'weight' %}
+      <!-- -- -->
+      {%- include article-card.html -%}
+      <!-- -- -->
+      {% endfor %}
+    </div>
+    <div
+      class="article-entries grid grid-cols-1 md:grid-cols-2"
+      data-tag="chronologi"
+    >
+      {% assign sorted = site.data.news | sort: 'date' | reverse %}
+      <!-- -- -->
+      {% for post in sorted %}
       <!-- -- -->
       {%- include article-card.html -%}
       <!-- -- -->

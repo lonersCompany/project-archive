@@ -202,10 +202,23 @@ div > a.mapboxgl-ctrl-logo,
   background: linear-gradient(90deg, rgba(100, 100, 100, 0), #edf2f7);
 }
 
+.entries.chronologi {
+  .article-entries[data-tag="priority"] {
+    display: none;
+  }
+}
+
+.entries.priority {
+  .article-entries[data-tag="chronologi"] {
+    display: none;
+  }
+}
+
 .entries.Stavba {
   .entrie[data-tag="Navrh"],
   .entrie[data-tag=""],
-  .entrie[data-tag="Film"] {
+  .entrie[data-tag="Film"],
+  .entrie[data-tag="Kniha"] {
     display: none;
   }
 }
@@ -213,7 +226,8 @@ div > a.mapboxgl-ctrl-logo,
 .entries.Navrh {
   .entrie[data-tag="Stavba"],
   .entrie[data-tag=""],
-  .entrie[data-tag="Film"] {
+  .entrie[data-tag="Film"],
+  .entrie[data-tag="Kniha"] {
     display: none;
   }
 }
@@ -221,7 +235,17 @@ div > a.mapboxgl-ctrl-logo,
 .entries.Film {
   .entrie[data-tag="Stavba"],
   .entrie[data-tag=""],
-  .entrie[data-tag="Navrh"] {
+  .entrie[data-tag="Navrh"],
+  .entrie[data-tag="Kniha"] {
+    display: none;
+  }
+}
+
+.entries.Kniha {
+  .entrie[data-tag="Stavba"],
+  .entrie[data-tag=""],
+  .entrie[data-tag="Navrh"],
+  .entrie[data-tag="Film"] {
     display: none;
   }
 }

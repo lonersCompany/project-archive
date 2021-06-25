@@ -15,7 +15,11 @@ buildSwiper();
 const entriesELs = Array.from(document.querySelectorAll(".entries"));
 
 if (entriesELs.length > 0) {
-  entriesELs.forEach((el) => initTagFilters(el));
+  entriesELs.forEach((el) => {
+    const defaultState =
+      el.getAttribute("entriesType") === "news" ? "priority" : "all";
+    initTagFilters(el, defaultState);
+  });
 }
 
 // Init js for mapbox map
@@ -29,6 +33,28 @@ if (mapEl) {
 const entriesEL = document.getElementById("entries");
 
 if (entriesEL) initEntries(entriesEL);
+const actualitiesEl = document.getElementById("actualities");
+
+if (actualitiesEl) {
+  const actuals = Array.from(document.getElementsByClassName("actual-entry"));
+  const now = new Date();
+  const nowInMs = now.getTime() / 1000;
+
+  const justActiual = actuals.filter(
+    (actual) => parseInt(actual.getAttribute("data-date")) > nowInMs
+  );
+
+  if (justActiual.length === 0) {
+    actualitiesEl.remove();
+  }
+
+  actuals.forEach((actual) => {
+    const time = parseInt(actual.getAttribute("data-date"));
+    if (nowInMs > time) {
+      actual.remove();
+    }
+  });
+}
 
 // const initGalleryModes = params => {
 //   const menuBtn = document.getElementById("main-nav__button");

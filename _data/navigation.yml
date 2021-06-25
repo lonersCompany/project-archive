@@ -2,7 +2,9 @@
 
 - text: Projekty
   url: /projekty
-- text: Studio
+- text: O Studiu
   url: /studio
+- text: Studio ve zprávách
+  url: /zpravy
 - text: Kontakt
   url: /kontakt
