@@ -9,7 +9,7 @@ images:
 link: https://www.konsepti.com/architekti-kniha/
 description: "Kniha zaznamenává osudy 26 architektů z 16 ateliérů v unikátních autentických a necenzurovaných výpovědích."
 publisher: Název vydavatelství
-publisher: Název vydavatelství
 isbn: 978-80-247-5204-4
-authors: Markéta a Petr Veličkovi  
+authors: Markéta a Petr Veličkovi
+coAuthors: Markéta a Petr Veličkovi
 ---
