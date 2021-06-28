@@ -1,9 +1,9 @@
 ---
-label: kniha
+label: Test
 hide_body: true
 fields:
-- name: title
+- name: test
   type: text
   config:
     required: false
-  label: titlo
+  label: test
