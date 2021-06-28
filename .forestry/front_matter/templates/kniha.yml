@@ -1,9 +1,52 @@
 ---
-label: kniha
+---
+label: Kniha
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
+  - name: weight
+    type: number
+    label: Priorita
+    description: ""
+    default: "99"
+    required: true
+    config:
+      min:
+      max:
+      step:
+  - type: text
+    name: title
+    label: Název
+  - type: image_gallery
+    name: images
+    label: Images
+  - name: description
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Popis
+  - name: year
+    type: number
+    label: Year
+    description: ""
+    default: "2021"
+    required: true
+    config:
+      min:
+      max:
+      step:
+  - name: category
+    type: select
+    default: "Kniha"
+  - type: text
+    name: link
+    label: Odkaz
+  - type: text
+    name: authors
+    label: Autoři
+  - type: text
+    name: co-authors
+    label: Spolu autoři
