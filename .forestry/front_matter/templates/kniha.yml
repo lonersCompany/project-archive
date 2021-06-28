@@ -6,4 +6,53 @@ fields:
   type: text
   config:
     required: false
-  label: titlo
+  label: Název
+- name: authors
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Autoři
+- name: images
+  type: image_gallery
+  config: {}
+  label: Obrázky
+- name: desription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Popis
+- name: date
+  type: datetime
+  label: Datum vydání
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: link
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Odkaz na vydavatelství
+- name: co-authors
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Spolu autoři
