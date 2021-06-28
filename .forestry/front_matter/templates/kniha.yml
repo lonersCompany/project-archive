@@ -68,5 +68,15 @@ fields:
       file: 
       path: 
   label: category
+- name: isbn
+  type: text
+  config:
+    required: false
+  label: ISBN
+- name: publisher
+  type: text
+  config:
+    required: false
+  label: Vydavatel
 pages:
 - _projects/ceske-zahrady.md
