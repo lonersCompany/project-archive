@@ -1,0 +1,52 @@
+---
+label: Novinky
+hide_body: true
+fields:
+- type: field_group_list
+  name: News
+  fields:
+  - name: title
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Titulek
+  - name: project-name
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: projects
+        file: 
+        path: 
+    label: Název projektu
+  - name: thumb
+    type: file
+    config:
+      maxSize: 64
+    label: Obrázek
+  - type: text
+    name: source
+    label: Zdroj
+    description: npř. Český rozhlas
+  - type: datetime
+    name: date
+    label: Datum vydání
+  - type: textarea
+    name: link
+    label: Odkaz na stránku
+  - name: copy
+    type: file
+    config:
+      maxSize: 64
+    label: Kopie článku
+    description: Vložte obrázek nebo PDF
+  label: Zpráva
+pages:
+- _data/news.yml

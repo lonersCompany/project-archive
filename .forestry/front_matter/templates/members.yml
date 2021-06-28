@@ -1,0 +1,31 @@
+---
+label: Members
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+  hidden: true
+- type: field_group_list
+  name: members
+  label: Markéta a Petr
+  fields:
+  - name: portret
+    type: file
+    config:
+      maxSize: 64
+    label: Portrait
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: position
+    label: Profession
+  - type: text
+    name: phone
+    label: Phone
+  - type: textarea
+    name: resume
+    label: Résumé
+pages:
+- _data/studio.yml

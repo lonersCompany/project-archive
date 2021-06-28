@@ -1,0 +1,66 @@
+---
+label: Film
+hide_body: true
+fields:
+- name: category
+  type: select
+  default: Film
+  config:
+    required: false
+    options:
+    - Publikace
+    - Stavba
+    - Návrh
+    - Film
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: weight
+  type: number
+  label: Weight
+  description: ''
+  default: '999'
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- type: text
+  name: title
+  label: Title
+- name: director
+  type: text
+  config:
+    required: false
+  label: Director
+- name: year
+  type: number
+  label: Year
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- type: image_gallery
+  name: images
+  label: Images
+- type: textarea
+  name: link
+  label: Link
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+pages:
+- _projects/neztrácejme-půdu-pod-nohama-1.md
+- _projects/neztrácejme-půdu-pod-nohama.md
