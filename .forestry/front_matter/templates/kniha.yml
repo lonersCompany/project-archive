@@ -1,5 +1,5 @@
 ---
-label: kniha
+label: Kniha
 hide_body: true
 fields:
 - name: title
@@ -56,3 +56,15 @@ fields:
     schema:
       format: markdown
   label: Spolu autoři
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category

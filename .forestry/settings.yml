@@ -10,6 +10,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
+  - kniha
   - media
   - project
 - type: document
