@@ -8,20 +8,7 @@ layout: default
 <section class="pb-16">
   <div class="flex justify-center">{{page.embed}}</div>
 </section>
-{% endif %}
-
-<!-- . -->
-{% if page.link and page.link != "" %}
-<section class="pb-16 lg:pb-24">
-  <div class="max-w-xl mx-auto text-lg px-5 text-center">
-    {%- include btn-lg.html content="Přejít na stránky pořadu" link=page.link
-    -%}
-  </div>
-</section>
-{% endif %}
-<!-- . -->
-
-{% if page.description and page.description != "" %}
+{% endif %} {% if page.description and page.description != "" %}
 <section class="pb-16 lg:pb-24">
   <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
 </section>
@@ -32,6 +19,16 @@ layout: default
     {%- include project-table.html -%}
   </div>
 </section>
+
+<!-- . -->
+{% if page.link and page.link != "" %}
+<section class="pb-16 lg:pb-24">
+  <div class="max-w-xl mx-auto text-lg px-5 text-center">
+    {%- include btn-lg.html content="Externí odkaz" link=page.link -%}
+  </div>
+</section>
+{% endif %}
+<!-- . -->
 
 {% assign collection_titles = collections | map: 'title' %} {{ collection_titles
 }} {% assign posts = site.data.news | where: "project-name", page.path %} {% if

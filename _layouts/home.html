@@ -64,7 +64,7 @@ layout: default
 </section>
 <!-- end of actual -->
 
-<!-- TODO: Poladit aby se nezobrazovali aktuality -->
+<section class="homepage-map">{%- include map.html type="projects" -%}</section>
 <section class="pb-32 pt-16">
   <div class="max-w-4xl mx-auto">
     <p class="text-sm text-gray-600 mb-4 px-4">Studio ve zprávách</p>
@@ -93,11 +93,7 @@ layout: default
     </div>
   </div>
 </section>
-<!-- end of actual -->
-
-<section class="homepage-map">{%- include map.html type="projects" -%}</section>
-
-<section class="py-32 lg:py-64">
+<section class="py-32 lg:py-48">
   <div class="max-w-xl text-2xl text-gray-700 mx-auto px-4 text-block">
     Naším přáním je kvalitní život lidí užívajících svůj obytný prostor. Věříme,
     že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
@@ -122,7 +118,28 @@ layout: default
     </a>
   </div>
 </section>
-
+<section class="mx-auto pb-64">
+  {%- include gallery-cards.html category="Kniha" -%}
+  <div class="px-4 pt-20 max-w-xl mx-auto">
+    <a
+      class="
+        text-2xl
+        flex
+        px-5
+        py-3
+        rounded
+        bg-gray-400
+        hover:bg-blue-200
+        transition
+      "
+      href="{{site.baseurl}}/projekty?category=Kniha"
+    >
+      <div class="flex-grow">Knihy</div>
+      <div>⟶</div>
+    </a>
+  </div>
+</div>
+</section>
 <section class="mx-auto pb-64">
     {%- include gallery-cards-lg.html category="Film" -%}
 

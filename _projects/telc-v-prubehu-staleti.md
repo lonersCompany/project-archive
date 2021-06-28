@@ -1,7 +1,7 @@
 ---
 category: Kniha
 title: Telč v průběhu staletí
-desription:
+description:
   Cílem autorů výstavy a katalogu je  představit panství Telč, které bylo
   v průběhu staletí drženo čtyři šlechtickými rody, pány z Hradce, Slavaty z Chlumu
   a Košumberka, Lichtenstein-Castelcorny a rodem Podstatzky-Lichtenstein, jako fungující
@@ -22,9 +22,9 @@ images:
   - "/v1624890283/archweb/Telc_v_prubehu_staleti_dxai9i.jpg"
 publisher: NPÚ, ÚOP v Telči
 link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29123-telc-v-prubehu-staleti
-date: 2016-12-31 23:00:00 +0000
+year: 2016
 isbn: 978-80-906167-4-5
 co-authors: ""
 published: false
-layout: Project
+layout: project
 ---

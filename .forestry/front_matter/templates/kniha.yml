@@ -2,99 +2,99 @@
 label: Kniha
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Název
-- name: desription
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Popis
-- name: authors
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Autoři
-- name: images
-  type: image_gallery
-  config: {}
-  label: Obrázky
-- name: publisher
-  type: text
-  config:
-    required: false
-  label: Vydavatel
-- name: link
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Odkaz na vydavatelství
-- name: date
-  type: datetime
-  label: Datum vydání
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-- name: isbn
-  type: text
-  config:
-    required: false
-  label: ISBN
-- name: co-authors
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Spolu autoři
-- name: category
-  type: select
-  default: Kniha
-  config:
-    required: false
-    options:
-    - Kniha
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Kategorie
-  description: Kategorie projektu
-  showOnly:
-    field: category
-- name: weight
-  type: number
-  label: weight
-  description: ''
-  default: 900
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-  showOnly:
-    field: category
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Název
+  - name: description
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Popis
+  - name: authors
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Autoři
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Obrázky
+  - name: publisher
+    type: text
+    config:
+      required: false
+    label: Vydavatel
+  - name: link
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Odkaz na vydavatelství
+  - name: date
+    type: datetime
+    label: Datum vydání
+    description: ""
+    config:
+      required: false
+      date_format:
+      time_format:
+      display_utc: false
+  - name: isbn
+    type: text
+    config:
+      required: false
+    label: ISBN
+  - name: co-authors
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Spolu autoři
+  - name: category
+    type: select
+    default: Kniha
+    config:
+      required: false
+      options:
+        - Kniha
+      source:
+        type: simple
+        section:
+        file:
+        path:
+    label: Kategorie
+    description: Kategorie projektu
+    showOnly:
+      field: category
+  - name: weight
+    type: number
+    label: weight
+    description: ""
+    default: 900
+    required: true
+    config:
+      min:
+      max:
+      step:
+    showOnly:
+      field: category
 pages:
-- _projects/ceske-zahrady.md
-- _projects/telc-v-prubehu-staleti.md
-- _projects/zivot-se-stromy.md
+  - _projects/ceske-zahrady.md
+  - _projects/telc-v-prubehu-staleti.md
+  - _projects/zivot-se-stromy.md
