@@ -68,3 +68,5 @@ fields:
       file: 
       path: 
   label: category
+pages:
+- _projects/ceske-zahrady.md
