@@ -1,4 +1,37 @@
 ---
+- title: Sídliště Máj v Českých Budějovicích – Výjimečně dobře investované veřejné
+    peníze
+  link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
+  thumb: "/v1576512929/archweb/adam-gebrian-3.jpg"
+  date: 2017-11-30 23:00:00 +0000
+  source: stream.cz
+  weight: 200
+  Thumb: ''
+  nazev_projektu: ''
+  project-name: _projects/park-4Dvory.md
+  copy: ''
+- title: Aleje nesázíme pro sebe, ale pro naše děti a vnuky, říkají krajinářští architekti
+    Veličkovi
+  link: https://brno.rozhlas.cz/aleje-nesazime-pro-sebe-ale-pro-nase-deti-a-vnuky-rikaji-krajinarsti-architekti-8501082
+  thumb: "/v1624467806/archweb/02349781_p6nlfx.jpg"
+  date: 2021-05-25 22:00:00 +0000
+  source: Český rozhlas
+  weight: 300
+  Thumb: ''
+  nazev_projektu: _projects/park-4Dvory.md
+  project-name: _projects/aleje.md
+  copy: ''
+- title: Z tankodromu udělali park. Byla to velká výzva, říkají krajinářští architekti
+    o projektu pro Budějovice
+  link: https://budejovice.rozhlas.cz/z-tankodromu-udelali-park-byla-velka-vyzva-rikaji-krajinarsti-architekti-o-8493015
+  thumb: "/v1624467897/archweb/91fe0009927f7593baec268c928809a3_uvgjmf.jpg"
+  date: 2021-05-16 22:00:00 +0000
+  source: Český rozhlas
+  weight: 100
+  Thumb: ''
+  nazev_projektu: ''
+  project-name: _projects/park-4Dvory.md
+  copy: ''
 - title: Proměny české post-krajiny
   project-name: []
   thumb: "/v1624878023/archweb/20170909_211130_2015_03_anketa_5_f7vw2n.jpg"
@@ -40,39 +73,6 @@
   source: Národní památkový ústav
   date: 2017-05-31 22:00:00 +0000
   link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29123-telc-v-prubehu-staleti
-  copy: ''
-- title: Sídliště Máj v Českých Budějovicích – Výjimečně dobře investované veřejné
-    peníze
-  link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
-  thumb: "/v1576512929/archweb/adam-gebrian-3.jpg"
-  date: 2017-11-30 23:00:00 +0000
-  source: stream.cz
-  weight: 200
-  Thumb: ''
-  nazev_projektu: ''
-  project-name: _projects/park-4Dvory.md
-  copy: ''
-- title: Aleje nesázíme pro sebe, ale pro naše děti a vnuky, říkají krajinářští architekti
-    Veličkovi
-  link: https://brno.rozhlas.cz/aleje-nesazime-pro-sebe-ale-pro-nase-deti-a-vnuky-rikaji-krajinarsti-architekti-8501082
-  thumb: "/v1624467806/archweb/02349781_p6nlfx.jpg"
-  date: 2021-05-25 22:00:00 +0000
-  source: Český rozhlas
-  weight: 300
-  Thumb: ''
-  nazev_projektu: _projects/park-4Dvory.md
-  project-name: _projects/aleje.md
-  copy: ''
-- title: Z tankodromu udělali park. Byla to velká výzva, říkají krajinářští architekti
-    o projektu pro Budějovice
-  link: https://budejovice.rozhlas.cz/z-tankodromu-udelali-park-byla-velka-vyzva-rikaji-krajinarsti-architekti-o-8493015
-  thumb: "/v1624467897/archweb/91fe0009927f7593baec268c928809a3_uvgjmf.jpg"
-  date: 2021-05-16 22:00:00 +0000
-  source: Český rozhlas
-  weight: 100
-  Thumb: ''
-  nazev_projektu: ''
-  project-name: _projects/park-4Dvory.md
   copy: ''
 - title: Kamenná bašta je lemována alejemi
   project-name: _projects/aleje.md
