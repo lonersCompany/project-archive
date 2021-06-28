@@ -1,5 +1,5 @@
 ---
-category: ''
+category: Kniha
 title: České zahrady
 authors: Petr Velička, Markéta Veličková
 images:
@@ -13,5 +13,7 @@ desription: "Působivá kniha přináší více než třicet ukázek soukromých
 date: 2020-01-31 23:00:00 +0000
 link: http://www.kant-books.cz/cs/publikace/ceske-zahrady/
 co-authors: ''
+publisher: Kant Books
+isbn: 978-80-7437-315-2
 
 ---
