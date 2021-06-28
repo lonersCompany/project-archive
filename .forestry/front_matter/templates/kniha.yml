@@ -82,6 +82,18 @@ fields:
   description: Kategorie projektu
   showOnly:
     field: category
+- name: weight
+  type: number
+  label: weight
+  description: ''
+  default: 900
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: category
 pages:
 - _projects/ceske-zahrady.md
 - _projects/telc-v-prubehu-staleti.md
