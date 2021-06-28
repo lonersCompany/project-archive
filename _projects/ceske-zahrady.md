@@ -11,9 +11,10 @@ desription: "Působivá kniha přináší více než třicet ukázek soukromých
   čtenáře nejen inspirací, ale i poučením o současných přístupech ke zvelebování vlastních
   zahrad, ale i veřejných prostranství, jež jsou zahradami pro obyvatele našich měst."
 date: 2020-01-31 23:00:00 +0000
-link: http://www.kant-books.cz/cs/publikace/ceske-zahrady/
+link: http://www.kant-books.cz/cs/publikace/ceske-zahrady
 co-authors: ''
 publisher: Kant Books
 isbn: 978-80-7437-315-2
+weight: 
 
 ---
