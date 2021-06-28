@@ -32,7 +32,7 @@ sections:
     label: Spolupráce
 upload_dir: archweb
 public_path: ""
-front_matter_path: "./.forestry/front_matter/templates/"
+front_matter_path: "./.forestry/front_matter/templates"
 use_front_matter_path: true
 file_template: ":filename:"
 build:
