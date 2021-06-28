@@ -1,6 +1,6 @@
 ---
 new_page_extension: md
-auto_deploy: true
+auto_deploy: false
 admin_path: "/admin/"
 webhook_url:
 sections:
@@ -10,6 +10,7 @@ sections:
     create: documents
     match: "**/*"
     templates:
+      - kniha
       - media
       - project
   - type: document
