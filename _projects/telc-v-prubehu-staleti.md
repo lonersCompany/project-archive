@@ -1,7 +1,8 @@
 ---
 category: Kniha
 title: Telč v průběhu staletí
-desription: Cílem autorů výstavy a katalogu je  představit panství Telč, které bylo
+desription:
+  Cílem autorů výstavy a katalogu je  představit panství Telč, které bylo
   v průběhu staletí drženo čtyři šlechtickými rody, pány z Hradce, Slavaty z Chlumu
   a Košumberka, Lichtenstein-Castelcorny a rodem Podstatzky-Lichtenstein, jako fungující
   organismus. Udržení a provoz honosného rodového sídla bylo velmi nákladnou záležitostí,
@@ -18,12 +19,12 @@ desription: Cílem autorů výstavy a katalogu je  představit panství Telč, k
   jezuitského řádu v Telči.
 authors: Martina Indrová, Irena Tobiášková
 images:
-- "/v1624890283/archweb/Telc_v_prubehu_staleti_dxai9i.jpg"
+  - "/v1624890283/archweb/Telc_v_prubehu_staleti_dxai9i.jpg"
 publisher: NPÚ, ÚOP v Telči
 link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29123-telc-v-prubehu-staleti
 date: 2016-12-31 23:00:00 +0000
 isbn: 978-80-906167-4-5
-co-authors: ''
+co-authors: ""
 published: false
-
+layout: Project
 ---

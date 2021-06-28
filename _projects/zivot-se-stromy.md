@@ -17,4 +17,5 @@ isbn: 978-80-7363-873-3
 co-authors: ''
 weight: 
 weight: 900
+layout: Project
 ---

@@ -17,4 +17,5 @@ co-authors: ""
 publisher: Kant Books
 isbn: 978-80-7437-315-2
 weight: 900
+layout: Project
 ---

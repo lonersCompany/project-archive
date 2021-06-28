@@ -1,5 +1,6 @@
 ---
 category: Kniha
+layout: project
 title: Aleje české a moravské krajiny
 authors: Petr Velička, Markéta Veličková
 weight: 900
@@ -11,4 +12,5 @@ link: http://www.kant-books.cz/cs/publikace/ceske-zahrady/
 co-authors: ""
 publisher: Dokořán
 isbn: 978-80-7363-413-1
+layout: Project
 ---
