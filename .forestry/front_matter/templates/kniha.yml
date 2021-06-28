@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: Název
+- name: desription
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Popis
 - name: authors
   type: textarea
   default: ''
@@ -20,24 +29,11 @@ fields:
   type: image_gallery
   config: {}
   label: Obrázky
-- name: desription
-  type: textarea
-  default: ''
+- name: publisher
+  type: text
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Popis
-- name: date
-  type: datetime
-  label: Datum vydání
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: Vydavatel
 - name: link
   type: textarea
   default: ''
@@ -47,6 +43,20 @@ fields:
     schema:
       format: markdown
   label: Odkaz na vydavatelství
+- name: date
+  type: datetime
+  label: Datum vydání
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: isbn
+  type: text
+  config:
+    required: false
+  label: ISBN
 - name: co-authors
   type: textarea
   default: ''
@@ -58,25 +68,19 @@ fields:
   label: Spolu autoři
 - name: category
   type: select
-  default: []
+  default: Kniha
   config:
     required: false
-    options: []
+    options:
+    - Kniha
     source:
       type: simple
       section: 
       file: 
       path: 
-  label: category
-- name: isbn
-  type: text
-  config:
-    required: false
-  label: ISBN
-- name: publisher
-  type: text
-  config:
-    required: false
-  label: Vydavatel
+  label: Kategorie
+  description: Kategorie projektu
+  showOnly:
+    field: category
 pages:
 - _projects/ceske-zahrady.md
