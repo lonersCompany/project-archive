@@ -1,5 +1,4 @@
 ---
----
 label: Kniha
 hide_body: true
 fields:
@@ -50,3 +49,6 @@ fields:
   - type: text
     name: co-authors
     label: Spolu autoři
+pages:
+---
+
