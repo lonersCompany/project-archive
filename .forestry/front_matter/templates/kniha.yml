@@ -29,6 +29,11 @@ fields:
   type: image_gallery
   config: {}
   label: Obrázky
+- name: year
+  type: text
+  config:
+    required: false
+  label: Rok
 - name: publisher
   type: text
   config:
