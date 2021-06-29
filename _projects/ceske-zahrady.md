@@ -1,4 +1,5 @@
 ---
+layout: project
 category: Kniha
 title: České zahrady
 authors: Petr Velička, Markéta Veličková

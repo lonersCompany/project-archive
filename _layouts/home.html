@@ -39,8 +39,10 @@ layout: default
 {% assign today_date = 'now' | date: '%s' %}
 <!-- --- -->
 {% assign posts = site.data.actual %}
+<!-- end of actual -->
 
-<section id="actualities" class="pb-16">
+<section class="homepage-map">{%- include map.html type="projects" -%}</section>
+<section id="actualities" class="pb-16 pt-32">
   <div class="max-w-4xl mx-auto">
     <p class="text-sm text-gray-600 mb-4 px-4">Aktuality</p>
 
@@ -48,23 +50,22 @@ layout: default
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
       {% for post in posts %} {% assign post_end = post.end | date: '%s' %}
       <!-- -- -->
-      <!-- -- -->
       {% if post_end > today_date %}
-      <div class="p-1 actual-entry" data-date="{{ post_end }}">
+      <a class="p-1 block actual-entry {% if post.link == '' %}pointer-events-none{% endif %}" data-date="{{ post_end }}" 
+      href="{% if post.link != '' %}{{post.link}}{% elsif post.copy != '' %}{{site.img_url}}{{post.copy}}{% else %}/{% endif %}"
+      target="_blank"
+      >
         <div class="bg-white rounded p-4 shadow-lg">
           <p class="text-xl md:text-2xl mb-4">{{post.content}}</p>
           <p class="text-sm text-gray-600">
             {{ post.start | date: "%-d. %-m. 20%-y" }}
           </p>
         </div>
-      </div>
+      </a>
       {% endif %} {% endfor %}
     </div>
   </div>
 </section>
-<!-- end of actual -->
-
-<section class="homepage-map">{%- include map.html type="projects" -%}</section>
 <section class="pb-32 pt-16">
   <div class="max-w-4xl mx-auto">
     <p class="text-sm text-gray-600 mb-4 px-4">Studio ve zprávách</p>

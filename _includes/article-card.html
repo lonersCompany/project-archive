@@ -1,7 +1,7 @@
 <div class="p-1">
   <a
     target="_blank"
-    href="{{post.link}}"
+    href="{% if post.link != '' %}{{post.link}}{% elsif post.copy != '' %}{{site.img_url}}{{post.copy}}{% else %}/{% endif %}"
     class="
       flex flex-col
       md:flex-row

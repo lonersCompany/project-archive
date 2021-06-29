@@ -1,4 +1,5 @@
 ---
+layout: project
 category: Kniha
 title: Telč v průběhu staletí
 description:
@@ -25,6 +26,5 @@ link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29
 year: 2016
 isbn: 978-80-906167-4-5
 co-authors: ""
-published: false
-layout: project
+weight: 909
 ---
