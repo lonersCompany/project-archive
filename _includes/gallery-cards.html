@@ -1,58 +1,21 @@
-<div class="swiper-container" data-swiper="cards-lg">
-  <div class="swiper-wrapper">
-    <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
+<div class="max-w-4xl mx-auto flex justify-center flex-wrap md:flex-no-wrap">
+  <!-- HOW CO LOOP PROJECTS OR LOOP PUBLICATIONS? -->
 
-    {% assign items = site.projects | where: "category", include.category |
-    sort: 'weight' %}
+  {% assign items = site.projects | where: "category", include.category | sort:
+  'weight' %}
 
-    <!-- mark -->
-    {%- for item in items limit: 6 -%}
-    <div class="swiper-slide w-auto max-w-md">
-      <a class="block h-full p-4" href="{{ site.baseurl }}{{ item.url }}">
-        <img
-          class="w-auto overflow-hidden shadow-lg h-64 mb-4"
-          style="
-            box-shadow: -5px 1px 12px 3px rgba(0, 0, 0, 0.37);
-            height: 20rem;
-          "
-          src="{{ site.img_url }}h_500{{ item.images[0] }}"
-          alt="{{ page.title }}, {{ site.title }}, Mp architekti"
-        />
-        <div class="">
-          <p class="text-sm">{{ item.title }}</p>
-        </div>
-      </a>
-    </div>
-    {%- endfor -%}
-  </div>
-  <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
-  <div
-    class="
-      flex
-      swiper-next
-      outline-none
-      absolute
-      inset-y-0
-      right-0
-      w-16
-      z-10
-      mr-1
-    "
-  >
-    <div
-      class="
-        self-center
-        text-center
-        h-16
-        w-16
-        bg-blue-200
-        hover:bg-blue-500
-        shadow
-        rounded-full
-        transition
-      "
-    >
-      <div class="text-2xl" style="margin-top: 0.6em">⟶</div>
-    </div>
-  </div>
+  <!-- mark -->
+  {%- for item in items limit: 6 -%}
+
+  <a class="block p-4" href="{{ site.baseurl }}{{ item.url }}">
+    <img
+      class="w-auto overflow-hidden shadow-lg mb-4"
+      style="box-shadow: -5px 1px 12px 3px rgba(0, 0, 0, 0.37)"
+      src="{{ site.img_url }}h_500{{ item.images[0] }}"
+      alt="{{ page.title }}, {{ site.title }}, Mp architekti"
+    />
+    <p class="text-sm">{{ item.title }}</p>
+  </a>
+
+  {%- endfor -%}
 </div>

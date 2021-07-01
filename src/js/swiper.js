@@ -56,11 +56,11 @@ export const buildSwiper = (params) => {
 
       switch (attribute) {
         case "cards":
+          console.log("cards");
           new Swiper(el, cards);
           break;
 
         case "cards-lg":
-          console.log("cards-lg");
           new Swiper(el, cardsLg);
           break;
         default:

@@ -2,7 +2,7 @@ import mapboxgl from "mapbox-gl/dist/mapbox-gl.js";
 
 // UTIL FUNCTION
 // Get Coordinates in array format
-const getCoordinates = el => {
+const getCoordinates = (el) => {
   const coordinatesLon = Number(el.getAttribute("data-lon"));
   const coordinatesLat = Number(el.getAttribute("data-lat"));
   return [coordinatesLon, coordinatesLat];
@@ -16,9 +16,9 @@ const createGeoJason = (el, index) => {
   const completedObject = {
     index: index,
     geometry: {
-      coordinates: coordinates
+      coordinates: coordinates,
     },
-    marked: isMarked
+    marked: isMarked,
   };
   return completedObject;
 };
@@ -27,14 +27,14 @@ const addMapEvent = (obj, elements, map) => {
   obj.element.addEventListener("click", () => {
     console.log(obj);
     console.log(elements);
-    elements.forEach(siteBox => siteBox.classList.remove("open"));
+    elements.forEach((siteBox) => siteBox.classList.remove("open"));
     elements[obj.index].classList.add("open");
     console.log(obj.index);
 
     map.flyTo({
       center: obj.flyTo.coordinates,
       zoom: obj.flyTo.zoom,
-      speed: obj.flyTo.speed
+      speed: obj.flyTo.speed,
     });
   });
 };
@@ -47,9 +47,9 @@ export const buildMap = () => {
     style: "mapbox://styles/lonerscompany/ck2waac450nav1dtdnrizbfoi",
     center: [15.565441, 49.984897],
     scrollZoom: false,
-    zoom: 6,
+    zoom: 5,
     minZoom: 5,
-    maxZoom: 10
+    maxZoom: 10,
   });
 
   //map.scrollZoom.disable();
@@ -64,7 +64,7 @@ export const buildMap = () => {
   if (locationEls) {
     const geojson = locationEls.map(createGeoJason);
 
-    geojson.forEach(marker => {
+    geojson.forEach((marker) => {
       var el = document.createElement("div");
       el.className =
         "h-5 w-5 bg-gray-300 rounded-full cursor-pointer border border-gray-800 shadow-md";
@@ -81,8 +81,8 @@ export const buildMap = () => {
         flyTo: {
           coordinates: marker.geometry.coordinates,
           zoom: 7,
-          speed: 1.5
-        }
+          speed: 1.5,
+        },
       };
 
       addMapEvent(mapEntryObj, locationEls, map);

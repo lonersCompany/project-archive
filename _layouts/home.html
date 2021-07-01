@@ -3,26 +3,31 @@ layout: default
 ---
 
 <section class="pb-20 pt-10 lg:pb-40 lg:pt-16">
-  <div class="max-w-xl text-2xl text-gray-700 mx-auto px-4 text-block">
+  <div class="max-w-2xl text-gray-700 mx-auto px-4">
     <!-- <div class="text-center pb-24">
       <img class="inline w-32" src="{{ site.img_url }}{{ page.logo }}" alt="" />
     </div> -->
-    {{ content }}
+    <h1 class="text-2xl lg:text-4xl mb-8">
+      {{page.headline}}
+    </h1>
+    <div class="text-gray-500 text-xl">
+      {{ content }}  
+    </div>
   </div>
 </section>
 <section class="mx-auto">
     {%- include gallery-cards-lg.html -%}
 
-    <div class="px-4 py-32 max-w-xl mx-auto">
+    <div class="px-1 pt-8 pb-40 max-w-2xl mx-auto">
       <a
         class="
           text-2xl
           flex
-          px-5
-          py-3
+          px-4
+          py-4
           rounded
-          bg-gray-400
-          hover:bg-blue-200
+          bg-blue-200
+          hover:bg-blue-300
           transition
         "
         href="{{site.baseurl}}/projekty/"
@@ -66,7 +71,7 @@ layout: default
     </div>
   </div>
 </section>
-<section class="pb-32 pt-16">
+<section class="pb-40 pt-40">
   <div class="max-w-4xl mx-auto">
     <p class="text-sm text-gray-600 mb-4 px-4">Studio ve zprávách</p>
     <!-- mark -->
@@ -74,16 +79,16 @@ layout: default
       {% for post in site.data.news | limit: 4 %} {%- include article-card.html
       -%} {% endfor %}
     </div>
-    <div class="px-4 pt-20 max-w-xl mx-auto">
+    <div class="px-1 pt-8 max-w-4xl mx-auto">
       <a
         class="
           text-2xl
           flex
-          px-5
-          py-3
+          px-4
+          py-4
           rounded
-          bg-gray-400
-          hover:bg-blue-200
+          bg-blue-200
+          hover:bg-blue-300
           transition
         "
         href="{{site.baseurl}}/zpravy"
@@ -94,22 +99,22 @@ layout: default
     </div>
   </div>
 </section>
-<section class="pb-32 pt-16">
-  <div class="max-w-xl text-2xl text-gray-700 mx-auto px-4 text-block">
+<!-- <section class="pb-40 pt-40">
+  <div class="max-w-4xl text-2xl text-gray-700 mx-auto px-4 text-block">
     Naším přáním je kvalitní život lidí užívajících svůj obytný prostor. Věříme,
     že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
     Krása je nutnou součástí života každého z nás.
   </div>
-  <div class="px-4 pt-20 max-w-xl mx-auto">
+  <div class="px-1 pt-8 max-w-4xl mx-auto">
     <a
       class="
         text-2xl
         flex
-        px-5
-        py-3
+        px-4
+        py-4
         rounded
-        bg-gray-400
-        hover:bg-blue-200
+        bg-blue-200
+        hover:bg-blue-300
         transition
       "
       href="{{site.baseurl}}/studio"
@@ -118,19 +123,19 @@ layout: default
       <div>⟶</div>
     </a>
   </div>
-</section>
+</section> -->
 <section class="mx-auto pb-64">
   {%- include gallery-cards.html category="Kniha" -%}
-  <div class="px-4 pt-20 max-w-xl mx-auto">
+  <div class="px-1 pt-8 max-w-4xl mx-auto">
     <a
       class="
         text-2xl
         flex
-        px-5
-        py-3
+        px-4
+        py-4
         rounded
-        bg-gray-400
-        hover:bg-blue-200
+        bg-blue-200
+        hover:bg-blue-300
         transition
       "
       href="{{site.baseurl}}/projekty?category=Kniha"
@@ -144,16 +149,16 @@ layout: default
 <section class="mx-auto pb-64">
     {%- include gallery-cards-lg.html category="Film" -%}
 
-    <div class="px-4 pt-20 max-w-xl mx-auto">
+    <div class="px-1 pt-8 max-w-4xl mx-auto">
       <a
         class="
           text-2xl
           flex
-          px-5
-          py-3
+          px-4
+          py-4
           rounded
-          bg-gray-400
-          hover:bg-blue-200
+          bg-blue-200
+          hover:bg-blue-300
           transition
         "
         href="{{site.baseurl}}/projekty?category=Film"
