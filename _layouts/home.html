@@ -16,6 +16,7 @@ layout: default
   </div>
 </section>
 <section class="mx-auto pb-32">
+  <p class="text-sm text-gray-600 mb-4 px-4">Projekty</p>
     {%- include gallery-cards-lg.html -%}
 
     <div class="px-1 pt-8 max-w-2xl mx-auto">
@@ -32,7 +33,7 @@ layout: default
         "
         href="{{site.baseurl}}/projekty/"
       >
-        <div class="flex-grow">Projekty</div>
+        <div class="flex-grow">Výpis projektů</div>
         <div>⟶</div>
       </a>
     </div>
@@ -41,11 +42,9 @@ layout: default
 
 <!-- --- -->
 
-{% assign today_date = 'now' | date: '%s' %}
-<!-- --- -->
-{% assign posts = site.data.actual %}
-<!-- end of actual -->
 
+<!-- end of actual -->
+<p class="text-sm text-gray-600 mb-4 px-4">Mapa projektů</p>
 <section class="homepage-map">{%- include map.html type="projects" -%}</section>
 <section id="actualities" class="pb-16 pt-32">
   <div class="max-w-4xl mx-auto">
@@ -53,6 +52,10 @@ layout: default
 
     <!-- mark -->
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
+      {% assign today_date = 'now' | date: '%s' %}
+      <!-- --- -->
+      {% assign posts = site.data.actual %}
+      <!-- --- -->
       {% for post in posts %} {% assign post_end = post.end | date: '%s' %}
       <!-- -- -->
       {% if post_end > today_date %}
@@ -93,7 +96,7 @@ layout: default
         "
         href="{{site.baseurl}}/zpravy"
       >
-        <div class="flex-grow">Studio ve zprávách</div>
+        <div class="flex-grow">Všechny zprávy</div>
         <div>⟶</div>
       </a>
     </div>
@@ -101,8 +104,11 @@ layout: default
 </section>
 
 <section class="mx-auto pb-32">
+  <div class="max-w-4xl mx-auto">
+    <p class="text-sm text-gray-600 mb-4 px-4">Knihy</p>
+  </div>
   {%- include gallery-cards.html category="Kniha" -%}
-  <div class="px-1 pt-8 max-w-4xl mx-auto">
+  <!-- <div class="px-1 pt-8 max-w-4xl mx-auto">
     <a
       class="
         text-2xl
@@ -119,10 +125,11 @@ layout: default
       <div class="flex-grow">Knihy</div>
       <div>⟶</div>
     </a>
-  </div>
+  </div> -->
 </div>
 </section>
 <section class="mx-auto pb-32">
+    <p class="text-sm text-gray-600 mb-4 px-4">Filmové spolupráce</p>
     {%- include gallery-cards-lg.html category="Film" -%}
 
     <div class="px-1 pt-8 max-w-4xl mx-auto">
@@ -139,7 +146,7 @@ layout: default
         "
         href="{{site.baseurl}}/projekty?category=Film"
       >
-        <div class="flex-grow">Filmy</div>
+        <div class="flex-grow">Další filmové spolupráce</div>
         <div>⟶</div>
       </a>
     </div>
