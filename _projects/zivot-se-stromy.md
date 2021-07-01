@@ -11,8 +11,8 @@ authors: Marie Hrušková
 images:
   - "/v1624890607/archweb/big_zivot-se-stromy-FJb-347386.jpg"
 publisher: Dokořán
-link: https://www.knihydobrovsky.cz/e-kniha/zivot-se-stromy-227841356
-year: 2021
+link: https://www.dokoran.cz/index.php?Zivot_se_stromy&p=book&id=1001
+year: 2018
 isbn: 978-80-7363-873-3
 co-authors: ""
 weight: 900

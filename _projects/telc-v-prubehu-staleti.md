@@ -23,7 +23,7 @@ images:
   - "/v1624890283/archweb/Telc_v_prubehu_staleti_dxai9i.jpg"
 publisher: NPÚ, ÚOP v Telči
 link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29123-telc-v-prubehu-staleti
-year: 2016
+year: 2017
 isbn: 978-80-906167-4-5
 co-authors: ""
 weight: 909
