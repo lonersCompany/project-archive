@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="pb-20 pt-10 lg:pb-40 lg:pt-16">
+<section class="pb-20 lg:pb-32 lg:pt-10">
   <div class="max-w-2xl text-gray-700 mx-auto px-4">
     <!-- <div class="text-center pb-24">
       <img class="inline w-32" src="{{ site.img_url }}{{ page.logo }}" alt="" />
@@ -15,10 +15,10 @@ layout: default
     </div>
   </div>
 </section>
-<section class="mx-auto">
+<section class="mx-auto pb-32">
     {%- include gallery-cards-lg.html -%}
 
-    <div class="px-1 pt-8 pb-40 max-w-2xl mx-auto">
+    <div class="px-1 pt-8 max-w-2xl mx-auto">
       <a
         class="
           text-2xl
@@ -71,7 +71,7 @@ layout: default
     </div>
   </div>
 </section>
-<section class="pb-40 pt-40">
+<section class="pb-32 pt-32">
   <div class="max-w-4xl mx-auto">
     <p class="text-sm text-gray-600 mb-4 px-4">Studio ve zprávách</p>
     <!-- mark -->
@@ -99,32 +99,8 @@ layout: default
     </div>
   </div>
 </section>
-<!-- <section class="pb-40 pt-40">
-  <div class="max-w-4xl text-2xl text-gray-700 mx-auto px-4 text-block">
-    Naším přáním je kvalitní život lidí užívajících svůj obytný prostor. Věříme,
-    že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
-    Krása je nutnou součástí života každého z nás.
-  </div>
-  <div class="px-1 pt-8 max-w-4xl mx-auto">
-    <a
-      class="
-        text-2xl
-        flex
-        px-4
-        py-4
-        rounded
-        bg-blue-200
-        hover:bg-blue-300
-        transition
-      "
-      href="{{site.baseurl}}/studio"
-    >
-      <div class="flex-grow">O Studiu</div>
-      <div>⟶</div>
-    </a>
-  </div>
-</section> -->
-<section class="mx-auto pb-64">
+
+<section class="mx-auto pb-32">
   {%- include gallery-cards.html category="Kniha" -%}
   <div class="px-1 pt-8 max-w-4xl mx-auto">
     <a
@@ -146,7 +122,7 @@ layout: default
   </div>
 </div>
 </section>
-<section class="mx-auto pb-64">
+<section class="mx-auto pb-32">
     {%- include gallery-cards-lg.html category="Film" -%}
 
     <div class="px-1 pt-8 max-w-4xl mx-auto">
@@ -167,5 +143,31 @@ layout: default
         <div>⟶</div>
       </a>
     </div>
+  </div>
+</section>
+<section class="pb-32">
+  <div class="max-w-4xl text-2xl text-gray-700 mx-auto px-4 text-block">
+    Naším přáním je kvalitní život lidí užívajících svůj obytný prostor.
+    <br/>
+    Věříme, že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
+    Krása je nutnou součástí života každého z nás.
+  </div>
+  <div class="px-1 pt-8 max-w-4xl mx-auto">
+    <a
+      class="
+        text-2xl
+        flex
+        px-4
+        py-4
+        rounded
+        bg-blue-200
+        hover:bg-blue-300
+        transition
+      "
+      href="{{site.baseurl}}/studio"
+    >
+      <div class="flex-grow">O Studiu</div>
+      <div>⟶</div>
+    </a>
   </div>
 </section>
