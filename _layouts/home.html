@@ -16,7 +16,7 @@ layout: default
   </div>
 </section>
 <section class="mx-auto pb-32">
-  <p class="text-sm text-gray-600 mb-4 px-4">Projekty</p>
+  <p class="text-gray-600 mb-4 px-4">Projekty</p>
     {%- include gallery-cards-lg.html -%}
 
     <div class="px-1 pt-8 max-w-2xl mx-auto">
@@ -27,8 +27,8 @@ layout: default
           px-4
           py-4
           rounded
-          bg-blue-200
-          hover:bg-blue-300
+          btn-1
+          hover:bg-blue-200
           transition
         "
         href="{{site.baseurl}}/projekty/"
@@ -44,11 +44,11 @@ layout: default
 
 
 <!-- end of actual -->
-<p class="text-sm text-gray-600 mb-4 px-4">Mapa projektů</p>
+<p class="text-gray-600 mb-4 px-4">Mapa projektů</p>
 <section class="homepage-map">{%- include map.html type="projects" -%}</section>
 <section id="actualities" class="pb-16 pt-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-sm text-gray-600 mb-4 px-4">Aktuality</p>
+    <p class="text-gray-600 mb-4 px-4">Aktuality</p>
 
     <!-- mark -->
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
@@ -65,7 +65,7 @@ layout: default
       >
         <div class="bg-white rounded p-4 shadow-lg">
           <p class="text-xl md:text-2xl mb-4">{{post.content}}</p>
-          <p class="text-sm text-gray-600">
+          <p class="text-gray-600">
             {{ post.start | date: "%-d. %-m. 20%-y" }}
           </p>
         </div>
@@ -76,7 +76,7 @@ layout: default
 </section>
 <section class="pb-32 pt-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-sm text-gray-600 mb-4 px-4">Studio ve zprávách</p>
+    <p class="text-gray-600 mb-4 px-4">Studio ve zprávách</p>
     <!-- mark -->
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
       {% for post in site.data.news | limit: 4 %} {%- include article-card.html
@@ -91,7 +91,7 @@ layout: default
           py-4
           rounded
           bg-blue-200
-          hover:bg-blue-300
+          hover:bg-blue-200
           transition
         "
         href="{{site.baseurl}}/zpravy"
@@ -105,7 +105,7 @@ layout: default
 
 <section class="mx-auto pb-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-sm text-gray-600 mb-4 px-4">Knihy</p>
+    <p class="text-gray-600 mb-4 px-4">Knihy</p>
   </div>
   {%- include gallery-cards.html category="Kniha" -%}
   <div class="px-1 pt-8 max-w-4xl mx-auto">
@@ -117,7 +117,7 @@ layout: default
         py-4
         rounded
         bg-blue-200
-        hover:bg-blue-300
+        hover:bg-blue-200
         transition
       "
       href="{{site.baseurl}}/projekty?category=Kniha"
@@ -129,7 +129,7 @@ layout: default
 </div>
 </section>
 <section class="mx-auto pb-32">
-    <p class="text-sm text-gray-600 mb-4 px-4">Filmové spolupráce</p>
+    <p class="text-gray-600 mb-4 px-4">Filmové spolupráce</p>
     {%- include gallery-cards-lg.html category="Film" -%}
 
     <div class="px-1 pt-8 max-w-4xl mx-auto">
@@ -141,7 +141,7 @@ layout: default
           py-4
           rounded
           bg-blue-200
-          hover:bg-blue-300
+          hover:bg-blue-200
           transition
         "
         href="{{site.baseurl}}/projekty?category=Film"
@@ -168,7 +168,7 @@ layout: default
         py-4
         rounded
         bg-blue-200
-        hover:bg-blue-300
+        hover:bg-blue-200
         transition
       "
       href="{{site.baseurl}}/studio"
