@@ -3,20 +3,20 @@ layout: default
 ---
 
 <section class="pb-20 lg:pb-32 lg:pt-10">
-  <div class="max-w-2xl text-gray-700 mx-auto px-4">
+  <div class="max-w-2xl mx-auto text-gray-700 px-4">
     <!-- <div class="text-center pb-24">
       <img class="inline w-32" src="{{ site.img_url }}{{ page.logo }}" alt="" />
     </div> -->
-    <h1 class="text-2xl lg:text-4xl mb-8">
+    <h1 class=" text-2xl lg:text-4xl mb-8">
       {{page.headline}}
     </h1>
-    <div class="text-gray-500 text-xl">
+    <div class="max-w-xl text-gray-700 text-xl">
       {{ content }}  
     </div>
   </div>
 </section>
 <section class="mx-auto pb-32">
-  <p class="text-gray-600 mb-4 px-4">Projekty</p>
+  <p class="text-gray-700 mb-4 px-4">Projekty</p>
     {%- include gallery-cards-lg.html -%}
 
     <div class="px-1 pt-8 max-w-2xl mx-auto">
@@ -33,22 +33,18 @@ layout: default
         "
         href="{{site.baseurl}}/projekty/"
       >
-        <div class="flex-grow">Výpis projektů</div>
+        <div class="flex-grow">Všechny projekty</div>
         <div>⟶</div>
       </a>
     </div>
   </div>
 </section>
-
-<!-- --- -->
-
-
 <!-- end of actual -->
-<p class="text-gray-600 mb-4 px-4">Mapa projektů</p>
+<p class="text-gray-700 mb-4 px-4">Mapa projektů</p>
 <section class="homepage-map">{%- include map.html type="projects" -%}</section>
 <section id="actualities" class="pb-16 pt-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-gray-600 mb-4 px-4">Aktuality</p>
+    <p class="text-gray-700 mb-4 px-4">Aktuality</p>
 
     <!-- mark -->
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
@@ -65,7 +61,7 @@ layout: default
       >
         <div class="bg-white rounded p-4 shadow-lg">
           <p class="text-xl md:text-2xl mb-4">{{post.content}}</p>
-          <p class="text-gray-600">
+          <p class="text-gray-700">
             {{ post.start | date: "%-d. %-m. 20%-y" }}
           </p>
         </div>
@@ -76,7 +72,7 @@ layout: default
 </section>
 <section class="pb-32 pt-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-gray-600 mb-4 px-4">Studio ve zprávách</p>
+    <p class="text-gray-700 mb-4 px-4">Studio ve zprávách</p>
     <!-- mark -->
     <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
       {% for post in site.data.news | limit: 4 %} {%- include article-card.html
@@ -90,13 +86,13 @@ layout: default
           px-4
           py-4
           rounded
-          bg-blue-200
+          btn-1
           hover:bg-blue-200
           transition
         "
         href="{{site.baseurl}}/zpravy"
       >
-        <div class="flex-grow">Další zprávy</div>
+        <div class="flex-grow">Všechny zprávy</div>
         <div>⟶</div>
       </a>
     </div>
@@ -105,7 +101,7 @@ layout: default
 
 <section class="mx-auto pb-32">
   <div class="max-w-4xl mx-auto">
-    <p class="text-gray-600 mb-4 px-4">Knihy</p>
+    <p class="text-gray-700 mb-4 px-4">Knihy</p>
   </div>
   {%- include gallery-cards.html category="Kniha" -%}
   <div class="px-1 pt-8 max-w-4xl mx-auto">
@@ -116,23 +112,23 @@ layout: default
         px-4
         py-4
         rounded
-        bg-blue-200
+        btn-1
         hover:bg-blue-200
         transition
       "
       href="{{site.baseurl}}/projekty?category=Kniha"
     >
-      <div class="flex-grow">Další knihy</div>
+      <div class="flex-grow">Všechny knihy</div>
       <div>⟶</div>
     </a>
   </div>
 </div>
 </section>
 <section class="mx-auto pb-32">
-    <p class="text-gray-600 mb-4 px-4">Filmové spolupráce</p>
+    <p class="text-gray-700 mb-4 px-4">Filmové spolupráce</p>
     {%- include gallery-cards-lg.html category="Film" -%}
 
-    <div class="px-1 pt-8 max-w-4xl mx-auto">
+    <div class="px-1 pt-8 max-w-2xl mx-auto">
       <a
         class="
           text-2xl
@@ -140,26 +136,25 @@ layout: default
           px-4
           py-4
           rounded
-          bg-blue-200
+          btn-1
           hover:bg-blue-200
           transition
         "
         href="{{site.baseurl}}/projekty?category=Film"
       >
-        <div class="flex-grow">Další filmové spolupráce</div>
+        <div class="flex-grow">Všechny filmové spolupráce</div>
         <div>⟶</div>
       </a>
     </div>
   </div>
 </section>
 <section class="pb-32">
-  <div class="max-w-4xl text-2xl text-gray-700 mx-auto px-4 text-block">
+  <div class="max-w-2xl text-2xl text-gray-700 mx-auto px-4 text-block">
     Naším přáním je kvalitní život lidí užívajících svůj obytný prostor.
-    <br/>
     Věříme, že i malý detail může významně pomoci a pozitivně ovlivňovat životy lidí.
     Krása je nutnou součástí života každého z nás.
   </div>
-  <div class="px-1 pt-8 max-w-4xl mx-auto">
+  <div class="px-1 pt-8 max-w-2xl mx-auto">
     <a
       class="
         text-2xl
@@ -167,7 +162,7 @@ layout: default
         px-4
         py-4
         rounded
-        bg-blue-200
+        btn-1
         hover:bg-blue-200
         transition
       "

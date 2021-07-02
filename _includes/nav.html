@@ -1,10 +1,11 @@
 <nav id="navmenu" class="fixed w-full min-h-full top-0 right-0 z-10 hidden">
   {% assign navurl = page.url | remove: 'index.html' %}
-  <ul class="man-nav__items mx-auto mt-40">
+  <ul class="man-nav__items mx-auto mt-40 border-t-2" style="border-color: rgb(197, 210, 221);">
     {% for item in include.navigation %}
     <li>
       <a
-        class="flex py-5 px-4 md:px-10 bg-gray-200 hover:bg-gray-300 mb-1 text-3xl lg:text-4xl transition"
+        class="flex py-5 px-4 md:px-10  hover:bg-blue-200 border-b-2 text-3xl lg:text-4xl transition"
+        style="border-color: rgb(197, 210, 221);"
         href="{{ item.url | relative_url }}"
         {% if item.url == navurl %} data-current="current page"{% endif %}
         >

@@ -3,7 +3,7 @@ layout: home
 title: M&P Architekti
 permalink: "/"
 section: home
-headline: Jsme architekti, kteří se prioritně věnují krajinářské architektuře.
+headline: Konkrétní místo je vždy základem naší architektury.
 ---
 
-Konkrétní místo je vždy základem naší tvorby. Opakovaně se jej pokoušíme přečíst, nalézat významy, neničit, citlivě zacházet.
+Opakovaně se pokoušíme přečíst prostor, nalézat významy, neničit, citlivě zacházet. Jsme architekti, kteří se prioritně věnují krajinářské architektuře.
