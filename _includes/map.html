@@ -10,7 +10,7 @@
   {% if include.type == "contact" %}
     <div class="md:absolute md:top-0 z-10">
       <div
-        class="map-location p-6"
+        class="map-location p-4"
         data-lon="{{ site.data.contact.studiopin.longitude }}"
         data-lat="{{ site.data.contact.studiopin.latitude }}"
         data-marked="true"  
@@ -25,7 +25,7 @@
     <div class="md:absolute md:top-0 z-10">
       {%- for item in site.projects -%}
       <div
-        class="map-location p-6"
+        class="map-location p-4"
         data-lon="{{ item.longitude }}"
         data-lat="{{ item.latitude }}"
         
