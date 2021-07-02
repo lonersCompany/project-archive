@@ -2,8 +2,10 @@
 layout: project
 category: Film
 title: Bermudský poetický trojúhelník nad Vysočinou
+source: Česká televize
 weight: 900
 images:
+  - "/v1578088133/archweb/P1400835_aqgveo.jpg"
   - "/v1578088394/archweb/ledenunorvelk%C3%BD_fot%C3%A1k2013_439_s5dubd.jpg"
   - "/v1578088330/archweb/ledenunorvelk%C3%BD_fot%C3%A1k2013_468_lm2gph.jpg"
   - "/v1578088300/archweb/ledenunorvelk%C3%BD_fot%C3%A1k2013_463_jqthte.jpg"
@@ -12,7 +14,6 @@ images:
   - "/v1578088162/archweb/P1400801_wyfaef.jpg"
   - "/v1578088080/archweb/od_veve%C5%99%C3%AD_do_prvn%C3%AD_proch%C3%A1zky_velkej_%C4%8Dernej_193_wf0uyi.jpg"
   - "/v1578088255/archweb/DSC_0584_cctlk1.jpg"
-  - "/v1578088133/archweb/P1400835_aqgveo.jpg"
   - "/v1578088034/archweb/ledenunorvelk%C3%BD_fot%C3%A1k2013_009_lcnbwr.jpg"
   - "/v1578088006/archweb/DSCN4830_tilk2u.jpg"
   - "/v1578087980/archweb/DSCN4872_pxdbps.jpg"

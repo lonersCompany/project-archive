@@ -18,5 +18,6 @@ images:
   - "/v1578089131/archweb/fota_1002_pgc8dq.jpg"
   - "/v1578089096/archweb/fota_934_stqixq.jpg"
 link: https://www.ceskatelevize.cz/porady/10394063763-neztracejme-pudu-pod-nohama/21256226135
+source: Česká televize
 director: Ljuba Václavová
 ---
