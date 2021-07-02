@@ -52,7 +52,7 @@ awards:
     link: https://www.german-design-award.com/en/the-winners/gallery/detail/27983-4courts-park.html
     year: 2020
   - title: Park roku 2017
-    placement: ocenění IFLA, Ocenění děkana ZF Mendelu, Brno
+    placement: ocenění IFLA, Brno
     year: 2017
     link: ""
   - title: Česká cena za architekturu - Park 4Dvory, České Budějovice

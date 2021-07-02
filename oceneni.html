@@ -5,37 +5,34 @@ location: oceneni
 ---
 
 <section class="pb-32">
-  <div class="max-w-lg mx-auto px-4">
+  <div class="max-w-xl mx-auto px-4">
     {% assign projects = site.projects | sort: 'weight' %}
     <!-- . -->
     {%- for project in projects -%}
     <!-- . -->
     {% if project.awards[0] %}
-    <div class="text-2xl pt-20 pb-5">
-      {{project.title}}
-    </div>
+    <div class="text-4xl pt-20 pb-5">{{project.title}}</div>
     <!-- . -->
     {%- for item in project.awards -%}
     <!-- . -->
-    {% if item.link and item.link != "" %}
-    <a class="block hover:bg-gray-300" href="{{ item.link }}">
-      {% endif %}
-      <div class="py-3 border-b border-gray-400">
-        <div class="text-sm text-gray-500 mb-2">
-          {{ item.placement }}
-        </div>
-        <div class="text-lg">
-          <!-- . -->
-          {{ item.title }}
-        </div>
-        {% if item.link and item.link != "" %}
-        <div class="text-sm text-gray-500 mb-2">
-          Přejít na stránky ocenění
-        </div>
-        {% endif %}
+
+    <div class="border-b border-gray-400">
+      <div class="text-gray-500 my-4 uppercase">{{ item.placement }}</div>
+      <div class="text-xl mb-4">
+        <!-- . -->
+        {{ item.title }}
       </div>
+
       {% if item.link and item.link != "" %}
-    </a>
-    {% endif %} {%-endfor -%} {%- endif -%} {%- endfor -%}
+      <a
+        class="block text-blue-300 hover:text-blue-400 mb-4"
+        href="{{ item.link }}"
+      >
+        Stránky ocenění
+      </a>
+      {% endif %}
+    </div>
+
+    {%-endfor -%} {%- endif -%} {%- endfor -%}
   </div>
 </section>

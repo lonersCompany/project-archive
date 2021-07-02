@@ -5,11 +5,6 @@ weight: 40
 title: Třebíč, revitalizace brownfield Borovina
 subtitle:
 description: ""
-awards:
-  - year:
-    title: ""
-    placement: ""
-    link: ""
 category: Stavba
 year: 2015
 size: 2,71 ha
