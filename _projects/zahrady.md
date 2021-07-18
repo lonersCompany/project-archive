@@ -3,7 +3,7 @@ weight: 25
 authors: Markéta a Petr Veličkovi
 layout: project
 title: Zahrady
-description: zahrady pro soukromé investory
+description: Fotografie zahrad pro soukromé investory.
 awards: []
 category: Stavba
 size: ""
