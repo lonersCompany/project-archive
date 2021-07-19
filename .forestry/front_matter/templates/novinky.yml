@@ -47,16 +47,6 @@ fields:
       maxSize: 64
     label: Kopie článku
     description: Vložte obrázek nebo PDF
-  - name: weight
-    type: number
-    label: weight
-    description: ''
-    default: 900
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
   label: Zpráva
 pages:
 - _data/news.yml
