@@ -1,15 +1,4 @@
 ---
-- title: Sídliště Máj v Českých Budějovicích – Výjimečně dobře investované veřejné
-    peníze
-  link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
-  thumb: "/v1576512929/archweb/adam-gebrian-3.jpg"
-  date: 2017-11-30 23:00:00 +0000
-  source: stream.cz
-  weight: 200
-  Thumb: ''
-  nazev_projektu: ''
-  project-name: _projects/park-4Dvory.md
-  copy: ''
 - title: Aleje nesázíme pro sebe, ale pro naše děti a vnuky, říkají krajinářští architekti
     Veličkovi
   link: https://brno.rozhlas.cz/aleje-nesazime-pro-sebe-ale-pro-nase-deti-a-vnuky-rikaji-krajinarsti-architekti-8501082
@@ -20,6 +9,17 @@
   Thumb: ''
   nazev_projektu: _projects/park-4Dvory.md
   project-name: _projects/aleje.md
+  copy: ''
+- title: Sídliště Máj v Českých Budějovicích – Výjimečně dobře investované veřejné
+    peníze
+  link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
+  thumb: "/v1576512929/archweb/adam-gebrian-3.jpg"
+  date: 2017-11-30 23:00:00 +0000
+  source: stream.cz
+  weight: 200
+  Thumb: ''
+  nazev_projektu: ''
+  project-name: _projects/park-4Dvory.md
   copy: ''
 - title: Z tankodromu udělali park. Byla to velká výzva, říkají krajinářští architekti
     o projektu pro Budějovice
