@@ -17,5 +17,6 @@ isbn: 978-80-7363-873-4
 co-authors: Karel Malý
 weight: 
 year: 2018
+layout: project
 
 ---
