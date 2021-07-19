@@ -9,7 +9,7 @@ desription: Paměť stromů je o mnoho delší, než paměť lidská, ale jako v
   – a na stromy skoro jako by se zapomnělo.
 authors: Marie Hrušková
 images:
-- "/v1624894489/archweb/big_zivot-se-stromy-FJb-347386_wcx4ph.jpg"
+- "/v1624946443/archweb/big_zivot-se-stromy-FJb-347386.jpg"
 publisher: Dokořán
 link: https://www.knihydobrovsky.cz/e-kniha/zivot-se-stromy-227841356
 date: '2021-06-15 22:00:00 +0000'
