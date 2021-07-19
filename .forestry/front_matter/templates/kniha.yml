@@ -34,6 +34,16 @@ fields:
   config:
     required: false
   label: Vydavatel
+- name: year
+  type: number
+  label: Rok
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: link
   type: textarea
   default: ''
@@ -83,16 +93,12 @@ fields:
     step: 
   showOnly:
     field: category
-- name: year
-  type: number
-  label: Rok
-  description: ''
-  default: 0
-  required: true
+- name: layout
+  type: text
   config:
-    min: 
-    max: 
-    step: 
+    required: false
+  label: Layout
+  default: project
 pages:
 - _projects/ceske-zahrady.md
 - _projects/telc-v-prubehu-staleti.md
