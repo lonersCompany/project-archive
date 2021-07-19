@@ -16,7 +16,7 @@ link: http://www.kant-books.cz/cs/publikace/ceske-zahrady
 co-authors: ""
 publisher: Kant Books
 isbn: 978-80-7437-315-2
-weight:
+weight: 800
 year: 2020
 layout: project
 ---
