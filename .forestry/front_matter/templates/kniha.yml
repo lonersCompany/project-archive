@@ -71,8 +71,6 @@ fields:
       path: 
   label: Kategorie
   description: Kategorie projektu
-  showOnly:
-    field: category
 - name: weight
   type: number
   label: weight
