@@ -93,6 +93,12 @@ fields:
     step: 
   showOnly:
     field: category
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: project
 pages:
 - _projects/ceske-zahrady.md
 - _projects/telc-v-prubehu-staleti.md
