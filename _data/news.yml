@@ -1,11 +1,4 @@
 ---
-- title: Ateliér krajinářské architektury založili v roce 2004 Markéta a Petr Veličkovi
-  project-name: _projects/masarykovo-namesti.md
-  thumb: "/v1573575277/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_radnice_se_st_ikama_dfetpo.jpg"
-  source: earch.cz
-  date: 2019-08-08 22:00:00 +0000
-  link: https://www.earch.cz/cs/mp-architekti-krajinarska-architektura
-  copy: ''
 - title: Sídliště Máj v Českých Budějovicích – Výjimečně dobře investované veřejné
     peníze
   link: https://www.stream.cz/gebrianvs/sidliste-maj-v-ceskych-budejovicich-vyjimecne-dobre-investovane-verejne-penize-206912
@@ -46,6 +39,7 @@
   date: 2015-06-01 22:00:00 +0000
   link: https://www.era21.cz/cs/clanky/clanky/2015-06-03-promeny-ceske-post-krajiny/
   copy: ''
+  weight: 
 - title: Vítězný návrh architektonická soutěž „Park 4 dvory“ České Budějovice
     2012 - 2019
   project-name: _projects/park-4Dvory.md
@@ -54,6 +48,7 @@
   date: 2019-01-15 23:00:00 +0000
   link: ''
   copy: "/v1624946756/archweb/PARK_4DVORY_SUCCESS_1_r8uy3e.pdf"
+  weight: 
 - title: Víceúčelový areál ve Čtyřech Dvorech nabídne také zázemí pro každého
   project-name: _projects/park-4Dvory.md
   thumb: "/v1573574866/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_7675_j5nx6h.jpg"
@@ -61,6 +56,15 @@
   date: 2014-06-08 22:00:00 +0000
   link: https://ceskobudejovicky.denik.cz/zpravy_region/viceucelovy-areal-ve-ctyrech-dvorech-nabidne-take-zazemi-pro-kazdeho-20140609.html
   copy: ''
+  weight: 
+- title: Ateliér krajinářské architektury založili v roce 2004 Markéta a Petr Veličkovi
+  project-name: _projects/masarykovo-namesti.md
+  thumb: "/v1573575277/archweb/03_VEL_B_ST_BRO_fota_PO_REALIZACI_radnice_se_st_ikama_dfetpo.jpg"
+  source: earch.cz
+  date: 2019-08-08 22:00:00 +0000
+  link: https://www.earch.cz/cs/mp-architekti-krajinarska-architektura
+  copy: ''
+  weight: 
 - title: Architekti v krajině
   project-name: []
   thumb: "/v1624877508/archweb/architekti_vkrajine_rn1g5s.jpg"
@@ -68,6 +72,7 @@
   date: 2008-09-07 22:00:00 +0000
   link: https://www.asb-portal.cz/aktualne/nazory-a-rozhovory/architekti-vkrajine
   copy: ''
+  weight: 
 - title: Nový městský park „Hirundo“, Cheb
   project-name: ''
   thumb: "/v1576269848/archweb/A0040_hvhtnm.jpg"
@@ -75,6 +80,7 @@
   date: 2018-06-19 22:00:00 +0000
   link: https://www.stavbaweb.cz/novy-mstsky-park-hirundo-cheb-3716/clanek.html
   copy: ''
+  weight: 
 - title: Budějovický park 4Dvory nabídne příští rok bistro i posilovnu
   project-name: _projects/park-4Dvory.md
   thumb: "/v1572958257/archweb/03_VEL_C_PARK_4DVORY_FOTA__IMG_6847_vzi9u7.jpg"
@@ -82,6 +88,7 @@
   date: 2021-05-06 22:00:00 +0000
   link: https://www.idnes.cz/ceske-budejovice/zpravy/park-4dvory-ceske-budejovice-rozsireni.A210506_606791_budejovice-zpravy_mcb?utm_source=facebook&utm_medium=sharecd&utm_campaign=desktop
   copy: ''
+  weight: 
 - title: Telč v průběhu staletí
   project-name: ''
   thumb: "/v1624876601/archweb/Telc_v_prubehu_staleti_rhoegl.jpg"
@@ -89,6 +96,7 @@
   date: 2017-05-31 22:00:00 +0000
   link: https://www.npu.cz/cs/npu-a-pamatkova-pece/npu-jako-instituce/publikace/29123-telc-v-prubehu-staleti
   copy: ''
+  weight: 
 - title: Kamenná bašta je lemována alejemi
   project-name: _projects/aleje.md
   thumb: "/v1624876447/archweb/Havli%CC%81c%CC%8Cku%CC%8Av-Brod-S%CC%8Cta%CC%81flova-bas%CC%8Cta2013b_dzyalz.jpg"
@@ -96,3 +104,4 @@
   date: 2020-08-06 22:00:00 +0000
   link: https://polar.cz/zpravy/novojicinsko/novy-jicin/11000021252/kamenna-basta-je-lemovana-alejemi
   copy: ''
+  weight: 
