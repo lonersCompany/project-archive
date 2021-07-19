@@ -58,15 +58,6 @@ fields:
   config:
     required: false
   label: ISBN
-- name: co-authors
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Spolu autoři
 - name: category
   type: select
   default: Kniha
