@@ -3,8 +3,7 @@
     target="_blank"
     href="{% if post.link != '' %}{{post.link}}{% elsif post.copy != '' %}{{site.img_url}}{{post.copy}}{% else %}/{% endif %}"
     class="
-      flex flex-col
-      md:flex-row
+      flex
       border-2
       bg-white
       border-gray-400
